@@ -1,0 +1,10 @@
+﻿var,coef1,coef2
+disease,0.33956,0.091
+outexposed,-0.06792,-0.091
+proximity,0.38828,0.091
+public,0.20946,0.091
+lives_with_health_worker,0.16544,0.091
+takes_public_transit,0.06523,0.091
+work_from_home,-0.17348,-0.091
+unsuitable_dwelling,0.10488,0.091
+contact,0.30877,0.091
