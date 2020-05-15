@@ -1,5 +1,5 @@
 # vse-risk-tool
-Code repository for the VSE COVID Risk Tool, hosted online at [https://baylislab.shinyapps.io/risk-tool-v2/].(https://baylislab.shinyapps.io/risk-tool-v2/).
+Code repository for the VSE COVID Risk Tool, hosted online at [https://baylislab.shinyapps.io/risk-tool-v2/](https://baylislab.shinyapps.io/risk-tool-v2/).
 
 # Purpose
 
