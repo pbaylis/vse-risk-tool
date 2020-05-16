@@ -65,7 +65,7 @@ num_workers <- read_dta(file.path(RAW, "occ_4_digit_ind_3_digit_n_workers.dta"))
     filter(ind_3_digit > 0)
 
 # Load occupational characteristics by 4 digit occupation
-risk <- read_dta(file.path(RAW, "occ_4_digit_all_risk_vars.dta")) %>% 
+risk <- read_dta(file.path(RAW_POSSIBLE, "occ_4_digit_all_risk_vars.dta")) %>% 
     remove_attributes(c("label", "format.stata")) %>% 
     select(-n_workers_weighted_round) 
 

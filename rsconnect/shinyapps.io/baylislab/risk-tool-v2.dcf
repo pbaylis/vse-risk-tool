@@ -5,9 +5,9 @@ account: baylislab
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2219820
-bundleId: 3152959
+bundleId: 3153873
 url: https://baylislab.shinyapps.io/risk-tool-v2/
-when: 1589568655.3719
+when: 1589588871.62142
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: build-data.R|data/.DS_Store
+ignoredFiles: build-data.R
