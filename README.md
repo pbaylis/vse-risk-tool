@@ -17,3 +17,8 @@ VSE COVID-19 Risk Tool can be used to compare some of the risks and benefits of 
 By default, this tool produces these figures using BC-specific data in `data/`, which are produced by `build-data.R`. `build-data.R` builds the BC-specific on source data on occupation risk and economic value from outside of the repository. Users with access to the BC-specific data can run `build-data.R` by adding their location for the cleaned BC-specific data to the `RAW_POSSIBLE` character vector in `setup.R`.
 
 Most users, however, should consider this repository to be a example of a useful way to visualize the underlying data. However, repurposing this code for other regions will require significant additional data work, as it is only currently designed to handle BC-specific data.
+
+## File structure
+
+`input/` contains tidy data aggregated to its specific level for each province, i.e. `input/BC`, `input/AB`
+`output/` contains the input data merged for each province to be used in the VSE Risk Tool
