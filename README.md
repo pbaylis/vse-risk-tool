@@ -21,4 +21,5 @@ Most users, however, should consider this repository to be a example of a useful
 ## File structure
 
 `input/` contains tidy data aggregated to its specific level for each province, i.e. `input/BC`, `input/AB`
+
 `output/` contains the input data merged for each province to be used in the VSE Risk Tool
