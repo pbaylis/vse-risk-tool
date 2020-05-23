@@ -1,0 +1,98 @@
+ind_3_digit,ind_3_digit_description,subsector_gdp_share,norm_influence
+111,Farms,.0100697112033894,20.83934256060788
+112,Animal production and aquaculture,.0023825963492789,20.75175114743869
+113, Forestry and logging,.0074707362060638,23.96612573669315
+114," Fishing, hunting and trapping",.0006191508880439,13.5477417303212
+115, Support activities for agriculture and forestry,.003059286128751,17.91855073967945
+211, Oil and gas extraction,.0198047243481897,41.03190492533678
+212, Mining and quarrying (except oil and gas),.0210495093796497,34.60795472761446
+213, Support activities for mining and oil and gas extraction,.004304071160211,20.51621940202209
+221, Utilities,.0195903717174468,36.95283690057448
+236, Construction of buildings,.050124478503146,12.66839307744923
+237, Heavy and civil engineering construction,.0202711135315265,32.28756047601178
+238, Specialty trade contractors,.0138563375442077,16.69949626224336
+311, Food manufacturing,.0091263975467362,37.6173323124553
+312, Beverage and tobacco product manufacturing,.003474214472571,17.70280229589094
+313, Textile mills,.0002929621021307,25.13005758712161
+315, Clothing manufacturing,.0004323520926328,14.24192293821604
+321, Wood product manufacturing,.012121256325226,26.55174460232865
+322, Paper manufacturing,.0058713981464373,27.1472329280402
+323, Printing and related support activities,.0015450407958844,22.61560560011937
+324, Petroleum and coal products manufacturing,.0015794830900492,49.38747232291438
+325, Chemical manufacturing,.0035483667058904,53.49362399770695
+326, Plastics and rubber products manufacturing,.002462421431049,33.85048947930946
+327, Non-metallic mineral product manufacturing,.0038044552930918,22.66043530586957
+331, Primary metal manufacturing,.0060261858684483,37.10179091015164
+332, Fabricated metal product manufacturing,.0047441221185982,36.54408064119416
+333, Machinery manufacturing,.0044527808303105,35.35251823556638
+334, Computer and electronic product manufacturing,.0026240976118929,37.23312316117474
+335," Electrical equipment, appliance and component manufacturing",.0019409245770486,27.86378465973404
+336, Transportation equipment manufacturing,.0040062466165511,31.73267403505211
+337, Furniture and related product manufacturing,.0016248658776545,13.90725740531611
+339, Miscellaneous manufacturing,.0025604806685533,21.54438947880724
+411, Farm product merchant wholesalers,.0003966941880857,13.05306354183895
+412, Petroleum and petroleum product merchant wholesalers,.0006491359441403,15.50270707957886
+413," Food, beverage and tobacco merchant wholesalers",.0049641475977918,16.10849225208264
+414, Personal and household goods merchant wholesalers,.0044061824323229,21.90572947000598
+415, Motor vehicle and motor vehicle parts and accessories merchant wholesalers,.0028190004765193,16.01653910033823
+416, Building material and supplies merchant wholesalers,.0090514349064953,21.49076424708662
+417," Machinery, equipment and supplies merchant wholesalers",.0104643793741714,23.14346731644009
+418, Miscellaneous merchant wholesalers,.003594965103878,21.25941002493735
+419," Business-to-business electronic markets, and agents and brokers",.0018189583353594,15.19829905896632
+441, Motor vehicle and parts dealers,.0089776878766366,18.55752519164685
+442, Furniture and home furnishings stores,.0022241617961211,13.53692760278693
+443, Electronics and appliance stores,.0021625708700853,14.22311178356666
+444, Building material and garden equipment and supplies dealers,.0044544016441536,16.13529219886445
+445, Food and beverage stores,.0121516465847832,16.49771350270538
+446, Health and personal care stores,.0056927034202414,15.46796031522085
+447, Gasoline stations,.0047287243870892,15.66500025441566
+448, Clothing and clothing accessories stores,.0058855802675639,13.90543936188599
+451," Sporting goods, hobby, book and music stores",.0019717200400665,13.60649521460557
+452, General merchandise stores,.0051408163066839,14.98711976803197
+453, Miscellaneous store retailers,.0040633803045185,13.86780580150026
+454, Non-store retailers,0,13.80259674668775
+481, Air transportation,.0088893535221906,22.99318047624553
+482, Rail transportation,.006251073789171,17.986810119159
+483, Water transportation,.0033611627070184,19.54626554461059
+484, Truck transportation,.0096786898637544,45.85653998856785
+485, Transit and ground passenger transportation,.0073163536875136,14.88065911492856
+486, Pipeline transportation,.0050605860214531,17.53295306728004
+488, Support activities for transportation,.0132477219461436,41.00038430847259
+491, Postal service,.0010130086519043,15.81752496382304
+492, Couriers and messengers,.0019940062304084,20.46337071317316
+493, Warehousing and storage,.0025288747986139,17.36340942135497
+511, Publishing industries (except internet),.0051562140381929,23.76792660908083
+512, Motion picture and sound recording industries,.0060970964740816,30.15021683623884
+515, Broadcasting (except internet),.0011329488762898,18.34512756137664
+517, Telecommunications,.0204502134611831,32.20065714296764
+518," Data processing, hosting, and related services",.0014210485368913,14.89557014778103
+519, Other information services,.0018623151056609,17.09743992860293
+521, Monetary authorities - central bank,7.29366229371e-06,12.67601571978938
+522, Credit intermediation and related activities,.0349897240402351,51.59541909309946
+524, Insurance carriers and related activities,.0109583223928399,45.03120536787243
+526, Funds and other financial vehicles,.0106118734338886,32.01055264061013
+531, Real estate,.1730182309141066,56.43544911215904
+532, Rental and leasing services,.0059346098863161,25.60665213949549
+533, Lessors of non-financial intangible assets (except copyrighted works),.0004680099971798,20.46177517767241
+541," Professional, scientific and technical services",.0624783216148493,100
+551, Management of companies and enterprises,.0047165682832664,32.82847213982743
+561, Administrative and support services,.0218169647343324,68.81154584141582
+562, Waste management and remediation services,.0026066738630801,19.26744804369046
+611, Educational services,.0509980971645483,17.61013888556367
+621, Ambulatory health care services,.0336517422127999,19.77312675780473
+622, Hospitals,.0203006933841621,15.62991045345729
+623, Nursing and residential care facilities,.0075153085867476,13.15180166294695
+624, Social assistance,.0070294696372943,13.42473759262267
+711," Performing arts, spectator sports and related industries",.0035139244117256,19.86743169417099
+712, Heritage institutions,0,13.00500197189172
+713," Amusement, gambling and recreation industries",.0059236693928756,14.38056797534051
+721, Accommodation services,.0112269722873249,19.2188720143359
+722, Food services and drinking places,.0194813719865019,25.53327032758472
+811, Repair and maintenance,.0076409216595837,24.42356256374793
+812, Personal and laundry services,.0051290654063218,14.44424431491902
+813," Religious, grant-making, civic, and professional and similar organizations",.0066376378907377,16.25939723274466
+814, Private households,.0022460427830022,12.66839307744923
+911, Federal government public administration,.0184290585989037,15.45495693433982
+912, Provincial and territorial public administration,.0148324726811827,17.2805836213784
+913," Local, municipal and regional public administration",.0191896254947534,25.67157394139386
+914, Aboriginal public administration,.0027282349013086,12.66839307744923

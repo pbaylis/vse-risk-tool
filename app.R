@@ -3,30 +3,7 @@
 # Load all libraries and set default directories ----
 source("setup.R")
 
-# Load data and generate risk indices ----
-
-# Load risk data ----
-occ <- read_csv(file.path(WORK, "risk-occ4.csv.gz"))
-
-# Compute risk index
-b <- read_csv(file.path(WORK, "risk_index_coefficients.csv")) 
-
-occ <- occ %>% mutate(
-    risk_index_factor = compute_risk(., b, "coef1"),
-    risk_index_mean = compute_risk(., b, "coef2"))
-
-# Standardize and rescale risk indices
-occ <- occ %>% 
-    mutate_at(vars(starts_with("risk_index")), stdz, weight = occ$n_workers) %>%
-    mutate_at(vars(starts_with("risk_index")), rescale, c(0, 100))
-
-# Add economic variables
-econ <- read_csv(file.path(WORK, "econ-ind2.csv.gz"))
-centrality <- read_csv(file.path(WORK, "centrality-ind3.csv.gz"))
-
-data4 <- occ %>% 
-    left_join(econ) %>%
-    left_join(centrality)
+# Load data to create the table and figures
 
 # Commented out: write these data to Patrick's local Dropbox path for use as extras
 # write_csv(data4, "~/Dropbox/COVID19/Risk-Tool-Extras/data/risk-occ-4-digit-ind-3-digit.csv.gz")
