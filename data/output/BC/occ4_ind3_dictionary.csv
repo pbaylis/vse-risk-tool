@@ -1,0 +1,76 @@
+﻿,Variable name,Labels,Description
+,ind_3_digit,Subsector,"Industry code (NAICS), 3 digit"
+?,occ_4_digit,Occupation,"Occupation code (NOC), 4 digit"
+,n_workers,Number of workers,Number of workers
+,ind_3_digit_description,Subsector description,"Description for industry code (NAICS), 3 digit"
+,subsector_gdp_share,Subsector share of GDP,Share of GDP in industry subsector (NAICS 3 digit)
+,norm_influence,Industry centrality index,"Industry centrality measure, normalized to 1-100"
+,ind_2_digit,Sector,"Industry code (NAICS), 2 digit"
+,ind_2_digit_description,Sector description,"Description for industry code (NAICS), 2 digit"
+,sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit)
+,chg_employment,Change in employment,"Change in employment numbers, Feb to Mar 2020"
+,chg_employment_bottom,Change in employment bottom 25%,"Change in employment, bottom quartile"
+,chg_employment_at_work,At work change in employment,
+,chg_employment_at_work_bottom,At work change in employment bottom 25%,
+,employment_avg_2019,Average employment 2019,"Average employment in industry class, 2019"
+,employment_feb_vacation,Employed and on vacation in February,
+,employment_mar_vacation,Employed and on vacation in March,
+,employment_chg_vacation,February to March change in employed on vacation,"Change in vacation numbers, Feb to Mar 2020"
+,occ_4_digit_description,Occupation description,"Description for occcupation code (NOC), 4 digit"
+?,occ_2_digit_47,Parent occupation group,"Occcupation code (NOC), 2 digit"
+,assist,Assisting and Caring for Others,Providing assistance or personal care to others.
+,contact,Job required social interaction,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?"
+,customer,Provide a service to others,"Knowledge of principles and processes for providing customer and personal services including needs assessment techniques, quality service standards, alternative delivery systems, and customer satisfaction evaluation techniques"
+,disease,Works with disease/infections,"Diseases/Infections (e.g., patient care, some laboratory work, sanitation control, etc.)"
+,face2face,Amount of face-to-face contact,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?"
+,outcover,Outdoors and undercover,"Outdoors, under cover (e.g., open shed)"
+,outexposed,Outdoors and exposed,"Outdoors, exposed to all weather conditions"
+,proximity,Physical Proximity,To what extent does this job require the worker to perform job tasks in close physical proximity to other people?
+?,public,Performing for/Working With Public,"Performing for people or dealing directly with the public, including serving persons in restaurants and stores, and receiving clients or guests."
+,vehicleclosed,In an Enclosed Vehicle or Equipment,"In an enclosed vehicle or operating enclosed equipment (e.g., automobile)"
+,vehicleopen,In an Open Vehicle or Equipment,"In an open vehicle or operating open equipment (e.g., tractor)"
+,wearcommon,Common Protective or Safety Attire,"Common protective or safety attire, such as safety shoes, glasses, gloves, hearing protection, hard-hat, or personal flotation device?"
+,wearspecial,Specialized Protective or Safety Attire,"Specialized protective or safety attire, such as breathing apparatus, safety harness, full protection suit, or radiation protection?"
+?,n_workers_weighted_round,,Number of workers in occupation class
+,lives_with_health_worker,Lives with health worker,"Proportion of individuals who share their household with someone in any (3-digit) health sector (ambulatory health care services, hospitals, nursing and residential care facilities)"
+,lives_with_health_worker_1,Lives with ambulatory worker,Proportion of individuals who share their household with someone working in ambulatory health care services
+,lives_with_health_worker_2,Lives with hospital worker,Proportion of individuals who share their household with someone working in hospitals
+,lives_with_health_worker_3,Lives with nursing worker,Proportion of individuals who share their household with someone working in nursing and residential care facilities
+,age_60_plus,Age 60+,Proportion of individuals who are 60 years old or over
+,lives_with_age_60_plus,Living with 60+,Proportion of individuals who are 60 years old or over or who share their household with someone 60 years old or over
+,age_15_24,Age 15-24,Proportion of individuals who are 15 to 24 years old
+,age_25_34,Age 25-34,Proportion of individuals who are 25 to 34 years old
+,age_35_44,Age 35-44,Proportion of individuals who are 35 to 44 years old
+,age_45_54,Age 45-54,Proportion of individuals who are 45 to 54 years old
+,age_55_64,Age 55-64,Proportion of individuals who are 55 to 64 years old
+,age_65_74,Age 65-74,Proportion of individuals who are 65 to 74 years old
+** This should be 75 **,age_70_plus,Age 75+,Proportion of individuals who are 75 years old or over
+,lives_with_kids_17_under,Lives with 0-17 year old,Proportion of individuals who share their household with someone 0 to 17 years old
+,lives_with_kids_5_under,Lives with 0-5 year old,Proportion of individuals who share their household with someone 0 to 5 years old
+,lives_with_kids_6_12,Lives with 6-12 year old,Proportion of individuals who share their household with someone 6 to 12 years old
+,lives_with_kids_13_17,Lives with 13-17 year old,Proportion of individuals who share their household with someone 13 to 17 years old
+?,coeff_kids0617,,
+,lone_parent,Lone parent,Proportion of individuals who are lone parents
+,multi_gen_hh,Multi-generational household,"Proportion of individuals who live in a multi-generational household (including a skip-generation household, where the middle generation is absent)"
+,low_income_family,Low income family,"Proportion of individuals who live in a low-income economic family or are low-income persons not in an economic family, according to the Market Basket Measure"
+,main_earner_cf,Main earner in census family,Proportion of individuals who are the main earner in their census family
+,main_earner_ef,Main earner in economic family,Proportion of individuals who are the main earner in their economic family
+,main_earner_hh,Main earner in household,Proportion of individuals who are the main earner in their household
+,language_spoken_not_english,Foreign language,Proportion of individuals whose language most often spoken at home in not an official language (including aboriginal and non-aboriginal languages)
+,immigrant,Immigrants,Proportion of individuals who are immigrants arrived between 2006 and 2016
+?,coeff_nprs,Not permanent resident,Proportion of individuals who are not permanent residents
+,unsuitable_dwelling,Not enough bedrooms,"Proportion of individuals who live in an unsuitable dwelling (that is, a dwelling where there is a one, two or three or more bedroom shortfall)"
+,shelter_cost_income_ratio,Shelter-cost-to-income,Average shelter-cost-to-income ratio (proportion of average monthly total household income which is spent on shelter costs)
+,low_income_nbhd,Low income neighbourhood,Proportion of individuals who live in a census subdivision where the proportion of economic families who are low-income is above the 75th percentile of such CSD-level proportions
+?,number_of_families,Not in economic family,Number of economic families or persons not in economic families that live in the census subdivision where the individual lives.
+,takes_public_transit,Take public transit,"Proportion of individuals who take public transportation to work (where public transportation includes bus, subway/elevated rail, light rail/streetcar/commuter train and passenger ferry, and excludes carpooling)"
+,duration_of_commute,Average commute duration,Average duration of commute to work in minutes (where people who work from home are considered to commute zero minute)
+,work_from_home,Work from home,Proportion of individuals who work from home
+,mental_health_sometimes,Mental health condition sometimes,"Proportion of individuals who report having an emotional, psychological or mental health condition (sometimes, often, always)"
+,mental_health_always,Mental health condition always,"Proportion of individuals who report having an emotional, psychological or mental health condition (often, always)"
+,occ_2_digit_47_description,Occupation code description ,"Description for occcupation code (NOC), 2 digit"
+,share_workers_unit,Occupation unit share of sector,Occupation (unit group) share of sector workers
+?,risk_index_factor,,
+?,risk_index_mean,,
+,,,
+,,,
