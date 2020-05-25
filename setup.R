@@ -1,32 +1,12 @@
-library(shiny)
-library(tidyverse)
-library(DT)
-library(haven)
-library(RColorBrewer)
-library(cowplot)
-library(scales)
-library(ggrepel)
-library(plotly)
-library(gtools)
-library(stringr)
-library(weights)
+library(pacman)
 
-# Set location of raw data
-# Since this can vary by user, the function below finds the first directory that exists
+p_load(shiny, tidyverse, DT, haven, RColorBrewer, cowplot, scales, ggrepel, plotly, gtools, stringr, weights, labelled)
 
-RAW_POSSIBLE <- c("~/Dropbox/COVID19/Sam/data_new/clean") # <-- Add source data directory here, if you have access to one. build-data.R wont' work without this.
+# Where to get input files
+IN <- "data/input" 
 
-get_existing_dir <- function(dirs) {
-    # Return the first existing directory
-    dirs[sapply(dirs, function(x) dir.exists(dirs))][1]
-}
-
-
-
-RAW <- get_existing_dir(RAW_POSSIBLE)
-
-# Set working directory for this tool
-WORK <- "data"
+# Where do save output files
+OUT <- "data/output"
 
 #' Compute risk index from a dataset, give a table with variable names and weights (coefficients). Just creates a linear combination of the given variables.
 #'
