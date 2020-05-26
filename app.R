@@ -41,8 +41,8 @@ clrs <- colorRampPalette(brewer.pal(9, "Reds"))(length(brks) + 1)
 # Create occupation-industry scatterplots ----
 
 ui <- fluidPage(
-
     title = "VSE COVID Risk/Reward Assessment Tool",
+    tags$head(includeHTML(("google-analytics.html"))),
     
     h1("VSE COVID Risk/Reward Assessment Tool"),
     h2("Purpose"),

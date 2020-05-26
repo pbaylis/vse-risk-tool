@@ -1,6 +1,16 @@
-library(pacman)
-
-p_load(shiny, tidyverse, DT, haven, RColorBrewer, cowplot, scales, ggrepel, plotly, gtools, stringr, weights, labelled)
+library(shiny)
+library(tidyverse)
+library(DT)
+library(haven)
+library(RColorBrewer)
+library(cowplot)
+library(scales)
+library(ggrepel)
+library(plotly)
+library(gtools)
+library(stringr)
+library(weights)
+library(labelled)
 
 # Where to get input files
 IN <- "data/input" 
