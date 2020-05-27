@@ -4,7 +4,7 @@ create_tables <- function(data) {
     tab_list <- list() # Create a container for the results
     
     all <- data %>%
-        arrange(ind_2_digit, occ_2_digit_40, -n_workers) %>%
+        dplyr::arrange(ind_2_digit, occ_2_digit_40, -n_workers) %>%
         mutate(mental_health = mental_health_always + mental_health_sometimes)
     
     # Rename variables for display

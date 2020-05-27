@@ -8,25 +8,33 @@ source("dynamic-table.R")
 source("occupation-industry-plots.R")
 
 
-# Load data for each province ----
+# Function to load data for each province ----
 
-# Ensure that identifiers have type character
-data <- read_csv(file.path(OUT, "BC", "occ4_ind3.csv"),
-                 col_types = cols(ind_2_digit = "c",
-                                  occ_2_digit_40 = "c", 
-                                  ind_3_digit = "c", 
-                                  occ_4_digit = "c"))
-
-data_agg <- read_csv(file.path(OUT, "BC", "occ2_ind2.csv"),
+load_province_data <- function(prov) {
+    # prov <- "BC" # DEBUG
+    
+    this_prov <- list() # Container, to be returned
+    
+    # Ensure that identifiers have type character
+    data <- read_csv(file.path(OUT, prov, "occ4_ind3.csv"),
                      col_types = cols(ind_2_digit = "c",
-                                      occ_2_digit_40 = "c"))
+                                      occ_2_digit_40 = "c", 
+                                      ind_3_digit = "c", 
+                                      occ_4_digit = "c"))
+    
+    this_prov$plot_data <- read_csv(file.path(OUT, prov, "occ2_ind2.csv"),
+                         col_types = cols(ind_2_digit = "c",
+                                          occ_2_digit_40 = "c")) %>%
+        filter(share_workers_major >= 0.01) # Only keep occupations with enough workers
 
-# Only keep occupations with enough workers
-plot_data <- data_agg %>% filter(share_workers_major >= 0.01)
+    this_prov$tables <- create_tables(data)
+    this_prov$plots <- create_plots(this_prov$plot_data) 
+    
+    return(this_prov)
+}
 
-this <- list() # Container for this province's results --- will be replaced on demand
-this$tables <- create_tables(data)
-this$plots <- create_plots(plot_data) 
+
+
 
 options(DT.options = list(
     autowidth = TRUE,
@@ -50,8 +58,12 @@ ui <- fluidPage(
     helpText("This tool also includes a table that provides more detailed information on the risk presented in the figure. First, it shows a finer breakdown of sectors and occupations. Second, in addition to the value of the risk index, it shows the value of the factors that contribute to the index, as well as other factors which may be relevant but do not enter the risk index directly. Users can navigate through the different tabs of the table to view these factors, which are broken down in three categories: risks associated with work in a particular occupation (\"Job description detail\"), importance of the sector in the BC economy (\"Economic factors detail\"), and risks associated with factors outside of the work place (\"Household detail\")."),
     helpText("Please refer to the ", tags$a(href="https://www.dropbox.com/s/5lvfyki4lfxw0ob/VSE%20Risk%20Tool%20Users%20Guide.pdf?dl=0", "User's Guide", target = "_blank"), " for a complete description of the construction of this tool and its use. The code repository for the tool is ", tags$a(href="https://github.com/pbaylis/vse-risk-tool", "here.", target = "_blank")),
     h2("Instructions"),
-    helpText("1. Refer to the figure for a broad view of all sectors and occupations. You can change the variable used on the horizontal axis with the dropdown below the figure."),
-    helpText("2. Click on occupations (bubbles) of interest in the figure to examine those occupations in the table below in more detail. Note that the table presents more disaggregated occupations and sectors than the figure."),
+    helpText("1. Choose a province using the dropdown below."),
+    helpText("2. Refer to the figure for a broad view of all sectors and occupations. You can change the variable used on the horizontal axis with the dropdown below the figure."),
+    helpText("3. Click on occupations (bubbles) of interest in the figure to examine those occupations in the table below in more detail. Note that the table presents more disaggregated occupations and sectors than the figure."),
+    selectInput("select_prov", "Province:",
+                c("British Columbia" = "BC",
+                  "Alberta" = "AB")),
     h2("Figure: Sectors and major occupation groups"),
     plotlyOutput('scatterplot'),
     fluidRow(
@@ -100,16 +112,21 @@ ui <- fluidPage(
 # Define server behavior
 server <- function(input, output, session) {
     
+    # Load provincal data based on given input
+    this_prov <- reactive({
+        load_province_data(input$select_prov)
+    })
+    
     output$scatterplot <- renderPlotly({
         # Condition which plot is displayed on the given input
         if (input$xaxis == "Sector employment (2019 average)") {
-            return(this$plots$employment)
+            return(this_prov()$plots$employment)
         } else if (input$xaxis == "Sector employment loss: Feb-Mar") {
-            return(this$plots$fig_loss) 
+            return(this_prov()$plots$fig_loss) 
         } else if (input$xaxis == "Sector employment loss: Feb-Mar (bottom quartile income)") {
-            return(this$plots$fig_bottom)
+            return(this_prov()$plots$fig_bottom)
         } else if (input$xaxis == "Sector GDP share") {
-            return(this$plots$fig_GDP)
+            return(this_prov()$plots$fig_GDP)
         }
     }
     )
@@ -129,8 +146,8 @@ server <- function(input, output, session) {
         myClicks <- event_data("plotly_click", source = "myClickSource")
         req(myClicks)
         
-        click_ind_2_digit(as.character(plot_data[myClicks$customdata, "ind_2_digit"]))
-        click_occ_2_digit(as.character(plot_data[myClicks$customdata, "occ_2_digit_40"]))
+        click_ind_2_digit(as.character(this_prov()$plot_data[myClicks$customdata, "ind_2_digit"]))
+        click_occ_2_digit(as.character(this_prov()$plot_data[myClicks$customdata, "occ_2_digit_40"]))
         
         # Update search values for tables that have been iniatialized by user (by opening the tab)
         updateSearch(proxy_main, keywords = list(global = NULL, columns = c(click_ind_2_digit(), click_occ_2_digit())))
@@ -149,15 +166,15 @@ server <- function(input, output, session) {
                           list(search = "0.001 ... Inf")))
     
     output$table_main <- DT::renderDataTable({
-        round_cols_main <- this$tables$main %>% select(contains("risk index")) %>% colnames()
+        round_cols_main <- this_prov()$tables$main %>% select(contains("risk index")) %>% colnames()
         
-        datatable(this$tables$main, 
+        datatable(this_prov()$tables$main, 
                   filter = list(position = "top", clear = F, plain = TRUE),
                   rownames = F,
                   options = options_list) %>% 
         formatRound(round_cols_main, 0) %>%
         formatRound("Occupation (unit group) share of sector workers", 4) %>%
-        formatPercentage(grep("%", names(this$tables$main), value = T), 2) %>%
+        formatPercentage(grep("%", names(this_prov()$tables$main), value = T), 2) %>%
         formatStyle(
             "VSE Risk Index (Factor model)",
             backgroundColor  = styleInterval(cuts = brks, 
@@ -171,15 +188,15 @@ server <- function(input, output, session) {
         options_list2$searchCols[[1]] <- list(search = new_ind_2_digit)
         options_list2$searchCols[[2]] <- list(search = new_occ_2_digit)
         
-        round_cols_risk <- this$tables$risk %>% select(contains("risk index"), "Physical proximity":"External customers") %>% colnames()
+        round_cols_risk <- this_prov()$tables$risk %>% select(contains("risk index"), "Physical proximity":"External customers") %>% colnames()
         
-        datatable(this$tables$risk, 
+        datatable(this_prov()$tables$risk, 
                   filter = list(position = "top", clear = F, plain = TRUE),
                   rownames = F,
                   options = options_list2) %>%
             formatRound(round_cols_risk, 0) %>%
             formatRound("Occupation (unit group) share of sector workers", 4) %>%
-            formatPercentage(grep("%", names(this$tables$risk), value = T), 2) %>%
+            formatPercentage(grep("%", names(this_prov()$tables$risk), value = T), 2) %>%
             formatStyle(
                 "VSE Risk Index (Factor model)",
                 backgroundColor = styleInterval(cuts = brks, 
@@ -196,15 +213,15 @@ server <- function(input, output, session) {
         options_list2$searchCols[[1]] <- list(search = new_ind_2_digit)
         options_list2$searchCols[[2]] <- list(search = new_occ_2_digit)
         
-        round_cols_econ <- this$tables$econ %>% select(contains("risk index"), "Sector employment (average 2019)", "Sector employment change", "Sector employment change (bottom quartile)") %>% colnames()
+        round_cols_econ <- this_prov()$tables$econ %>% select(contains("risk index"), "Sector employment (average 2019)", "Sector employment change", "Sector employment change (bottom quartile)") %>% colnames()
         
-        datatable(this$tables$econ, 
+        datatable(this_prov()$tables$econ, 
                   filter = list(position = "top", clear = F, plain = TRUE),
                   rownames = F,
                   options = options_list2) %>%
             formatRound(round_cols_econ, 0) %>%
             formatRound("Occupation (unit group) share of sector workers", 4) %>%
-            formatPercentage(grep("%", names(this$tables$econ), value = T), 2) %>%
+            formatPercentage(grep("%", names(this_prov()$tables$econ), value = T), 2) %>%
             formatStyle(
                 "VSE Risk Index (Factor model)",
                 backgroundColor  = styleInterval(cuts = brks, 
@@ -217,13 +234,13 @@ server <- function(input, output, session) {
         options_list2$searchCols[[1]] <- list(search = new_ind_2_digit)
         options_list2$searchCols[[2]] <- list(search = new_occ_2_digit)
         
-        round_cols_household <- this$tables$household %>% select(contains("risk index")) %>% colnames()
+        round_cols_household <- this_prov()$tables$household %>% select(contains("risk index")) %>% colnames()
         
-        this$tables$household %>% 
+        this_prov()$tables$household %>% 
             datatable(filter = list(position = "top", clear = F, plain = TRUE),
                       rownames = F,
                       options = options_list2) %>%
-            formatPercentage(grep("%", names(this$tables$household), value = T), 2) %>%
+            formatPercentage(grep("%", names(this_prov()$tables$household), value = T), 2) %>%
             formatRound(round_cols_household, 0) %>%
             formatRound("Occupation (unit group) share of sector workers", 4) %>%
             formatStyle(
