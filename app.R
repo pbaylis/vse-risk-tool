@@ -16,13 +16,13 @@ load_province_data <- function(prov) {
     this_prov <- list() # Container, to be returned
     
     # Ensure that identifiers have type character
-    data <- read_csv(file.path(OUT, prov, "occ4_ind3.csv"),
+    data <- read_csv(file.path(OUT, prov, "detailed.csv"),
                      col_types = cols(ind_2_digit = "c",
                                       occ_2_digit_40 = "c", 
                                       ind_3_digit = "c", 
                                       occ_4_digit = "c"))
     
-    this_prov$plot_data <- read_csv(file.path(OUT, prov, "occ2_ind2.csv"),
+    this_prov$plot_data <- read_csv(file.path(OUT, prov, "aggregated.csv"),
                          col_types = cols(ind_2_digit = "c",
                                           occ_2_digit_40 = "c")) %>%
         filter(share_workers_major >= 0.01) # Only keep occupations with enough workers
@@ -58,12 +58,11 @@ ui <- fluidPage(
     helpText("This tool also includes a table that provides more detailed information on the risk presented in the figure. First, it shows a finer breakdown of sectors and occupations. Second, in addition to the value of the risk index, it shows the value of the factors that contribute to the index, as well as other factors which may be relevant but do not enter the risk index directly. Users can navigate through the different tabs of the table to view these factors, which are broken down in three categories: risks associated with work in a particular occupation (\"Job description detail\"), importance of the sector in the BC economy (\"Economic factors detail\"), and risks associated with factors outside of the work place (\"Household detail\")."),
     helpText("Please refer to the ", tags$a(href="https://www.dropbox.com/s/5lvfyki4lfxw0ob/VSE%20Risk%20Tool%20Users%20Guide.pdf?dl=0", "User's Guide", target = "_blank"), " for a complete description of the construction of this tool and its use. The code repository for the tool is ", tags$a(href="https://github.com/pbaylis/vse-risk-tool", "here.", target = "_blank")),
     h2("Instructions"),
-    helpText("1. Choose a province using the dropdown below."),
+    helpText("1. Choose a province using the dropdown below. (Note: currently, only BC data available.)"),
     helpText("2. Refer to the figure for a broad view of all sectors and occupations. You can change the variable used on the horizontal axis with the dropdown below the figure."),
     helpText("3. Click on occupations (bubbles) of interest in the figure to examine those occupations in the table below in more detail. Note that the table presents more disaggregated occupations and sectors than the figure."),
     selectInput("select_prov", "Province:",
-                c("British Columbia" = "BC",
-                  "Alberta" = "AB")),
+                c("British Columbia" = "BC")),
     h2("Figure: Sectors and major occupation groups"),
     plotlyOutput('scatterplot'),
     fluidRow(
@@ -87,24 +86,30 @@ ui <- fluidPage(
                  h3("Definitions of key main table variables"),
                  tags$ul(
                      tags$li("VSE Risk Index (Factor model): Risk index constructed using a factor model approach, includes both occupational and demographic factors."),
-                     tags$li("Alt Risk Index (Simple means): Risk index constructed using signed simple means, includes both occupational and demographic factors."),
-                     tags$li("Workers: Number of workers in this subsector and occupation (unit group) combination.")
+                     tags$li("Alt Risk Index (Simple avg): Risk index constructed using signed simple means, includes both occupational and demographic factors.")
                  )),
         tabPanel("Job description detail", 
                  DT::dataTableOutput("table_risk"),
                  hr(),
-                 h3("Definitions of key job description variables"),
+                 h3("Definitions of key job description variables (1 = low, 5 = high)"),
                  tags$ul(
                      tags$li("Physical proximity: Extent the job requires close physical proximity to others."),
                      tags$li("Deal with public: Importance of dealing directly with the public or performing for people."),
                      tags$li("Face to face: Frequency the job requires face-to-face discussions with others."),
-                     tags$li("Assisting and caring: Importance of providing personal assistance, medical attention, emotional support, other personal care"),
+                     tags$li("Assisting and caring: Importance of providing personal assistance, medical attention, emotional support, other personal care."),
                      tags$li("Exposed to weather: Frequency the job requires working outdoors, exposed to weather."),
                      tags$li("Exposed to disease: Frequency the job requires exposure to disease/infections."),
                      tags$li("Contact with others: Frequency the job requires contact with others (face-to-face, by telephone, or otherwise)."),
                      tags$li("External customers: Importance of working with external customers or the public.")
                  )),
-        tabPanel("Economic factors detail", DT::dataTableOutput("table_econ")),
+        tabPanel("Economic factors detail", DT::dataTableOutput("table_econ"),
+                 hr(),
+                 h3("Definitions of key economic variables"),
+                 tags$ul(
+                     tags$li("Workers: Number of workers in this subsector and occupation (unit group) combination."),
+                     tags$li("Subsector centrality: necessity of subsector to functioning of the rest of economy (0-100, least to most necessary)."),
+                     tags$li("Subsector GDP share: subsector's fraction of total GDP.")
+                 )),
         tabPanel("Household detail", DT::dataTableOutput("table_household"))
     ),
 )
@@ -257,9 +262,6 @@ server <- function(input, output, session) {
     proxy_econ <- DT::dataTableProxy('table_econ')
     proxy_risk <- DT::dataTableProxy('table_risk')
     proxy_household <- DT::dataTableProxy('table_household')
-    
-    
-    
 
 }
 

@@ -16,7 +16,7 @@ create_tables <- function(data) {
                `Occupation (Major group)` = occ_2_digit_40_description, 
                `Occupation (Unit group)` = occ_4_digit_description,
                `VSE Risk Index (Factor model)` = risk_index_factor,
-               `Alt Risk Index (Simple means)` = risk_index_mean,
+               `Alt Risk Index (Simple avg)` = risk_index_mean,
                `Occupation (unit group) share of sector workers` = share_workers_unit, # Start economics variables
                Workers = n_workers, 
                `Subsector centrality` = norm_influence,
