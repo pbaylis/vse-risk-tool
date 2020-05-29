@@ -22,7 +22,6 @@ ind <- ind_crosswalk %>% select(ind_3_digit, ind_2_digit) %>%
     left_join(ind2)
 
 # Load occupation data at 2 and 4 digit aggregation levels
-occ2 <- read_csv(file.path(IN, "BC/occ_2_digit.csv")) # TODO: For consistency, note that I removed _desc from this name.
 occ4_job <- read_csv(file.path(IN, "BC/occ_4_digit_job.csv"))
 occ4_hh <- read_csv(file.path(IN, "BC/occ_4_digit_hh.csv"))
 occ_crosswalk <- read_csv(file.path(IN, "BC", "occ_xwalk_description.csv"))
@@ -31,8 +30,7 @@ occ <- occ_crosswalk %>%
     distinct(occ_4_digit, occ_2_digit_40, .keep_all = TRUE) %>%
     select(occ_4_digit, occ_2_digit_40, occ_2_digit_40_description) %>%
     left_join(occ4_job) %>%
-    left_join(occ4_hh) %>%
-    left_join(occ2)
+    left_join(occ4_hh)
 
 # Combine into a dataset where the observation is 4 digit occupation by subsector (3 digit)
 occ4_ind3 <- read_csv(file.path(IN, "BC/occ_4_digit_ind_3_digit.csv")) %>%

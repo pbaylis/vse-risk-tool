@@ -68,8 +68,8 @@ ui <- fluidPage(
     fluidRow(
         column(12,
                selectInput('xaxis', 'X axis', c("Sector employment (2019 average)", 
-                                                "Sector employment loss: Feb-Mar",
-                                                "Sector employment loss: Feb-Mar (bottom quartile income)",
+                                                "Sector employment loss: Feb-Apr",
+                                                "Sector employment loss: Feb-Apr (bottom quartile income)",
                                                 "Sector GDP share")
                )
         )
@@ -86,6 +86,15 @@ ui <- fluidPage(
                  h3("Definitions of key main table variables"),
                  tags$ul(
                      tags$li("VSE Risk Index (Factor model): Risk index constructed using a factor model approach, includes both occupational and demographic factors."),
+                     tags$ul(
+                         tags$li("Very high: 75-100"),
+                         tags$li("High: 65-75"),
+                         tags$li("Medium-high: 55-65"),
+                         tags$li("Medium: 45-55"),
+                         tags$li("Medium-low: 35-45"),
+                         tags$li("Low: 25-35"),
+                         tags$li("Very low: 0-25")
+                     ),
                      tags$li("Alt Risk Index (Simple avg): Risk index constructed using signed simple means, includes both occupational and demographic factors.")
                  )),
         tabPanel("Job description detail", 
@@ -140,9 +149,9 @@ server <- function(input, output, session) {
         # Condition which plot is displayed on the given input
         if (input$xaxis == "Sector employment (2019 average)") {
             return(this_prov()$plots$employment)
-        } else if (input$xaxis == "Sector employment loss: Feb-Mar") {
+        } else if (input$xaxis == "Sector employment loss: Feb-Apr") {
             return(this_prov()$plots$fig_loss) 
-        } else if (input$xaxis == "Sector employment loss: Feb-Mar (bottom quartile income)") {
+        } else if (input$xaxis == "Sector employment loss: Feb-Apr (bottom quartile income)") {
             return(this_prov()$plots$fig_bottom)
         } else if (input$xaxis == "Sector GDP share") {
             return(this_prov()$plots$fig_GDP)
