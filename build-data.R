@@ -7,17 +7,14 @@ source("setup.R")
 # Load BC data ----
 
 # Load sector (2 digit industry) and subsector (3 digit industry) data
-ind2 <- read_csv(file.path(IN, "BC/ind_2_digit.csv"))
+ind2 <- read_csv(file.path(IN, "BC/ind_2_digit.csv")) %>%
+    rename(employment_avg_2019 = avg_workers_2019,
+           employment_avg_2019_bottom = avg_workers_2019_bottom)
+    
+ind3 <- read_csv(file.path(IN, "BC/ind_3_digit.csv")) %>%
+    rename(employment_avg_2019_ind3 = avg_workers_2019,
+           employment_avg_2019_bottom_ind3 = avg_workers_2019_bottom)
 
-# Temporarily split average employment in sectors 51 and 71 up, until this is fixed in raw data
-ind2 <- ind2 %>% 
-    mutate(employment_avg_2019 = case_when(
-        ind_2_digit == 51 ~ employment_avg_2019*55250/(55250+54100),
-        ind_2_digit == 71 ~ employment_avg_2019*54100/(55250+54100),
-        TRUE ~ employment_avg_2019
-    )) 
-
-ind3 <- read_csv(file.path(IN, "BC/ind_3_digit.csv"))
 ind_crosswalk <- read_csv(file.path(IN, "BC", "ind_xwalk_description.csv")) 
 
 ind <- ind_crosswalk %>% select(ind_3_digit, ind_2_digit) %>%

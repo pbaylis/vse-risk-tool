@@ -10,7 +10,8 @@ VSE COVID-19 Risk Tool can be used to compare some of the risks and benefits of 
 # Usage
 
 1. Open `vse-risk-tool.Rproj` in RStudio.
-2. Execute `Run App` in RStudio.
+2. Open `app.R`.
+3. Execute `Run App` in RStudio.
 
 ## File structure
 
@@ -25,7 +26,7 @@ VSE COVID-19 Risk Tool can be used to compare some of the risks and benefits of 
 
 ## Note on `build-data.R`
 
-By default, this tool produces these figures using BC-specific data in `data/`, which are produced by `build-data.R`. `build-data.R` builds the BC-specific on source data on occupation risk and economic value from outside of the repository. Users with access to the BC-specific data can run `build-data.R` by adding their location for the cleaned BC-specific data to the `RAW_POSSIBLE` character vector in `setup.R`.
+`build-data.R` collects the data in `data/input` directory and reformats them into the detailed (`/data/output/<PROV>/detailed.csv`) and aggregated (`/data/output/<PROV>/aggregated.csv`) output datasets. It is run before the execution of the Shiny application and only needs to be rerun if the input datasets are changed.
 
 Most users, however, should consider this repository to be a example of a useful way to visualize the underlying data. However, repurposing this code for other regions will require significant additional data work, as it is only currently designed to handle BC-specific data.
 

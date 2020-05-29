@@ -110,7 +110,21 @@ ui <- fluidPage(
                      tags$li("Subsector centrality: necessity of subsector to functioning of the rest of economy (0-100, least to most necessary)."),
                      tags$li("Subsector GDP share: subsector's fraction of total GDP.")
                  )),
-        tabPanel("Household detail", DT::dataTableOutput("table_household"))
+        tabPanel("Household detail", DT::dataTableOutput("table_household"),
+                 hr(),
+                 h3("Definitions of household variables"),
+                 tags$ul(
+                     tags$li("Lives with health workers: lives with someone who works in ambulatory health care services, hospitals, or nursing and residential care facilities."),
+                     tags$li("Public transit: takes public transit to work, including bus, subway/elevated rail, light rail/streetcar/commuter train and passenger ferry, but excluding carpooling."),
+                     tags$li("Crowded dwelling: lives in an unsuitable dwelling, where a dwelling is deemed unsuitable if it has too few bedrooms for the size and composition of the household, according to the National Occupancy Standard."),
+                     tags$li("Multi-generational household: lives in a multi-generational household."),
+                     tags$li("Lives with 60+: aged 60 years and over or lives with someone aged 60 and over."),
+                     tags$li("Low income: has low income or is part of a low-income economic family, according to the Market Basket Measure."),
+                     tags$li("Immigrant: recent immigrant to Canada (less than 10 years)."),
+                     tags$li("Poor neighbourhood: lives in a Census subdivision with high poverty rates."),
+                     tags$li("Mental health: reports a mental health condition.")
+                 )
+        )
     ),
 )
 
