@@ -6,111 +6,157 @@ source("setup.R")
 
 # Load BC data ----
 
-# Load sector (2 digit industry) and subsector (3 digit industry) data
-ind2 <- read_csv(file.path(IN, "BC/ind_2_digit.csv")) %>%
-    rename(employment_avg_2019 = avg_workers_2019,
-           employment_avg_2019_bottom = avg_workers_2019_bottom)
+collect_province_data <- function(this_prov) {
+    # this_prov <- "BC" # DEBUG
+    print(this_prov)
     
-ind3 <- read_csv(file.path(IN, "BC/ind_3_digit.csv")) %>%
-    rename(employment_avg_2019_ind3 = avg_workers_2019,
-           employment_avg_2019_bottom_ind3 = avg_workers_2019_bottom)
+    # Load sector (2 digit industry) and subsector (3 digit industry) data
+    ind2 <- read_csv(file.path(IN, "ind_2_digit.csv")) %>%
+        filter(province == this_prov) %>% select(-province)
+    
+    ind3 <- read_csv(file.path(IN, "ind_3_digit.csv")) %>%
+        filter(province == this_prov) %>% select(-province)
+    
+    ind_crosswalk <- read_csv(file.path(IN, "ind_xwalk_description.csv")) 
+    
+    ind <- ind_crosswalk %>% select(ind_3_digit, ind_2_digit) %>%
+        left_join(ind3) %>%
+        left_join(ind2)
+    
+    # Load occupation data at 2 and 4 digit aggregation levels
+    occ4_job <- read_csv(file.path(IN, "occ_4_digit_job.csv")) # Does not vary by province
+    
+    
+    occ4_hh <- read_csv(file.path(IN, "occ_4_digit_hh.csv")) %>%
+        filter(province == this_prov) %>% select(-province)
+    
+    occ_crosswalk <- read_csv(file.path(IN, "occ_xwalk_description.csv"))
+    
+    occ <- occ_crosswalk %>% 
+        distinct(occ_4_digit, occ_2_digit_40, .keep_all = TRUE) %>%
+        select(occ_4_digit, occ_2_digit_40, occ_2_digit_40_description) %>%
+        left_join(occ4_job) %>%
+        left_join(occ4_hh)
+    
+    # Combine into a dataset where the observation is 4 digit occupation by subsector (3 digit)
+    occ4_ind3 <- read_csv(file.path(IN, "occ_4_digit_ind_3_digit.csv")) %>%
+        filter(province == this_prov) %>% select(-province) %>%
+        rename(n_workers = n_workers_weighted_round)
+    
+    data <- occ4_ind3 %>% 
+        left_join(ind) %>%
+        left_join(occ)
+    
+    # Reverse outdoor variables to create a single indoor variable. TODO: Keep this? Or just remove.
+    # occ <- occ %>%
+    #     mutate(outcover_r = 6 - outcover,
+    #            outexposed_r = 6 - outexposed) %>%
+    #     mutate(indoor = rowMeans(select(., outcover_r, outexposed_r))) %>%
+    #     select(-c(outcover_r, outexposed_r))
+    
+    # Compute risk index ----
+    # Load coefficients from factor analysis and for simple averaging
+    coef_tbl <- read_csv(file.path(IN, "coefficients_factor_model.csv")) %>%
+        filter(province == this_prov) %>% select(-province)
+    
+    index_vars <- data %>% 
+        rename(crowded_dwelling = unsuitable_dwelling) %>%
+        select(coef_tbl$var)
+    
+    # Standardize the variables we'll use
+    for (v in coef_tbl$var) {
+        mn <- coef_tbl %>% filter(var == v) %>% pull(mean)
+        sd <- coef_tbl %>% filter(var == v) %>% pull(sd)
+        index_vars[[v]] <- (index_vars[[v]] - mn) / sd
+    }
+    
+    # Select relevant variables and pivot to long
+    long <- index_vars %>% 
+        mutate(i = 1:nrow(.)) %>%
+        pivot_longer(-i, names_to = "var")
+    
+    # Multiply standardized variables by coefficients and return
+    data$risk_index_factor <- long %>% full_join(coef_tbl) %>%
+        mutate(prod = value * factor) %>%
+        group_by(i) %>%
+        summarise(prediction = sum(prod)) %>%
+        pull(prediction)
+    
+    data$risk_index_mean <- long %>% full_join(coef_tbl) %>%
+        mutate(prod = value * sign(factor)) %>%
+        group_by(i) %>%
+        summarise(prediction = sum(prod)) %>%
+        pull(prediction)
+    
+    
+    # Standardize and rescale risk indices
+    # Note: for now we standardize using the weighted means and SDs in the data. Once the team running the factor analysis (in Stata) passes on those means and SDs used by that tool, we'll standardize manually using those instead to make sure that we are computing the index correctly.
+    data <- data %>% 
+        mutate_at(vars(starts_with("risk_index")), rescale, c(0, 100))
+    
+    # Where do our NAs come from? 
+    # test <- data[!complete.cases(data),] %>%
+    #     select(ind_3_digit, occ_4_digit, ind_2_digit, occ_2_digit_40, n_workers, sector_gdp_share,subsector_gdp_share, assist, lives_with_health_worker)
+    
+    # Drop bad industry codes or observations without critical 2 digit sector / occupations IDs.
+    data <- data %>%
+        filter(!(ind_2_digit %in% c(0, 55))) %>% # 55 is deprecated, not sure about 0 but seems clearly wrong
+        filter(!is.na(ind_2_digit) & !is.na(occ_2_digit_40)) # Throws out observatins without matching 2 digit sector or observation codes
+    
+    # test2 <- data[!complete.cases(data),] %>%
+    #     select(ind_3_digit, occ_4_digit, ind_2_digit, occ_2_digit_40, n_workers, sector_gdp_share,subsector_gdp_share, assist, lives_with_health_worker)
+    
+    # Compute the share of workers in this unit group as a fraction of the 2 digit sector
+    # Do this after dropping so everything adds up correctly.
+    data <- data %>% 
+        group_by(ind_2_digit) %>% 
+        mutate(share_workers_unit = n_workers/sum(n_workers)) %>% 
+        ungroup()
+    
+    # Having computed this aggregated risk index, now we'll aggregate the risk scores to the level displayed in the figure, which is 2 digit occupation by 2 digit sector
+    temp <- data %>% 
+        group_by(occ_2_digit_40, ind_2_digit) %>%
+        summarise(n_workers = sum(n_workers))
+    
+    data_agg <- data %>%
+        group_by(occ_2_digit_40, ind_2_digit) %>%
+        summarize_at(vars(risk_index_factor, risk_index_mean), ~ weighted.mean(., w = n_workers, na.rm = T)) %>% 
+        filter(complete.cases(occ_2_digit_40, ind_2_digit)) %>%
+        left_join(ind2 %>% select(ind_2_digit, employment_avg_2019, chg_employment, chg_employment_bottom, sector_gdp_share)) %>% 
+        left_join(temp) %>%
+        left_join(occ_crosswalk %>% distinct(occ_2_digit_40, .keep_all = TRUE) %>% select(occ_2_digit_40, occ_2_digit_40_description)) %>%
+        left_join(ind_crosswalk %>% distinct(ind_2_digit, .keep_all = TRUE) %>% select(ind_2_digit,  ind_2_digit_description)) %>%
+        group_by(ind_2_digit) %>%
+        mutate(share_workers_major = n_workers / sum(n_workers)) %>%
+        ungroup()
+    
+    # Write disaggregated and aggregated data ----
+    # Now that merging is complete, set IDs to be characters with the appropriate badding
+    data <- data %>%
+        mutate_at(vars(ind_2_digit, occ_2_digit_40), function(x) sprintf("%02d", x)) %>%
+        mutate_at(vars(ind_3_digit), function(x) sprintf("%03d", x)) %>% 
+        mutate_at(vars(occ_4_digit), function(x) sprintf("%04d", x))
+    
+    data_agg <- data_agg %>%
+        mutate_at(vars(ind_2_digit, occ_2_digit_40), function(x) sprintf("%02d", x))
+    
+    dir.create(file.path(OUT, this_prov))
+    
+    write_csv(data, file.path(OUT, this_prov, "risk_occ4ind3.csv"))
+    write_csv(data_agg, file.path(OUT, this_prov, "risk_occ2ind2.csv"))
+}
 
-ind_crosswalk <- read_csv(file.path(IN, "BC", "ind_xwalk_description.csv")) 
+province_names <- read_csv(file.path(IN, "ind_2_digit.csv")) %>% 
+    distinct(province) %>% 
+    filter(province != "QC") %>% # Skip QC
+    pull(province)
+    
+lapply(province_names, collect_province_data)
 
-ind <- ind_crosswalk %>% select(ind_3_digit, ind_2_digit) %>%
-    left_join(ind3) %>%
-    left_join(ind2)
+# Create QC manually from Sam's work. TEMPORARY.
+QC_disagg <- read_dta("~/Dropbox/01-Projects/COVID19/Sam/data_new/provinces/clean/quebec_risk_ind_2_occ_2.dta")
+QC_agg <- read_dta("~/Dropbox/01-Projects/COVID19/Sam/data_new/provinces/clean/quebec_risk_occ_4_ind_3.dta")
 
-# Load occupation data at 2 and 4 digit aggregation levels
-occ4_job <- read_csv(file.path(IN, "BC/occ_4_digit_job.csv"))
-occ4_hh <- read_csv(file.path(IN, "BC/occ_4_digit_hh.csv"))
-occ_crosswalk <- read_csv(file.path(IN, "BC", "occ_xwalk_description.csv"))
-
-occ <- occ_crosswalk %>% 
-    distinct(occ_4_digit, occ_2_digit_40, .keep_all = TRUE) %>%
-    select(occ_4_digit, occ_2_digit_40, occ_2_digit_40_description) %>%
-    left_join(occ4_job) %>%
-    left_join(occ4_hh)
-
-# Combine into a dataset where the observation is 4 digit occupation by subsector (3 digit)
-occ4_ind3 <- read_csv(file.path(IN, "BC/occ_4_digit_ind_3_digit.csv")) %>%
-    rename(n_workers = n_workers_weighted_round)
-
-data <- occ4_ind3 %>% 
-    left_join(ind) %>%
-    left_join(occ)
-
-# Reverse outdoor variables to create a single indoor variable. TODO: Keep this? Or just remove.
-# occ <- occ %>%
-#     mutate(outcover_r = 6 - outcover,
-#            outexposed_r = 6 - outexposed) %>%
-#     mutate(indoor = rowMeans(select(., outcover_r, outexposed_r))) %>%
-#     select(-c(outcover_r, outexposed_r))
-
-# Compute risk index ----
-# Load coefficients from factor analysis and for simple averaging
-b <- read_csv(file.path(IN, "BC/risk_index_coefficients.csv")) 
-
-data <- data %>% mutate(
-    risk_index_factor = compute_risk(., b, "coef1"),
-    risk_index_mean = compute_risk(., b, "coef2"))
-
-# Standardize and rescale risk indices
-# Note: for now we standardize using the weighted means and SDs in the data. Once the team running the factor analysis (in Stata) passes on those means and SDs used by that tool, we'll standardize manually using those instead to make sure that we are computing the index correctly.
-data <- data %>% 
-    mutate_at(vars(starts_with("risk_index")), stdz, weight = data$n_workers) %>% 
-    mutate_at(vars(starts_with("risk_index")), rescale, c(0, 100))
-
-# Where do our NAs come from? 
-# test <- data[!complete.cases(data),] %>%
-#     select(ind_3_digit, occ_4_digit, ind_2_digit, occ_2_digit_40, n_workers, sector_gdp_share,subsector_gdp_share, assist, lives_with_health_worker)
-
-# Drop bad industry codes or observations without critical 2 digit sector / occupations IDs.
-data <- data %>%
-    filter(!(ind_2_digit %in% c(0, 55))) %>% # 55 is deprecated, not sure about 0 but seems clearly wrong
-    filter(!is.na(ind_2_digit) & !is.na(occ_2_digit_40)) # Throws out observatins without matching 2 digit sector or observation codes
-
-# test2 <- data[!complete.cases(data),] %>%
-#     select(ind_3_digit, occ_4_digit, ind_2_digit, occ_2_digit_40, n_workers, sector_gdp_share,subsector_gdp_share, assist, lives_with_health_worker)
-
-# Compute the share of workers in this unit group as a fraction of the 2 digit sector
-# Do this after dropping so everything adds up correctly.
-data <- data %>% 
-    group_by(ind_2_digit) %>% 
-    mutate(share_workers_unit = n_workers/sum(n_workers)) %>% 
-    ungroup()
-
-# TEMPORARY: rename 47 to 40 so that this code after this works. But should actually use 40 above once we have the data read.
-# data <- data %>%
-#     rename(occ_2_digit_40 = occ_2_digit_40,
-#            occ_2_digit_40_description = occ_2_digit_40_description)
-
-# Having computed this aggregated risk index, now we'll aggregate the risk scores to the level displayed in the figure, which is 2 digit occupation by 2 digit sector
-temp <- data %>% 
-    group_by(occ_2_digit_40, ind_2_digit) %>%
-    summarise(n_workers = sum(n_workers))
-
-data_agg <- data %>%
-    group_by(occ_2_digit_40, ind_2_digit) %>%
-    summarize_at(vars(risk_index_factor, risk_index_mean), ~ weighted.mean(., w = n_workers, na.rm = T)) %>% 
-    filter(complete.cases(occ_2_digit_40, ind_2_digit)) %>%
-    left_join(ind2 %>% select(ind_2_digit, employment_avg_2019, chg_employment, chg_employment_bottom, sector_gdp_share)) %>% 
-    left_join(temp) %>%
-    left_join(occ_crosswalk %>% distinct(occ_2_digit_40, .keep_all = TRUE) %>% select(occ_2_digit_40, occ_2_digit_40_description)) %>%
-    left_join(ind_crosswalk %>% distinct(ind_2_digit, .keep_all = TRUE) %>% select(ind_2_digit,  ind_2_digit_description)) %>%
-    group_by(ind_2_digit) %>%
-    mutate(share_workers_major = n_workers / sum(n_workers)) %>%
-    ungroup()
-
-# Write disaggregated and aggregated data ----
-# Now that merging is complete, set IDs to be characters with the appropriate badding
-data <- data %>%
-    mutate_at(vars(ind_2_digit, occ_2_digit_40), function(x) sprintf("%02d", x)) %>%
-    mutate_at(vars(ind_3_digit), function(x) sprintf("%03d", x)) %>% 
-    mutate_at(vars(occ_4_digit), function(x) sprintf("%04d", x))
-
-data_agg <- data_agg %>%
-    mutate_at(vars(ind_2_digit, occ_2_digit_40), function(x) sprintf("%02d", x))
-
-write_csv(data, file.path(OUT, "BC", "detailed.csv"))
-write_csv(data_agg, file.path(OUT, "BC", "aggregated.csv"))
+dir.create(file.path(OUT, "QC"))
+write_csv(QC_disagg, file.path(OUT, "QC", "risk_occ2ind2.csv"))
+write_csv(QC_agg, file.path(OUT, "QC", "risk_occ4ind3.csv"))

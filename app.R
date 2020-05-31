@@ -16,13 +16,13 @@ load_province_data <- function(prov) {
     this_prov <- list() # Container, to be returned
     
     # Ensure that identifiers have type character
-    data <- read_csv(file.path(OUT, prov, "detailed.csv"),
+    data <- read_csv(file.path(OUT, prov, "risk_occ4ind3.csv"),
                      col_types = cols(ind_2_digit = "c",
                                       occ_2_digit_40 = "c", 
                                       ind_3_digit = "c", 
                                       occ_4_digit = "c"))
     
-    this_prov$plot_data <- read_csv(file.path(OUT, prov, "aggregated.csv"),
+    this_prov$plot_data <- read_csv(file.path(OUT, prov, "risk_occ2ind2.csv"),
                          col_types = cols(ind_2_digit = "c",
                                           occ_2_digit_40 = "c")) %>%
         filter(share_workers_major >= 0.01) # Only keep occupations with enough workers
@@ -32,8 +32,6 @@ load_province_data <- function(prov) {
     
     return(this_prov)
 }
-
-
 
 
 options(DT.options = list(

@@ -32,17 +32,18 @@ compute_risk <- function(data, coef_tbl, coef_name = "coef") {
     # coef_name <- "coef1"
     # DEBUG END
     
+    # Standardize all variables with given mean and SD
+    
+    long <- long %>%
+        group_by(var) %>%
+        mutate(value_sd = scale(value)) %>%
+        ungroup
+    
     # Select relevant variables and pivot to long
     long <- data %>% 
         select(coef_tbl$var) %>%
         mutate(i = 1:nrow(.)) %>%
         pivot_longer(-i, names_to = "var")
-    
-    # Standardize all variables before use, since that's what the factor analysis does
-    long <- long %>%
-        group_by(var) %>%
-        mutate(value_sd = scale(value)) %>%
-        ungroup
     
     # Multiply standardized variables by coefficients and return
     long %>% full_join(coef_tbl) %>%

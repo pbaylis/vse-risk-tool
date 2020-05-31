@@ -1,0 +1,172 @@
+province,ind_2_digit,ind_2_digit_description,sector_gdp_share,employment_avg_2019,employment_avg_2019_bottom,chg_employment_bottom,chg_employment
+AB,11," Agriculture, forestry, fishing and hunting",.023601480775527,53924,8246,2639,-3355
+AB,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,143999,5414,-3296,-8899
+AB,22, Utilities,.0195903717174468,23570,0,0,-1700
+AB,23, Construction,.0842519295788802,241121,14870,-8853,-23295
+AB,31,Manufacturing,.0133259262140707,124408,16333,-5317,-16716
+AB,41, Wholesale trade,.0381648983587641,85514,9496,2361,-3481
+AB,44,Retail Trade,.0462774768466743,248371,135151,-48026,-70596
+AB,48,Transportation and Warehousing,.0538049415372447,137986,15775,-8992,-21584
+AB,51, Information and cultural industries,.0361198364922996,22127,5541,-3901,2359
+AB,52, Finance and insurance,.0565672135292573,63514,7926,6677,-999
+AB,53, Real estate and rental and leasing,.1794208507976025,41936,8269,-346,-712
+AB,54," Professional, scientific and technical services",.0624783216148493,182744,11278,339,-16004
+AB,56," Administrative and support, waste management and remediation services",.0244236385974125,85076,22498,-2220,-3633
+AB,61, Educational services,.0509980971645483,157385,19779,-5090,-16268
+AB,62, Health care and social assistance,.0684972138210039,286045,41706,-16768,-38610
+AB,71," Arts, entertainment and recreation",.0094375938046012,50781,20467,-12582,-20288
+AB,72, Accommodation and food services,.0307083442738268,146793,103284,-60524,-76525
+AB,81, Other services (except public administration),.0216536677396454,114743,26786,-10862,-30894
+AB,91, Public administration,.0551793916761484,111384,4600,372,2668
+BC,11," Agriculture, forestry, fishing and hunting",.023601480775527,43909,7071,1768,-4446
+BC,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,25233,0,713,922
+BC,22, Utilities,.0195903717174468,13035,0,0,3174
+BC,23, Construction,.0842519295788802,237525,14743,9890,-36033
+BC,31,Manufacturing,.0133259262140707,164338,24356,-203,-7588
+BC,41, Wholesale trade,.0381648983587641,82512,11394,1424,-9392
+BC,44,Retail Trade,.0462774768466743,294077,145427,-41803,-70086
+BC,48,Transportation and Warehousing,.0538049415372447,135945,18364,-105,-14724
+BC,51, Information and cultural industries,.0361198364922996,56241,7908,-2156,-7971
+BC,52, Finance and insurance,.0565672135292573,95538,6774,4006,1495
+BC,53, Real estate and rental and leasing,.1794208507976025,58926,7981,-815,-13329
+BC,54," Professional, scientific and technical services",.0624783216148493,216136,11534,1473,655
+BC,56," Administrative and support, waste management and remediation services",.0244236385974125,106458,25520,-3172,-21232
+BC,61, Educational services,.0509980971645483,173632,14135,-8989,-18465
+BC,62, Health care and social assistance,.0684972138210039,317940,27147,9227,-22578
+BC,71," Arts, entertainment and recreation",.0094375938046012,71299,19023,-5189,-23474
+BC,72, Accommodation and food services,.0307083442738268,189441,117334,-66344,-107346
+BC,81, Other services (except public administration),.0216536677396454,118427,27127,-11896,-31413
+BC,91, Public administration,.0551793916761484,110000,2364,2291,-3811
+MB,11," Agriculture, forestry, fishing and hunting",.023601480775527,25282,1904,2491,2257
+MB,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,2985,0,0,-399
+MB,22, Utilities,.0195903717174468,6831,0,0,-144
+MB,23, Construction,.0842519295788802,48810,2021,1338,-4455
+MB,31,Manufacturing,.0133259262140707,59238,7744,2115,-6986
+MB,41, Wholesale trade,.0381648983587641,18555,1125,-1106,-3215
+MB,44,Retail Trade,.0462774768466743,66664,31628,-12879,-13954
+MB,48,Transportation and Warehousing,.0538049415372447,40202,4682,287,-4877
+MB,51, Information and cultural industries,.0361198364922996,6442,590,-882,410
+MB,52, Finance and insurance,.0565672135292573,26093,1760,717,-939
+MB,53, Real estate and rental and leasing,.1794208507976025,7149,1182,394,562
+MB,54," Professional, scientific and technical services",.0624783216148493,29130,1976,-779,-1486
+MB,56," Administrative and support, waste management and remediation services",.0244236385974125,20018,7595,-3278,-2439
+MB,61, Educational services,.0509980971645483,51765,3985,412,-2742
+MB,62, Health care and social assistance,.0684972138210039,104360,14137,240,-14464
+MB,71," Arts, entertainment and recreation",.0094375938046012,14113,4865,-3378,-6042
+MB,72, Accommodation and food services,.0307083442738268,42747,29302,-16318,-17360
+MB,81, Other services (except public administration),.0216536677396454,29180,5865,-2303,-3799
+MB,91, Public administration,.0551793916761484,34228,1448,445,318
+NBPE,11," Agriculture, forestry, fishing and hunting",.023601480775527,17370,2901,694,-1243
+NBPE,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,4037,0,-430,235
+NBPE,22, Utilities,.0195903717174468,3529,134,0,-117
+NBPE,23, Construction,.0842519295788802,30101,1863,-1095,-6298
+NBPE,31,Manufacturing,.0133259262140707,35341,4519,255,-5062
+NBPE,41, Wholesale trade,.0381648983587641,9212,898,-244,-721
+NBPE,44,Retail Trade,.0462774768466743,53878,29996,-491,-8947
+NBPE,48,Transportation and Warehousing,.0538049415372447,19204,2391,-981,-2520
+NBPE,51, Information and cultural industries,.0361198364922996,4970,300,-448,-696
+NBPE,52, Finance and insurance,.0565672135292573,13893,838,-51,598
+NBPE,53, Real estate and rental and leasing,.1794208507976025,4600,820,-642,-1673
+NBPE,54," Professional, scientific and technical services",.0624783216148493,20024,1375,-521,-481
+NBPE,56," Administrative and support, waste management and remediation services",.0244236385974125,18351,6553,-3134,-4872
+NBPE,61, Educational services,.0509980971645483,32063,2430,-1103,-4522
+NBPE,62, Health care and social assistance,.0684972138210039,71071,10716,-1290,-4219
+NBPE,71," Arts, entertainment and recreation",.0094375938046012,6072,2281,-2142,-2459
+NBPE,72, Accommodation and food services,.0307083442738268,28436,19448,-9742,-11171
+NBPE,81, Other services (except public administration),.0216536677396454,17611,2629,-494,-3394
+NBPE,91, Public administration,.0551793916761484,32127,1495,-58,-1164
+NL,11,"Agriculture, forestry, fishing and hunting",.023601480775527,4658,752,482,-254
+NL,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,8484,0,-625,-3196
+NL,22, Utilities,.0195903717174468,2887,0,0,-129
+NL,23, Construction,.0842519295788802,19708,1053,-29,-3089
+NL,31,Manufacturing,.0133259262140707,5481,1428,-584,415
+NL,41, Wholesale trade,.0381648983587641,2730,320,-771,-635
+NL,44,Retail Trade,.0462774768466743,25929,15693,-4618,-3365
+NL,48,Transportation and Warehousing,.0538049415372447,9308,919,-709,-817
+NL,51, Information and cultural industries,.0361198364922996,1612,0,-120,399
+NL,52, Finance and insurance,.0565672135292573,4451,296,937,-391
+NL,53, Real estate and rental and leasing,.1794208507976025,2125,299,0,-36
+NL,54," Professional, scientific and technical services",.0624783216148493,9835,612,194,-9
+NL,56," Administrative and support, waste management and remediation services",.0244236385974125,6232,2300,-2480,-788
+NL,61, Educational services,.0509980971645483,16042,1042,-502,-708
+NL,62, Health care and social assistance,.0684972138210039,39596,3934,2224,-787
+NL,71," Arts, entertainment and recreation",.0094375938046012,3100,1427,-595,-1150
+NL,72, Accommodation and food services,.0307083442738268,16461,11580,-3027,-4461
+NL,81, Other services (except public administration),.0216536677396454,10300,2563,795,-2926
+NL,91, Public administration,.0551793916761484,17520,1208,-76,-1534
+NS,11," Agriculture, forestry, fishing and hunting",.023601480775527,10614,1823,3651,1568
+NS,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,1951,0,0,-536
+NS,22, Utilities,.0195903717174468,3651,0,0,32
+NS,23, Construction,.0842519295788802,33685,2013,637,-4303
+NS,31,Manufacturing,.0133259262140707,25040,2529,1426,-3789
+NS,41, Wholesale trade,.0381648983587641,8584,657,-351,-1359
+NS,44,Retail Trade,.0462774768466743,60595,33751,-10212,-15099
+NS,48,Transportation and Warehousing,.0538049415372447,16320,2249,-473,-2354
+NS,51, Information and cultural industries,.0361198364922996,7852,1180,-992,-893
+NS,52, Finance and insurance,.0565672135292573,14173,963,1052,625
+NS,53, Real estate and rental and leasing,.1794208507976025,6780,1051,61,-54
+NS,54," Professional, scientific and technical services",.0624783216148493,27732,1044,1323,-459
+NS,56," Administrative and support, waste management and remediation services",.0244236385974125,16491,6682,-3190,-2118
+NS,61, Educational services,.0509980971645483,37510,3752,-942,-2314
+NS,62, Health care and social assistance,.0684972138210039,71018,4268,2832,-5522
+NS,71," Arts, entertainment and recreation",.0094375938046012,9005,2882,-2751,-6011
+NS,72, Accommodation and food services,.0307083442738268,35531,23231,-14517,-19469
+NS,81, Other services (except public administration),.0216536677396454,17768,3804,-1621,-4045
+NS,91, Public administration,.0551793916761484,28878,956,-565,753
+ON,11," Agriculture, forestry, fishing and hunting",.023601480775527,76738,16390,-1037,-1446
+ON,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,27420,587,543,-4675
+ON,22, Utilities,.0195903717174468,55648,1997,-2179,-5357
+ON,23, Construction,.0842519295788802,533962,37516,-18072,-91224
+ON,31,Manufacturing,.0133259262140707,760338,126495,-11850,-133367
+ON,41, Wholesale trade,.0381648983587641,249416,37413,-18565,-30914
+ON,44,Retail Trade,.0462774768466743,829199,430760,-113776,-185458
+ON,48,Transportation and Warehousing,.0538049415372447,388219,55923,-16362,-52731
+ON,51, Information and cultural industries,.0361198364922996,137024,20935,-7758,4801
+ON,52, Finance and insurance,.0565672135292573,413900,30312,28954,10866
+ON,53, Real estate and rental and leasing,.1794208507976025,158714,24152,1519,-19477
+ON,54," Professional, scientific and technical services",.0624783216148493,660319,39330,9182,-24480
+ON,56," Administrative and support, waste management and remediation services",.0244236385974125,317682,104796,13148,-22219
+ON,61, Educational services,.0509980971645483,534943,60852,-27953,-67490
+ON,62, Health care and social assistance,.0684972138210039,878634,86817,-9211,-100029
+ON,71," Arts, entertainment and recreation",.0094375938046012,174472,62447,-23138,-63303
+ON,72, Accommodation and food services,.0307083442738268,462958,304842,-149452,-202825
+ON,81, Other services (except public administration),.0216536677396454,295171,66875,-30186,-54438
+ON,91, Public administration,.0551793916761484,371791,16598,-1577,-11407
+QC,11," Agriculture, forestry, fishing and hunting",.023601480775527,69149,14728,-897,-1837
+QC,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,22298,879,204,-5965
+QC,22, Utilities,.0195903717174468,26150,0,0,-1413
+QC,23, Construction,.0842519295788802,257091,14279,1582,-93961
+QC,31,Manufacturing,.0133259262140707,485046,88579,-15441,-105909
+QC,41, Wholesale trade,.0381648983587641,143756,25655,-6396,-6354
+QC,44,Retail Trade,.0462774768466743,514495,298035,-71397,-115671
+QC,48,Transportation and Warehousing,.0538049415372447,217028,28658,-3737,-36059
+QC,51, Information and cultural industries,.0361198364922996,74357,8751,-5350,-6075
+QC,52, Finance and insurance,.0565672135292573,180969,11646,9458,-2777
+QC,53, Real estate and rental and leasing,.1794208507976025,60119,9076,2285,-19930
+QC,54," Professional, scientific and technical services",.0624783216148493,338284,21690,-5451,-24512
+QC,56," Administrative and support, waste management and remediation services",.0244236385974125,187098,44383,-2412,-29384
+QC,61, Educational services,.0509980971645483,300568,19056,-7320,-55943
+QC,62, Health care and social assistance,.0684972138210039,599860,85281,3160,-51098
+QC,71," Arts, entertainment and recreation",.0094375938046012,103166,34787,-21269,-43312
+QC,72, Accommodation and food services,.0307083442738268,263943,166043,-76207,-130033
+QC,81, Other services (except public administration),.0216536677396454,179460,43519,-10083,-45393
+QC,91, Public administration,.0551793916761484,249113,10859,-1222,-10456
+SK,11," Agriculture, forestry, fishing and hunting",.023601480775527,38697,2410,-412,1325
+SK,21," Mining, quarrying, and oil and gas extraction",.0451583048880504,22219,392,-1,-4661
+SK,22, Utilities,.0195903717174468,6653,0,0,432
+SK,23, Construction,.0842519295788802,48274,2383,-219,-3451
+SK,31,Manufacturing,.0133259262140707,25379,2094,-217,-4360
+SK,41, Wholesale trade,.0381648983587641,22188,2347,260,-910
+SK,44,Retail Trade,.0462774768466743,62482,31990,-4980,-10985
+SK,48,Transportation and Warehousing,.0538049415372447,26369,2227,-859,-3403
+SK,51, Information and cultural industries,.0361198364922996,8004,1164,-1029,892
+SK,52, Finance and insurance,.0565672135292573,20791,1715,1198,1403
+SK,53, Real estate and rental and leasing,.1794208507976025,8370,1537,-739,-1397
+SK,54," Professional, scientific and technical services",.0624783216148493,27039,1512,434,-277
+SK,56," Administrative and support, waste management and remediation services",.0244236385974125,15683,5052,-2152,-1762
+SK,61, Educational services,.0509980971645483,43967,4325,-2286,-8309
+SK,62, Health care and social assistance,.0684972138210039,79663,9339,286,-5349
+SK,71," Arts, entertainment and recreation",.0094375938046012,11583,4140,-2533,-6137
+SK,72, Accommodation and food services,.0307083442738268,39007,28980,-15129,-17147
+SK,81, Other services (except public administration),.0216536677396454,27495,6271,-1507,-3577
+SK,91, Public administration,.0551793916761484,31523,1482,1773,-570
