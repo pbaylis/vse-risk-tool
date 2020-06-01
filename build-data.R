@@ -8,7 +8,7 @@ source("setup.R")
 
 collect_province_data <- function(this_prov) {
     # this_prov <- "BC" # DEBUG
-    print(this_prov)
+    # print(this_prov)
     
     # Load sector (2 digit industry) and subsector (3 digit industry) data
     ind2 <- read_csv(file.path(IN, "ind_2_digit.csv")) %>%
@@ -24,8 +24,8 @@ collect_province_data <- function(this_prov) {
         left_join(ind2)
     
     # Load occupation data at 2 and 4 digit aggregation levels
-    occ4_job <- read_csv(file.path(IN, "occ_4_digit_job.csv")) # Does not vary by province
-    
+    occ4_job <- read_csv(file.path(IN, "occ_4_digit_job.csv")) %>% # Does not vary by province
+        select(-n_workers_weighted_round) # TODO: Have these removed earlier in the process
     
     occ4_hh <- read_csv(file.path(IN, "occ_4_digit_hh.csv")) %>%
         filter(province == this_prov) %>% select(-province)
@@ -46,13 +46,6 @@ collect_province_data <- function(this_prov) {
     data <- occ4_ind3 %>% 
         left_join(ind) %>%
         left_join(occ)
-    
-    # Reverse outdoor variables to create a single indoor variable. TODO: Keep this? Or just remove.
-    # occ <- occ %>%
-    #     mutate(outcover_r = 6 - outcover,
-    #            outexposed_r = 6 - outexposed) %>%
-    #     mutate(indoor = rowMeans(select(., outcover_r, outexposed_r))) %>%
-    #     select(-c(outcover_r, outexposed_r))
     
     # Compute risk index ----
     # Load coefficients from factor analysis and for simple averaging
@@ -94,17 +87,10 @@ collect_province_data <- function(this_prov) {
     data <- data %>% 
         mutate_at(vars(starts_with("risk_index")), rescale, c(0, 100))
     
-    # Where do our NAs come from? 
-    # test <- data[!complete.cases(data),] %>%
-    #     select(ind_3_digit, occ_4_digit, ind_2_digit, occ_2_digit_40, n_workers, sector_gdp_share,subsector_gdp_share, assist, lives_with_health_worker)
-    
     # Drop bad industry codes or observations without critical 2 digit sector / occupations IDs.
     data <- data %>%
         filter(!(ind_2_digit %in% c(0, 55))) %>% # 55 is deprecated, not sure about 0 but seems clearly wrong
         filter(!is.na(ind_2_digit) & !is.na(occ_2_digit_40)) # Throws out observatins without matching 2 digit sector or observation codes
-    
-    # test2 <- data[!complete.cases(data),] %>%
-    #     select(ind_3_digit, occ_4_digit, ind_2_digit, occ_2_digit_40, n_workers, sector_gdp_share,subsector_gdp_share, assist, lives_with_health_worker)
     
     # Compute the share of workers in this unit group as a fraction of the 2 digit sector
     # Do this after dropping so everything adds up correctly.
