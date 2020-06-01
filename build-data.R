@@ -139,9 +139,9 @@ province_names <- read_csv(file.path(IN, "ind_2_digit.csv")) %>%
     
 lapply(province_names, collect_province_data)
 
-# Create QC manually from Sam's work. TEMPORARY.
-QC_disagg <- read_dta("~/Dropbox/01-Projects/COVID19/Sam/data_new/provinces/clean/quebec_risk_ind_2_occ_2.dta")
-QC_agg <- read_dta("~/Dropbox/01-Projects/COVID19/Sam/data_new/provinces/clean/quebec_risk_occ_4_ind_3.dta")
+# Create QC manually from Sam's work. # TODO: Right now, we create this manually. In the future we'll produce it through the same process as the rest of the provinces.
+QC_disagg <- read_csv(file.path(IN, "QC", "quebec_risk_ind_3_occ_4.csv"))
+QC_agg <- read_csv(file.path(IN, "QC", "quebec_risk_ind_2_occ_2.csv"))
 
 dir.create(file.path(OUT, "QC"))
 write_csv(QC_disagg, file.path(OUT, "QC", "risk_occ2ind2.csv"))
