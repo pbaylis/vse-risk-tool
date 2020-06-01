@@ -2,22 +2,34 @@
 ind_3_digit,Subsector,"Industry code (NAICS), 3 digit"
 occ_4_digit,Occupation,"Occupation code (NOC), 4 digit"
 n_workers,Number of workers,Number of workers
-ind_3_digit_description,Subsector description,"Description for industry code (NAICS), 3 digit"
-subsector_gdp_share,Subsector share of GDP,Share of GDP in industry subsector (NAICS 3 digit)
-norm_influence,Industry centrality index,"Industry centrality measure, normalized to 1-100"
 ind_2_digit,Sector,"Industry code (NAICS), 2 digit"
+ind_3_digit_description,Subsector description,"Description for industry code (NAICS), 3 digit"
+employment_avg_2019_ind3,"Average employment by subsector, 2019","Average employment by subsector, 2019"
+avg_workers_2019_bottom,"Average number of workers, bottom quartile","Average number of workers, bottom quartile, 2019"
+employment_jan_ind3,"Average employment by subsector, January","Average employment by subsector, January"
+employment_feb_ind3,"Average employment by subsector, February","Average employment by subsector, February"
+employment_mar_ind3,"Average employment by subsector, March","Average employment by subsector, March"
+employment_apr_ind3,"Average employment by subsector, April","Average employment by subsector, April"
+chg_employment_ind3,Change in employment by subsector,"Change in employment numbers, Feb to Mar 2020 by subsector"
+norm_influence,Industry centrality index,"Industry centrality measure, normalized to 1-100"
+subsector_gdp_share,Subsector share of GDP,Share of GDP in industry subsector (NAICS 3 digit)
 ind_2_digit_description,Sector description,"Description for industry code (NAICS), 2 digit"
-sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit)
-chg_employment,Change in employment,"Change in employment numbers, Feb to Mar 2020"
-chg_employment_bottom,Change in employment bottom 25%,"Change in employment, bottom quartile"
-chg_employment_at_work,At work change in employment,At work change in employment
-chg_employment_at_work_bottom,At work change in employment bottom 25%,"At work change in employment, bottom quartile"
 employment_avg_2019,Average employment 2019,"Average employment in industry class, 2019"
-employment_feb_vacation,Employed and on vacation in February,Employed and on vacation in February
-employment_mar_vacation,Employed and on vacation in March,Employed and on vacation in March
-employment_chg_vacation,February to March change in employed on vacation,"Change in vacation numbers, Feb to Mar 2020"
-occ_4_digit_description,Occupation description,"Description for occcupation code (NOC), 4 digit"
-occ_2_digit_47,Parent occupation group,"Occcupation code (NOC), 2 digit"
+employment_avg_2019_bottom,Average employment 2019 Bottom Quartile,"Average employment of bottom quartile in industry class, 2019"
+employment_bottom_feb,"Bottom quartile of employment, February",Bottom quartile of employment by sector in February
+employment_bottom_mar,"Bottom quartile of employment, March",Bottom quartile of employment by sector in March
+employment_bottom_apr,"Bottom quartile of employment, April",Bottom quartile of employment by sector in April
+employment_jan,"Number of employed by subsector, January","Number of employed by subsector, January"
+employment_feb,"Number of employed by subsector, February","Number of employed by subsector, February"
+employment_mar,"Number of employed by subsector, March","Number of employed by subsector, March"
+employment_apr,"Number of employed by subsector, April","Number of employed by subsector, April"
+chg_employment_bottom,Change in employment bottom quartile,"Change in employment numbers, bottom quartile, Feb to March 2020"
+chg_employment,Change in employment,"Change in employment numbers, Feb to Mar 2020"
+sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit)
+occ_2_digit_40,Occupation code,Major Level of National Occupational Classification code
+occ_2_digit_40_description,Occupation code description,Major Level of National Occupational Classification description
+occ_4_digit_description,Occupation description,"Description for occupation code (NOC), 4 digit"
+occ_2_digit_47,Parent occupation group,"Occupation code (NOC), 2 digit"
 assist,Assisting and Caring for Others,Providing assistance or personal care to others.
 contact,Job required social interaction,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?"
 customer,Provide a service to others,"Knowledge of principles and processes for providing customer and personal services including needs assessment techniques, quality service standards, alternative delivery systems, and customer satisfaction evaluation techniques"
@@ -32,6 +44,7 @@ vehicleopen,In an Open Vehicle or Equipment,"In an open vehicle or operating ope
 wearcommon,Common Protective or Safety Attire,"Common protective or safety attire, such as safety shoes, glasses, gloves, hearing protection, hard-hat, or personal flotation device?"
 wearspecial,Specialized Protective or Safety Attire,"Specialized protective or safety attire, such as breathing apparatus, safety harness, full protection suit, or radiation protection?"
 n_workers_weighted_round,Weighted number of workers,Number of workers in occupation class
+female,Female,Proportion of females
 lives_with_health_worker,Lives with health worker,"Proportion of individuals who share their household with someone in any (3-digit) health sector (ambulatory health care services, hospitals, nursing and residential care facilities)"
 lives_with_health_worker_1,Lives with ambulatory worker,Proportion of individuals who share their household with someone working in ambulatory health care services
 lives_with_health_worker_2,Lives with hospital worker,Proportion of individuals who share their household with someone working in hospitals
@@ -53,12 +66,18 @@ lives_with_kids_6_17,Lives with 6-17 year old,Proportion of individuals who shar
 lone_parent,Lone parent,Proportion of individuals who are lone parents
 multi_gen_hh,Multi-generational household,"Proportion of individuals who live in a multi-generational household (including a skip-generation household, where the middle generation is absent)"
 low_income_family,Low income family,"Proportion of individuals who live in a low-income economic family or are low-income persons not in an economic family, according to the Market Basket Measure"
+educ_lesshighschool,Less than high school education,Proportion of individuals with less than high school education
+educ_highschool,Highschool education,Proportion of individuals with high school education
+educ_somecollege,Some college education,Proportion of individuals who did not finish a college education
+educ_bachelor,College education,Proportion of individuals with a bachelor's education
 main_earner_cf,Main earner in census family,Proportion of individuals who are the main earner in their census family
 main_earner_ef,Main earner in economic family,Proportion of individuals who are the main earner in their economic family
 main_earner_hh,Main earner in household,Proportion of individuals who are the main earner in their household
 language_spoken_not_english,Foreign language,Proportion of individuals whose language most often spoken at home in not an official language (including aboriginal and non-aboriginal languages)
 immigrant,Immigrants,Proportion of individuals who are immigrants arrived between 2006 and 2016
 nonperm_res,Not permanent resident,Proportion of individuals who are not permanent residents
+visible_minority_1,Visible minority,Proportion of individuals who belong to a visible minority group as defined by the Employment Equity Act.
+visible_minority_2,Visible minority / Indigenous,Proportion of individuals who belong to a visible minority group as defined by the Employment Equity Act or identifies with the Aboriginal peoples.
 unsuitable_dwelling,Not enough bedrooms,"Proportion of individuals who live in an unsuitable dwelling (that is, a dwelling where there is a one, two or three or more bedroom shortfall)"
 shelter_cost_income_ratio,Shelter-cost-to-income,Average shelter-cost-to-income ratio (proportion of average monthly total household income which is spent on shelter costs)
 low_income_nbhd,Low income neighbourhood,Proportion of individuals who live in a census subdivision where the proportion of economic families who are low-income is above the 75th percentile of such CSD-level proportions
@@ -68,7 +87,6 @@ duration_of_commute,Average commute duration,Average duration of commute to work
 work_from_home,Work from home,Proportion of individuals who work from home
 mental_health_sometimes,Mental health condition sometimes,"Proportion of individuals who report having an emotional, psychological or mental health condition (sometimes, often, always)"
 mental_health_always,Mental health condition always,"Proportion of individuals who report having an emotional, psychological or mental health condition (often, always)"
-occ_2_digit_47_description,Occupation code description ,"Description for occcupation code (NOC), 2 digit"
-share_workers_unit,Occupation unit share of sector,Occupation (unit group) share of sector workers
 risk_index_factor,"Risk rating, factor model","Risk index constructed using a factor model approach, includes both occupational and demographic factors."
 risk_index_mean,"Risk rating, simple means","Risk index constructed using signed simple means, includes both occupational and demographic factors."
+share_workers_unit,Occupation unit share of sector,Occupation (unit group) share of sector workers
