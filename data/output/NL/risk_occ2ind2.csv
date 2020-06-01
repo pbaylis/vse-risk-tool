@@ -1,463 +1,463 @@
 occ_2_digit_40,ind_2_digit,risk_index_factor,risk_index_mean,employment_avg_2019,chg_employment,chg_employment_bottom,sector_gdp_share,n_workers,occ_2_digit_40_description,ind_2_digit_description,share_workers_major
-00,21,48.112181387732086,36.49092177006486,8484,-3196,-625,0.1900690103864117,80,Senior management occupations,"Mining, quarrying, and oil and gas extraction",0.008839779005524863
-00,23,48.112181387732086,36.49092177006486,19708,-3089,-29,0.1088133466552037,145,Senior management occupations,Construction,0.005009500777336327
-00,31,48.112181387732086,36.49092177006485,5481,415,-584,0.003903617817227,30,Senior management occupations,Manufacturing,0.002036659877800407
-00,41,37.46148604179895,0,2730,-635,-771,0.0291609545274996,20,Senior management occupations,Wholesale trade,0.004711425206124852
-00,44,37.46148604179895,0,25929,-3365,-4618,0.0402676766503241,40,Senior management occupations,Retail Trade,0.0011931394481730052
-00,48,48.112181387732086,36.49092177006485,9308,-817,-709,0.0662917954318377,30,Senior management occupations,Transportation and Warehousing,0.0025662959794696323
-00,51,44.69638273962174,25.344012602815408,1612,399,-120,0.0289518321444339,20,Senior management occupations,Information and cultural industries,0.006535947712418301
-00,52,44.69638273962174,25.344012602815408,4451,-391,937,0.0292538978088621,55,Senior management occupations,Finance and insurance,0.011282051282051283
-00,53,44.69638273962174,25.344012602815408,2125,-36,0,0.0935938843320863,30,Senior management occupations,Real estate and rental and leasing,0.01348314606741573
-00,54,44.69638273962174,25.344012602815408,9835,-9,194,0.0240490740525594,210,Senior management occupations,"Professional, scientific and technical services",0.018775145283862316
-00,56,40.750075449900216,11.520005728552457,6232,-788,-2480,0.0144294444315357,55,Senior management occupations,"Administrative and support, waste management and remediation services",0.007152145643693108
-00,61,34.76605270031061,3.2434028015164693,16042,-708,-502,0.0664544461742222,40,Senior management occupations,Educational services,0.0021013921723141583
-00,62,34.76605270031061,3.2434028015164693,39596,-787,2224,0.0803262309175826,125,Senior management occupations,Health care and social assistance,0.0031742001015744033
-00,71,37.46148604179895,0,3100,-1150,-595,0.0023932894950856,25,Senior management occupations,"Arts, entertainment and recreation",0.006443298969072165
-00,72,37.46148604179895,0,16461,-4461,-3027,0.0230034621372308,60,Senior management occupations,Accommodation and food services,0.0029702970297029703
-00,81,34.76605270031061,3.2434028015164693,10300,-2926,795,0.0136626623602946,240,Senior management occupations,Other services (except public administration),0.02207911683532659
-00,91,38.8710740381518,17.666045754210455,17520,-1534,-76,0.159118897692683,670,Senior management occupations,Public administration,0.03198854141799952
-01,21,47.03334888127075,55.35531630956319,8484,-3196,-625,0.1900690103864117,125,Specialized middle management occupations,"Mining, quarrying, and oil and gas extraction",0.013812154696132596
-01,22,45.12280277671201,52.96439827795329,2887,-129,0,0.0146850384552827,85,Specialized middle management occupations,Utilities,0.03655913978494624
-01,23,48.526885164655354,56.80998941574981,19708,-3089,-29,0.1088133466552037,60,Specialized middle management occupations,Construction,0.002072896873380549
-01,44,51.88868597536273,58.87271308583455,25929,-3365,-4618,0.0402676766503241,95,Specialized middle management occupations,Retail Trade,0.0028337061894108872
-01,48,57.037229505976235,54.545916499028635,9308,-817,-709,0.0662917954318377,80,Specialized middle management occupations,Transportation and Warehousing,0.006843455945252352
-01,51,56.8540209379052,56.87061775846316,1612,399,-120,0.0289518321444339,225,Specialized middle management occupations,Information and cultural industries,0.07352941176470588
-01,52,56.035616442412255,61.626925563792256,4451,-391,937,0.0292538978088621,625,Specialized middle management occupations,Finance and insurance,0.1282051282051282
-01,53,52.14072645078304,57.699289358014774,2125,-36,0,0.0935938843320863,85,Specialized middle management occupations,Real estate and rental and leasing,0.038202247191011236
-01,54,48.05903250650735,54.80199508274083,9835,-9,194,0.0240490740525594,585,Specialized middle management occupations,"Professional, scientific and technical services",0.052302190433616454
-01,56,52.094725832881146,57.33357379747126,6232,-788,-2480,0.0144294444315357,115,Specialized middle management occupations,"Administrative and support, waste management and remediation services",0.01495448634590377
-01,61,59.04804231253749,60.50079365401852,16042,-708,-502,0.0664544461742222,950,Specialized middle management occupations,Educational services,0.049908064092461256
-01,62,57.36256828848459,61.28757383219494,39596,-787,2224,0.0803262309175826,875,Specialized middle management occupations,Health care and social assistance,0.022219400711020822
-01,71,70.48880623431738,74.72699284422241,3100,-1150,-595,0.0023932894950856,115,Specialized middle management occupations,"Arts, entertainment and recreation",0.029639175257731958
-01,72,54.54016282100802,60.10114775560672,16461,-4461,-3027,0.0230034621372308,15,Specialized middle management occupations,Accommodation and food services,7.425742574257426e-4
-01,81,53.877826309620964,57.36767814750392,10300,-2926,795,0.0136626623602946,130,Specialized middle management occupations,Other services (except public administration),0.011959521619135235
-01,91,52.394769885028744,60.89510905149305,17520,-1534,-76,0.159118897692683,1095,Specialized middle management occupations,Public administration,0.05227978037717832
-06,31,53.7799159656611,53.098838303792924,5481,415,-584,0.003903617817227,25,Middle management occupations in retail and wholesale trade and customer services,Manufacturing,0.0016972165648336728
-06,41,54.14897230040851,52.460321660038325,2730,-635,-771,0.0291609545274996,555,Middle management occupations in retail and wholesale trade and customer services,Wholesale trade,0.13074204946996468
-06,44,54.16020668625298,52.44088467530546,25929,-3365,-4618,0.0402676766503241,5230,Middle management occupations in retail and wholesale trade and customer services,Retail Trade,0.15600298284862044
-06,51,75.1053707140756,72.58599065559301,1612,399,-120,0.0289518321444339,15,Middle management occupations in retail and wholesale trade and customer services,Information and cultural industries,0.004901960784313725
-06,52,53.7799159656611,53.09883830379293,4451,-391,937,0.0292538978088621,20,Middle management occupations in retail and wholesale trade and customer services,Finance and insurance,0.0041025641025641026
-06,54,53.7799159656611,53.09883830379293,9835,-9,194,0.0240490740525594,20,Middle management occupations in retail and wholesale trade and customer services,"Professional, scientific and technical services",0.001788109074653554
-06,56,75.1053707140756,72.58599065559301,6232,-788,-2480,0.0144294444315357,45,Middle management occupations in retail and wholesale trade and customer services,"Administrative and support, waste management and remediation services",0.005851755526657998
-06,61,75.1053707140756,72.58599065559301,16042,-708,-502,0.0664544461742222,20,Middle management occupations in retail and wholesale trade and customer services,Educational services,0.0010506960861570791
-06,71,70.51049742048946,68.84276479226662,3100,-1150,-595,0.0023932894950856,25,Middle management occupations in retail and wholesale trade and customer services,"Arts, entertainment and recreation",0.006443298969072165
-06,72,68.87993851704651,67.9443711310565,16461,-4461,-3027,0.0230034621372308,2095,Middle management occupations in retail and wholesale trade and customer services,Accommodation and food services,0.10371287128712871
-06,81,70.34568846062746,68.00655002454081,10300,-2926,795,0.0136626623602946,110,Middle management occupations in retail and wholesale trade and customer services,Other services (except public administration),0.010119595216191352
-07,11,34.65208811542113,49.47466460525205,4658,-254,482,0.0049259939122151,525,"Middle management occupations in trades, transportation, production and utilities","Agriculture, forestry, fishing and hunting",0.052923387096774195
-07,21,51.770259893731165,60.79145498364488,8484,-3196,-625,0.1900690103864117,370,"Middle management occupations in trades, transportation, production and utilities","Mining, quarrying, and oil and gas extraction",0.04088397790055249
-07,22,42.51081439604494,55.64455471449241,2887,-129,0,0.0146850384552827,90,"Middle management occupations in trades, transportation, production and utilities",Utilities,0.03870967741935484
-07,23,52.305425084710116,60.33596335784271,19708,-3089,-29,0.1088133466552037,1140,"Middle management occupations in trades, transportation, production and utilities",Construction,0.03938504059423044
-07,31,50.61290593581619,61.300299619291536,5481,415,-584,0.003903617817227,470,"Middle management occupations in trades, transportation, production and utilities",Manufacturing,0.031907671418873046
-07,41,49.83970945071342,61.74838810218879,2730,-635,-771,0.0291609545274996,70,"Middle management occupations in trades, transportation, production and utilities",Wholesale trade,0.016489988221436984
-07,44,49.139420425026636,62.15513398283945,25929,-3365,-4618,0.0402676766503241,45,"Middle management occupations in trades, transportation, production and utilities",Retail Trade,0.0013422818791946308
-07,48,51.8215465481278,59.2535351504602,9308,-817,-709,0.0662917954318377,255,"Middle management occupations in trades, transportation, production and utilities",Transportation and Warehousing,0.021813515825491875
-07,53,49.139420425026636,62.15513398283945,2125,-36,0,0.0935938843320863,110,"Middle management occupations in trades, transportation, production and utilities",Real estate and rental and leasing,0.04943820224719101
-07,54,51.78495674428782,60.618538433714725,9835,-9,194,0.0240490740525594,105,"Middle management occupations in trades, transportation, production and utilities","Professional, scientific and technical services",0.009387572641931158
-07,56,45.46819247051369,58.54927469575494,6232,-788,-2480,0.0144294444315357,50,"Middle management occupations in trades, transportation, production and utilities","Administrative and support, waste management and remediation services",0.006501950585175552
-07,61,49.139420425026636,62.155133982839445,16042,-708,-502,0.0664544461742222,40,"Middle management occupations in trades, transportation, production and utilities",Educational services,0.0021013921723141583
-07,62,49.139420425026636,62.155133982839445,39596,-787,2224,0.0803262309175826,20,"Middle management occupations in trades, transportation, production and utilities",Health care and social assistance,5.078720162519045e-4
-07,71,49.139420425026636,62.15513398283946,3100,-1150,-595,0.0023932894950856,35,"Middle management occupations in trades, transportation, production and utilities","Arts, entertainment and recreation",0.00902061855670103
-07,72,49.139420425026636,62.155133982839445,16461,-4461,-3027,0.0230034621372308,20,"Middle management occupations in trades, transportation, production and utilities",Accommodation and food services,9.900990099009901e-4
-07,81,49.139420425026636,62.155133982839445,10300,-2926,795,0.0136626623602946,20,"Middle management occupations in trades, transportation, production and utilities",Other services (except public administration),0.0018399264029438822
-07,91,49.99587751442478,61.228594820800645,17520,-1534,-76,0.159118897692683,130,"Middle management occupations in trades, transportation, production and utilities",Public administration,0.0062067319169252805
-11,21,48.70412860225199,56.646122201961724,8484,-3196,-625,0.1900690103864117,155,Professional occupations in business and finance,"Mining, quarrying, and oil and gas extraction",0.01712707182320442
-11,22,49.715782681816364,57.3220654790115,2887,-129,0,0.0146850384552827,100,Professional occupations in business and finance,Utilities,0.043010752688172046
-11,23,49.69340578662188,58.60233583579713,19708,-3089,-29,0.1088133466552037,70,Professional occupations in business and finance,Construction,0.0024183796856106408
-11,31,49.69340578662188,58.60233583579713,5481,415,-584,0.003903617817227,25,Professional occupations in business and finance,Manufacturing,0.0016972165648336728
-11,44,49.69340578662188,58.60233583579713,25929,-3365,-4618,0.0402676766503241,35,Professional occupations in business and finance,Retail Trade,0.0010439970171513796
-11,51,45.28905590672558,52.62231948705418,1612,399,-120,0.0289518321444339,90,Professional occupations in business and finance,Information and cultural industries,0.029411764705882353
-11,52,48.36844454986678,56.099018655802034,4451,-391,937,0.0292538978088621,875,Professional occupations in business and finance,Finance and insurance,0.1794871794871795
-11,53,49.69340578662188,58.60233583579713,2125,-36,0,0.0935938843320863,25,Professional occupations in business and finance,Real estate and rental and leasing,0.011235955056179775
-11,54,48.13762425097465,56.113527956999555,9835,-9,194,0.0240490740525594,1315,Professional occupations in business and finance,"Professional, scientific and technical services",0.11756817165847117
-11,56,47.847708010975225,55.3070030409068,6232,-788,-2480,0.0144294444315357,110,Professional occupations in business and finance,"Administrative and support, waste management and remediation services",0.014304291287386216
-11,61,48.847376208382734,55.91094048836521,16042,-708,-502,0.0664544461742222,175,Professional occupations in business and finance,Educational services,0.009193590753874442
-11,62,49.67036174972169,56.88440153099663,39596,-787,2224,0.0803262309175826,155,Professional occupations in business and finance,Health care and social assistance,0.00393600812595226
-11,71,49.736028444135194,56.16372563239594,3100,-1150,-595,0.0023932894950856,35,Professional occupations in business and finance,"Arts, entertainment and recreation",0.00902061855670103
-11,72,49.69340578662188,58.60233583579713,16461,-4461,-3027,0.0230034621372308,30,Professional occupations in business and finance,Accommodation and food services,0.0014851485148514852
-11,81,48.50051044128,54.61140071356812,10300,-2926,795,0.0136626623602946,170,Professional occupations in business and finance,Other services (except public administration),0.015639374425023
-11,91,48.95156805785577,56.37202632594566,17520,-1534,-76,0.159118897692683,900,Professional occupations in business and finance,Public administration,0.0429696825017904
-12,11,56.28161678638995,59.113338662009895,4658,-254,482,0.0049259939122151,90,Administrative and financial supervisors and administrative occupations,"Agriculture, forestry, fishing and hunting",0.009072580645161291
-12,21,54.671109417807074,61.127400168354576,8484,-3196,-625,0.1900690103864117,245,Administrative and financial supervisors and administrative occupations,"Mining, quarrying, and oil and gas extraction",0.02707182320441989
-12,22,55.414009997652954,61.157427161054706,2887,-129,0,0.0146850384552827,80,Administrative and financial supervisors and administrative occupations,Utilities,0.034408602150537634
-12,23,55.52579090907864,59.5141482346562,19708,-3089,-29,0.1088133466552037,625,Administrative and financial supervisors and administrative occupations,Construction,0.02159267576438072
-12,31,54.7056987231818,59.74488893907169,5481,415,-584,0.003903617817227,125,Administrative and financial supervisors and administrative occupations,Manufacturing,0.008486082824168364
-12,41,55.10773793446364,60.62941202085124,2730,-635,-771,0.0291609545274996,275,Administrative and financial supervisors and administrative occupations,Wholesale trade,0.06478209658421673
-12,44,55.48804441032612,59.388776634748325,25929,-3365,-4618,0.0402676766503241,315,Administrative and financial supervisors and administrative occupations,Retail Trade,0.009395973154362415
-12,48,58.063747336758524,62.35158606690704,9308,-817,-709,0.0662917954318377,605,Administrative and financial supervisors and administrative occupations,Transportation and Warehousing,0.05175363558597092
-12,51,54.89666508855364,58.60544334013157,1612,399,-120,0.0289518321444339,55,Administrative and financial supervisors and administrative occupations,Information and cultural industries,0.017973856209150325
-12,52,56.05908172564917,58.88329042029962,4451,-391,937,0.0292538978088621,275,Administrative and financial supervisors and administrative occupations,Finance and insurance,0.05641025641025641
-12,53,56.65156656494887,56.04788016040301,2125,-36,0,0.0935938843320863,425,Administrative and financial supervisors and administrative occupations,Real estate and rental and leasing,0.19101123595505617
-12,54,53.34641017238464,60.22688492344916,9835,-9,194,0.0240490740525594,1090,Administrative and financial supervisors and administrative occupations,"Professional, scientific and technical services",0.09745194456861869
-12,56,52.48945575572415,56.97274193957227,6232,-788,-2480,0.0144294444315357,310,Administrative and financial supervisors and administrative occupations,"Administrative and support, waste management and remediation services",0.04031209362808843
-12,61,56.956335513877534,59.6322749957185,16042,-708,-502,0.0664544461742222,1170,Administrative and financial supervisors and administrative occupations,Educational services,0.061465721040189124
-12,62,66.16904981805538,63.93748179693764,39596,-787,2224,0.0803262309175826,1510,Administrative and financial supervisors and administrative occupations,Health care and social assistance,0.03834433722701879
-12,71,60.91400888996639,62.03461026581978,3100,-1150,-595,0.0023932894950856,60,Administrative and financial supervisors and administrative occupations,"Arts, entertainment and recreation",0.015463917525773196
-12,72,53.56117595135434,58.11568713689176,16461,-4461,-3027,0.0230034621372308,60,Administrative and financial supervisors and administrative occupations,Accommodation and food services,0.0029702970297029703
-12,81,57.55233113550534,60.0725256028666,10300,-2926,795,0.0136626623602946,690,Administrative and financial supervisors and administrative occupations,Other services (except public administration),0.06347746090156393
-12,91,59.486810905217226,61.722908057441806,17520,-1534,-76,0.159118897692683,2450,Administrative and financial supervisors and administrative occupations,Public administration,0.11697302458820721
-13,11,50.25454502440191,54.94795102543104,4658,-254,482,0.0049259939122151,50,"Finance, insurance and related business administrative occupations","Agriculture, forestry, fishing and hunting",0.005040322580645161
-13,23,50.25454502440191,54.94795102543104,19708,-3089,-29,0.1088133466552037,110,"Finance, insurance and related business administrative occupations",Construction,0.003800310934531007
-13,41,50.25454502440191,54.94795102543104,2730,-635,-771,0.0291609545274996,20,"Finance, insurance and related business administrative occupations",Wholesale trade,0.004711425206124852
-13,44,50.25454502440191,54.94795102543104,25929,-3365,-4618,0.0402676766503241,130,"Finance, insurance and related business administrative occupations",Retail Trade,0.003877703206562267
-13,48,52.28457361473411,55.749222766430904,9308,-817,-709,0.0662917954318377,60,"Finance, insurance and related business administrative occupations",Transportation and Warehousing,0.0051325919589392645
-13,52,51.15415251502827,40.17986565618992,4451,-391,937,0.0292538978088621,390,"Finance, insurance and related business administrative occupations",Finance and insurance,0.08
-13,53,42.77508257368218,49.199838965373665,2125,-36,0,0.0935938843320863,45,"Finance, insurance and related business administrative occupations",Real estate and rental and leasing,0.020224719101123594
-13,54,49.49133457024683,54.3614089784864,9835,-9,194,0.0240490740525594,245,"Finance, insurance and related business administrative occupations","Professional, scientific and technical services",0.021904336164506034
-13,56,50.25454502440191,54.94795102543104,6232,-788,-2480,0.0144294444315357,25,"Finance, insurance and related business administrative occupations","Administrative and support, waste management and remediation services",0.003250975292587776
-13,61,50.25454502440191,54.94795102543104,16042,-708,-502,0.0664544461742222,30,"Finance, insurance and related business administrative occupations",Educational services,0.0015760441292356187
-13,62,50.25454502440191,54.947951025431045,39596,-787,2224,0.0803262309175826,65,"Finance, insurance and related business administrative occupations",Health care and social assistance,0.0016505840528186896
-13,72,50.2545450244019,54.94795102543104,16461,-4461,-3027,0.0230034621372308,60,"Finance, insurance and related business administrative occupations",Accommodation and food services,0.0029702970297029703
-13,81,50.25454502440191,54.947951025431045,10300,-2926,795,0.0136626623602946,65,"Finance, insurance and related business administrative occupations",Other services (except public administration),0.005979760809567618
-13,91,49.31961221806194,54.229437017923864,17520,-1534,-76,0.159118897692683,120,"Finance, insurance and related business administrative occupations",Public administration,0.005729291000238721
-14,11,56.97063524584397,60.64046476133929,4658,-254,482,0.0049259939122151,15,Office support occupations,"Agriculture, forestry, fishing and hunting",0.0015120967741935483
-14,21,57.865775137122554,61.382148421671765,8484,-3196,-625,0.1900690103864117,115,Office support occupations,"Mining, quarrying, and oil and gas extraction",0.01270718232044199
-14,22,53.152401983452,57.00739179646086,2887,-129,0,0.0146850384552827,155,Office support occupations,Utilities,0.06666666666666667
-14,23,56.35784830856582,61.577317287941334,19708,-3089,-29,0.1088133466552037,530,Office support occupations,Construction,0.018310589048194853
-14,31,52.96548018571147,60.24155334503165,5481,415,-584,0.003903617817227,185,Office support occupations,Manufacturing,0.012559402579769178
-14,41,58.08702772908856,62.25798712852506,2730,-635,-771,0.0291609545274996,230,Office support occupations,Wholesale trade,0.05418138987043581
-14,44,60.156380958612395,63.19874790188288,25929,-3365,-4618,0.0402676766503241,760,Office support occupations,Retail Trade,0.022669649515287098
-14,48,59.5701297195873,62.75258450836755,9308,-817,-709,0.0662917954318377,205,Office support occupations,Transportation and Warehousing,0.017536355859709155
-14,51,66.22968631312591,65.37497109274442,1612,399,-120,0.0289518321444339,325,Office support occupations,Information and cultural industries,0.10620915032679738
-14,52,55.54288261734905,60.21830427857449,4451,-391,937,0.0292538978088621,330,Office support occupations,Finance and insurance,0.06769230769230769
-14,53,56.526788868596654,61.258232706753446,2125,-36,0,0.0935938843320863,85,Office support occupations,Real estate and rental and leasing,0.038202247191011236
-14,54,58.0457689178036,62.50994011529837,9835,-9,194,0.0240490740525594,1015,Office support occupations,"Professional, scientific and technical services",0.09074653553866786
-14,56,57.285633561925486,61.47131228808764,6232,-788,-2480,0.0144294444315357,280,Office support occupations,"Administrative and support, waste management and remediation services",0.036410923276983094
-14,61,56.33303228008371,60.9905677793819,16042,-708,-502,0.0664544461742222,490,Office support occupations,Educational services,0.02574205411084844
-14,62,61.19770202911,63.27943766594007,39596,-787,2224,0.0803262309175826,2155,Office support occupations,Health care and social assistance,0.05472320975114271
-14,71,63.33488576499391,64.2095195396395,3100,-1150,-595,0.0023932894950856,90,Office support occupations,"Arts, entertainment and recreation",0.023195876288659795
-14,72,61.18658583524272,63.451884253490356,16461,-4461,-3027,0.0230034621372308,120,Office support occupations,Accommodation and food services,0.005940594059405941
-14,81,62.38581031201402,63.87417103774358,10300,-2926,795,0.0136626623602946,485,Office support occupations,Other services (except public administration),0.04461821527138914
-14,91,53.62910170021059,57.97387252771617,17520,-1534,-76,0.159118897692683,3205,Office support occupations,Public administration,0.1530198137980425
-15,21,50.471501061896404,56.53369755003981,8484,-3196,-625,0.1900690103864117,150,"Distribution, tracking and scheduling co-ordination occupations","Mining, quarrying, and oil and gas extraction",0.016574585635359115
-15,22,50.6489710359197,55.182084019847046,2887,-129,0,0.0146850384552827,40,"Distribution, tracking and scheduling co-ordination occupations",Utilities,0.017204301075268817
-15,23,52.07664731523093,56.825104119014604,19708,-3089,-29,0.1088133466552037,75,"Distribution, tracking and scheduling co-ordination occupations",Construction,0.0025911210917256866
-15,31,49.83695027361586,55.639933551566365,5481,415,-584,0.003903617817227,225,"Distribution, tracking and scheduling co-ordination occupations",Manufacturing,0.015274949083503055
-15,41,52.059245859052695,56.51193430467835,2730,-635,-771,0.0291609545274996,210,"Distribution, tracking and scheduling co-ordination occupations",Wholesale trade,0.04946996466431095
-15,44,54.538423317283076,58.74869370967039,25929,-3365,-4618,0.0402676766503241,790,"Distribution, tracking and scheduling co-ordination occupations",Retail Trade,0.023564504101416854
-15,48,53.16301310883407,61.696906255882496,9308,-817,-709,0.0662917954318377,1355,"Distribution, tracking and scheduling co-ordination occupations",Transportation and Warehousing,0.11591103507271172
-15,51,64.07005180738008,66.33683751663379,1612,399,-120,0.0289518321444339,70,"Distribution, tracking and scheduling co-ordination occupations",Information and cultural industries,0.02287581699346405
-15,54,49.26230694002921,55.87279165368887,9835,-9,194,0.0240490740525594,15,"Distribution, tracking and scheduling co-ordination occupations","Professional, scientific and technical services",0.0013410818059901655
-15,56,54.5600138993856,56.14722036637897,6232,-788,-2480,0.0144294444315357,75,"Distribution, tracking and scheduling co-ordination occupations","Administrative and support, waste management and remediation services",0.00975292587776333
-15,61,58.95983800108543,61.96708864111681,16042,-708,-502,0.0664544461742222,20,"Distribution, tracking and scheduling co-ordination occupations",Educational services,0.0010506960861570791
-15,62,55.805372314900474,59.49005147742093,39596,-787,2224,0.0803262309175826,120,"Distribution, tracking and scheduling co-ordination occupations",Health care and social assistance,0.0030472320975114273
-15,81,58.95983800108543,61.96708864111681,10300,-2926,795,0.0136626623602946,25,"Distribution, tracking and scheduling co-ordination occupations",Other services (except public administration),0.0022999080036798527
-15,91,63.217578716101976,64.80896270297369,17520,-1534,-76,0.159118897692683,195,"Distribution, tracking and scheduling co-ordination occupations",Public administration,0.00931009787538792
-21,21,38.749505376064995,51.98599858434626,8484,-3196,-625,0.1900690103864117,985,Professional occupations in natural and applied sciences,"Mining, quarrying, and oil and gas extraction",0.10883977900552486
-21,22,42.01947982420926,55.821240897760234,2887,-129,0,0.0146850384552827,245,Professional occupations in natural and applied sciences,Utilities,0.1053763440860215
-21,23,45.8222682842306,56.435918886432184,19708,-3089,-29,0.1088133466552037,315,Professional occupations in natural and applied sciences,Construction,0.010882708585247884
-21,31,41.14691421241112,56.762049212749396,5481,415,-584,0.003903617817227,85,Professional occupations in natural and applied sciences,Manufacturing,0.005770536320434488
-21,48,41.74314355376691,58.92560012141563,9308,-817,-709,0.0662917954318377,75,Professional occupations in natural and applied sciences,Transportation and Warehousing,0.00641573994867408
-21,51,39.157577521566445,53.278949854684676,1612,399,-120,0.0289518321444339,240,Professional occupations in natural and applied sciences,Information and cultural industries,0.0784313725490196
-21,52,38.75983247177342,52.6057870784031,4451,-391,937,0.0292538978088621,55,Professional occupations in natural and applied sciences,Finance and insurance,0.011282051282051283
-21,54,41.967583347226245,55.06618645638093,9835,-9,194,0.0240490740525594,2330,Professional occupations in natural and applied sciences,"Professional, scientific and technical services",0.20831470719713902
-21,61,41.03709229908787,53.17710206751925,16042,-708,-502,0.0664544461742222,240,Professional occupations in natural and applied sciences,Educational services,0.01260835303388495
-21,62,41.418693582324686,54.18402655127627,39596,-787,2224,0.0803262309175826,60,Professional occupations in natural and applied sciences,Health care and social assistance,0.0015236160487557136
-21,81,43.540933233929174,53.10893640697884,10300,-2926,795,0.0136626623602946,35,Professional occupations in natural and applied sciences,Other services (except public administration),0.003219871205151794
-21,91,42.647266493871875,54.11251657397152,17520,-1534,-76,0.159118897692683,875,Professional occupations in natural and applied sciences,Public administration,0.041776080210074
-22,11,58.86169071909003,65.95094604127472,4658,-254,482,0.0049259939122151,265,Technical occupations related to natural and applied sciences,"Agriculture, forestry, fishing and hunting",0.026713709677419355
-22,21,40.47295356414874,55.74995033256116,8484,-3196,-625,0.1900690103864117,760,Technical occupations related to natural and applied sciences,"Mining, quarrying, and oil and gas extraction",0.08397790055248619
-22,22,45.80669007864201,59.76399816711006,2887,-129,0,0.0146850384552827,290,Technical occupations related to natural and applied sciences,Utilities,0.12473118279569892
-22,23,46.9704283732326,60.006702898622564,19708,-3089,-29,0.1088133466552037,1010,Technical occupations related to natural and applied sciences,Construction,0.03489376403523925
-22,31,50.92870847023987,61.96709065527904,5481,415,-584,0.003903617817227,260,Technical occupations related to natural and applied sciences,Manufacturing,0.017651052274270197
-22,41,48.54795618583423,61.66294030409499,2730,-635,-771,0.0291609545274996,55,Technical occupations related to natural and applied sciences,Wholesale trade,0.012956419316843345
-22,44,49.53072332773002,61.714421560814706,25929,-3365,-4618,0.0402676766503241,80,Technical occupations related to natural and applied sciences,Retail Trade,0.0023862788963460104
-22,48,60.3672504108695,69.12642393615293,9308,-817,-709,0.0662917954318377,1645,Technical occupations related to natural and applied sciences,Transportation and Warehousing,0.1407185628742515
-22,51,47.344145707035715,58.886729479012395,1612,399,-120,0.0289518321444339,255,Technical occupations related to natural and applied sciences,Information and cultural industries,0.08333333333333333
-22,52,54.85390421286236,61.109307095065105,4451,-391,937,0.0292538978088621,15,Technical occupations related to natural and applied sciences,Finance and insurance,0.003076923076923077
-22,54,45.625592034382954,58.7056917101676,9835,-9,194,0.0240490740525594,1705,Technical occupations related to natural and applied sciences,"Professional, scientific and technical services",0.15243629861421545
-22,56,50.350803463930625,61.986962462446535,6232,-788,-2480,0.0144294444315357,155,Technical occupations related to natural and applied sciences,"Administrative and support, waste management and remediation services",0.020156046814044214
-22,61,49.3956990281727,60.155405778410184,16042,-708,-502,0.0664544461742222,315,Technical occupations related to natural and applied sciences,Educational services,0.016548463356973995
-22,62,45.344481404905835,58.89411484955444,39596,-787,2224,0.0803262309175826,150,Technical occupations related to natural and applied sciences,Health care and social assistance,0.003809040121889284
-22,71,63.012858214819644,68.56283905256059,3100,-1150,-595,0.0023932894950856,130,Technical occupations related to natural and applied sciences,"Arts, entertainment and recreation",0.03350515463917526
-22,81,50.343686127312736,61.59488432701766,10300,-2926,795,0.0136626623602946,140,Technical occupations related to natural and applied sciences,Other services (except public administration),0.012879484820607176
-22,91,52.961987559996125,62.31555867588297,17520,-1534,-76,0.159118897692683,1770,Technical occupations related to natural and applied sciences,Public administration,0.08450704225352113
-30,54,86.46747432505373,73.86650672942716,9835,-9,194,0.0240490740525594,15,Professional occupations in nursing,"Professional, scientific and technical services",0.0013410818059901655
-30,56,86.46747432505373,73.86650672942716,6232,-788,-2480,0.0144294444315357,45,Professional occupations in nursing,"Administrative and support, waste management and remediation services",0.005851755526657998
-30,61,86.46747432505373,73.86650672942716,16042,-708,-502,0.0664544461742222,20,Professional occupations in nursing,Educational services,0.0010506960861570791
-30,62,86.56064630368368,73.94208814982723,39596,-787,2224,0.0803262309175826,5780,Professional occupations in nursing,Health care and social assistance,0.1467750126968004
-30,81,86.46747432505373,73.86650672942716,10300,-2926,795,0.0136626623602946,20,Professional occupations in nursing,Other services (except public administration),0.0018399264029438822
-30,91,86.46747432505373,73.86650672942716,17520,-1534,-76,0.159118897692683,130,Professional occupations in nursing,Public administration,0.0062067319169252805
-31,44,86.82561851400222,86.91107059340489,25929,-3365,-4618,0.0402676766503241,600,Professional occupations in health (except nursing),Retail Trade,0.017897091722595078
-31,54,93.5839797843833,86.26569299248,9835,-9,194,0.0240490740525594,60,Professional occupations in health (except nursing),"Professional, scientific and technical services",0.005364327223960662
-31,61,85.5966065247929,83.52245655889308,16042,-708,-502,0.0664544461742222,95,Professional occupations in health (except nursing),Educational services,0.004990806409246125
-31,62,87.96452107758826,86.0100659802938,39596,-787,2224,0.0803262309175826,2830,Professional occupations in health (except nursing),Health care and social assistance,0.07186389029964449
-32,23,85.97383443818433,87.7583956610106,19708,-3089,-29,0.1088133466552037,20,Technical occupations in health,Construction,6.909656244601831e-4
-32,44,83.44074642101315,87.95871871564518,25929,-3365,-4618,0.0402676766503241,635,Technical occupations in health,Retail Trade,0.018941088739746457
-32,54,92.0339360755587,92.86333873384245,9835,-9,194,0.0240490740525594,165,Technical occupations in health,"Professional, scientific and technical services",0.014751899865891819
-32,61,67.12292028076857,75.03131171554824,16042,-708,-502,0.0664544461742222,25,Technical occupations in health,Educational services,0.001313370107696349
-32,62,88.31313814270798,85.60464995404465,39596,-787,2224,0.0803262309175826,5025,Technical occupations in health,Health care and social assistance,0.127602844083291
-32,91,88.71216253794353,87.99234004301408,17520,-1534,-76,0.159118897692683,70,Technical occupations in health,Public administration,0.0033420864168059203
-34,44,87.21257610379728,83.31214109469668,25929,-3365,-4618,0.0402676766503241,115,Assisting occupations in support of health services,Retail Trade,0.00343027591349739
-34,56,80.12756020890262,80.61854859754783,6232,-788,-2480,0.0144294444315357,25,Assisting occupations in support of health services,"Administrative and support, waste management and remediation services",0.003250975292587776
-34,61,80.12756020890262,80.61854859754783,16042,-708,-502,0.0664544461742222,20,Assisting occupations in support of health services,Educational services,0.0010506960861570791
-34,62,82.1561673771422,81.32231354730047,39596,-787,2224,0.0803262309175826,4065,Assisting occupations in support of health services,Health care and social assistance,0.1032249873031996
-34,81,80.12756020890262,80.61854859754781,10300,-2926,795,0.0136626623602946,60,Assisting occupations in support of health services,Other services (except public administration),0.005519779208831647
-34,91,80.12756020890262,80.61854859754783,17520,-1534,-76,0.159118897692683,10,Assisting occupations in support of health services,Public administration,4.7744091668656003e-4
-40,54,63.18559153993498,68.7524205455346,9835,-9,194,0.0240490740525594,30,Professional occupations in education services,"Professional, scientific and technical services",0.002682163611980331
-40,61,67.2317359616566,69.5233433064932,16042,-708,-502,0.0664544461742222,10620,Professional occupations in education services,Educational services,0.557919621749409
-40,62,64.66117556130162,70.0123333543035,39596,-787,2224,0.0803262309175826,95,Professional occupations in education services,Health care and social assistance,0.0024123920771965466
-40,81,63.18559153993498,68.7524205455346,10300,-2926,795,0.0136626623602946,15,Professional occupations in education services,Other services (except public administration),0.0013799448022079118
-40,91,63.18559153993498,68.7524205455346,17520,-1534,-76,0.159118897692683,125,Professional occupations in education services,Public administration,0.005968011458582
-41,21,52.4411478186526,58.899537071129174,8484,-3196,-625,0.1900690103864117,30,"Professional occupations in law and social, community and government services","Mining, quarrying, and oil and gas extraction",0.0033149171270718232
-41,22,49.605822635947256,59.21211351235563,2887,-129,0,0.0146850384552827,40,"Professional occupations in law and social, community and government services",Utilities,0.017204301075268817
-41,52,40.304225163712694,48.59908146005295,4451,-391,937,0.0292538978088621,65,"Professional occupations in law and social, community and government services",Finance and insurance,0.013333333333333334
-41,53,38.41273057759693,48.34334484116361,2125,-36,0,0.0935938843320863,20,"Professional occupations in law and social, community and government services",Real estate and rental and leasing,0.008988764044943821
-41,54,45.3813604980871,57.40562163370619,9835,-9,194,0.0240490740525594,805,"Professional occupations in law and social, community and government services","Professional, scientific and technical services",0.07197139025480555
-41,56,62.5659633434412,61.3086888553057,6232,-788,-2480,0.0144294444315357,40,"Professional occupations in law and social, community and government services","Administrative and support, waste management and remediation services",0.005201560468140442
-41,61,67.89378779061157,63.73717923095054,16042,-708,-502,0.0664544461742222,350,"Professional occupations in law and social, community and government services",Educational services,0.018387181507748884
-41,62,70.98341041911851,67.70753854489959,39596,-787,2224,0.0803262309175826,1485,"Professional occupations in law and social, community and government services",Health care and social assistance,0.03770949720670391
-41,71,66.14656660946008,65.382641000233,3100,-1150,-595,0.0023932894950856,15,"Professional occupations in law and social, community and government services","Arts, entertainment and recreation",0.003865979381443299
-41,81,63.56530825107799,66.3144446982927,10300,-2926,795,0.0136626623602946,835,"Professional occupations in law and social, community and government services",Other services (except public administration),0.07681692732290708
-41,91,55.12718928006897,59.19208262172406,17520,-1534,-76,0.159118897692683,1915,"Professional occupations in law and social, community and government services",Public administration,0.09142993554547625
-42,54,44.33597105093875,51.59530171574798,9835,-9,194,0.0240490740525594,140,"Paraprofessional occupations in legal, social, community and education services","Professional, scientific and technical services",0.012516763522574878
-42,61,65.46837860956458,67.90019125592671,16042,-708,-502,0.0664544461742222,440,"Paraprofessional occupations in legal, social, community and education services",Educational services,0.02311531389545574
-42,62,70.6552917742728,71.50892355680892,39596,-787,2224,0.0803262309175826,2910,"Paraprofessional occupations in legal, social, community and education services",Health care and social assistance,0.07389537836465211
-42,71,65.05201497334,66.634140437454,3100,-1150,-595,0.0023932894950856,25,"Paraprofessional occupations in legal, social, community and education services","Arts, entertainment and recreation",0.006443298969072165
-42,81,72.17320916555516,73.19641512990528,10300,-2926,795,0.0136626623602946,260,"Paraprofessional occupations in legal, social, community and education services",Other services (except public administration),0.02391904323827047
-42,91,74.04320951149012,75.1080955256454,17520,-1534,-76,0.159118897692683,390,"Paraprofessional occupations in legal, social, community and education services",Public administration,0.01862019575077584
-43,48,74.99792641418254,73.38668256442512,9308,-817,-709,0.0662917954318377,30,Occupations in front-line public protection services,Transportation and Warehousing,0.0025662959794696323
-43,56,74.99792641418254,73.38668256442512,6232,-788,-2480,0.0144294444315357,15,Occupations in front-line public protection services,"Administrative and support, waste management and remediation services",0.0019505851755526658
-43,91,72.35869435832493,70.06789500954436,17520,-1534,-76,0.159118897692683,2050,Occupations in front-line public protection services,Public administration,0.09787538792074481
-44,21,72.65186557229005,71.08873184347793,8484,-3196,-625,0.1900690103864117,10,"Care providers and educational, legal and public protection support occupations","Mining, quarrying, and oil and gas extraction",0.0011049723756906078
-44,53,72.65186557229005,71.08873184347793,2125,-36,0,0.0935938843320863,35,"Care providers and educational, legal and public protection support occupations",Real estate and rental and leasing,0.015730337078651686
-44,54,72.65186557229005,71.08873184347793,9835,-9,194,0.0240490740525594,55,"Care providers and educational, legal and public protection support occupations","Professional, scientific and technical services",0.0049172999552972736
-44,56,73.19311982929624,71.12540954457448,6232,-788,-2480,0.0144294444315357,100,"Care providers and educational, legal and public protection support occupations","Administrative and support, waste management and remediation services",0.013003901170351105
-44,61,68.04020850890768,72.52560151275156,16042,-708,-502,0.0664544461742222,1175,"Care providers and educational, legal and public protection support occupations",Educational services,0.06172839506172839
-44,62,69.45283690620577,67.80752009607662,39596,-787,2224,0.0803262309175826,8870,"Care providers and educational, legal and public protection support occupations",Health care and social assistance,0.22524123920771966
-44,72,72.65186557229005,71.08873184347793,16461,-4461,-3027,0.0230034621372308,145,"Care providers and educational, legal and public protection support occupations",Accommodation and food services,0.0071782178217821785
-44,81,63.99673473948609,62.211250605195204,10300,-2926,795,0.0136626623602946,1260,"Care providers and educational, legal and public protection support occupations",Other services (except public administration),0.11591536338546458
-44,91,72.6807503518947,69.93948687676819,17520,-1534,-76,0.159118897692683,575,"Care providers and educational, legal and public protection support occupations",Public administration,0.027452852709477202
-51,44,69.81139892576961,65.82706529154866,25929,-3365,-4618,0.0402676766503241,15,Professional occupations in art and culture,Retail Trade,4.4742729306487697e-4
-51,51,52.561036134347454,48.218737659013584,1612,399,-120,0.0289518321444339,495,Professional occupations in art and culture,Information and cultural industries,0.16176470588235295
-51,54,48.316623951779754,48.84326780592275,9835,-9,194,0.0240490740525594,75,Professional occupations in art and culture,"Professional, scientific and technical services",0.006705409029950827
-51,56,48.91052739565278,53.87383760647311,6232,-788,-2480,0.0144294444315357,25,Professional occupations in art and culture,"Administrative and support, waste management and remediation services",0.003250975292587776
-51,61,70.42051466847754,68.59772303045126,16042,-708,-502,0.0664544461742222,495,Professional occupations in art and culture,Educational services,0.026004728132387706
-51,71,47.83095824355987,50.098866934496286,3100,-1150,-595,0.0023932894950856,445,Professional occupations in art and culture,"Arts, entertainment and recreation",0.11469072164948453
-51,81,27.63941560771282,45.932859550212854,10300,-2926,795,0.0136626623602946,15,Professional occupations in art and culture,Other services (except public administration),0.0013799448022079118
-52,23,59.333753157932186,62.435791297966574,19708,-3089,-29,0.1088133466552037,30,"Technical occupations in art, culture, recreation and sport",Construction,0.0010364484366902746
-52,31,38.886176615652815,47.07405190272402,5481,415,-584,0.003903617817227,70,"Technical occupations in art, culture, recreation and sport",Manufacturing,0.0047522063815342835
-52,44,28.938686498483644,34.66871675387726,25929,-3365,-4618,0.0402676766503241,85,"Technical occupations in art, culture, recreation and sport",Retail Trade,0.002535421327367636
-52,51,49.441336704374635,50.43681744626236,1612,399,-120,0.0289518321444339,370,"Technical occupations in art, culture, recreation and sport",Information and cultural industries,0.12091503267973856
-52,54,42.55312255211951,46.815882387026406,9835,-9,194,0.0240490740525594,380,"Technical occupations in art, culture, recreation and sport","Professional, scientific and technical services",0.033974072418417524
-52,61,65.19102705076742,69.75656156698192,16042,-708,-502,0.0664544461742222,500,"Technical occupations in art, culture, recreation and sport",Educational services,0.026267402153926978
-52,62,68.77192390125325,74.39114189698961,39596,-787,2224,0.0803262309175826,135,"Technical occupations in art, culture, recreation and sport",Health care and social assistance,0.0034281361097003556
-52,71,61.002874968295984,68.90361447390443,3100,-1150,-595,0.0023932894950856,1560,"Technical occupations in art, culture, recreation and sport","Arts, entertainment and recreation",0.4020618556701031
-52,72,68.77192390125325,74.39114189698961,16461,-4461,-3027,0.0230034621372308,115,"Technical occupations in art, culture, recreation and sport",Accommodation and food services,0.005693069306930693
-52,81,64.1694015829964,71.26146084777432,10300,-2926,795,0.0136626623602946,155,"Technical occupations in art, culture, recreation and sport",Other services (except public administration),0.014259429622815088
-52,91,63.86385593212701,71.21178419689275,17520,-1534,-76,0.159118897692683,385,"Technical occupations in art, culture, recreation and sport",Public administration,0.018381475292432562
-62,21,50.15009191788815,53.9332256947542,8484,-3196,-625,0.1900690103864117,45,Retail sales supervisors and specialized sales occupations,"Mining, quarrying, and oil and gas extraction",0.004972375690607734
-62,23,50.62197422445476,54.31934431734195,19708,-3089,-29,0.1088133466552037,30,Retail sales supervisors and specialized sales occupations,Construction,0.0010364484366902746
-62,31,54.868914983554276,57.79441192063175,5481,415,-584,0.003903617817227,90,Retail sales supervisors and specialized sales occupations,Manufacturing,0.006109979633401222
-62,41,50.900763321145185,54.264895508610316,2730,-635,-771,0.0291609545274996,340,Retail sales supervisors and specialized sales occupations,Wholesale trade,0.0800942285041225
-62,44,63.71684854571847,61.15149571749068,25929,-3365,-4618,0.0402676766503241,965,Retail sales supervisors and specialized sales occupations,Retail Trade,0.028784489187173752
-62,51,46.37503346535524,50.844276714052164,1612,399,-120,0.0289518321444339,110,Retail sales supervisors and specialized sales occupations,Information and cultural industries,0.03594771241830065
-62,52,56.83584116415899,61.126035043369335,4451,-391,937,0.0292538978088621,1275,Retail sales supervisors and specialized sales occupations,Finance and insurance,0.26153846153846155
-62,53,54.53981214438983,48.00902404319091,2125,-36,0,0.0935938843320863,655,Retail sales supervisors and specialized sales occupations,Real estate and rental and leasing,0.2943820224719101
-62,54,48.96012784045929,52.95953525518508,9835,-9,194,0.0240490740525594,115,Retail sales supervisors and specialized sales occupations,"Professional, scientific and technical services",0.010281627179257935
-62,56,54.7766223084633,55.660179655370655,6232,-788,-2480,0.0144294444315357,35,Retail sales supervisors and specialized sales occupations,"Administrative and support, waste management and remediation services",0.004551365409622887
-62,91,56.001274648908655,60.02759382337045,17520,-1534,-76,0.159118897692683,55,Retail sales supervisors and specialized sales occupations,Public administration,0.0026259250417760803
-63,11,53.999361878856284,72.20012214294091,4658,-254,482,0.0049259939122151,45,Service supervisors and specialized service occupations,"Agriculture, forestry, fishing and hunting",0.0045362903225806455
-63,23,53.99936187885628,72.20012214294091,19708,-3089,-29,0.1088133466552037,15,Service supervisors and specialized service occupations,Construction,5.182242183451373e-4
-63,31,48.45353587181164,67.45180117365379,5481,415,-584,0.003903617817227,235,Service supervisors and specialized service occupations,Manufacturing,0.015953835709436523
-63,41,51.8113920795139,73.46896700218946,2730,-635,-771,0.0291609545274996,60,Service supervisors and specialized service occupations,Wholesale trade,0.014134275618374558
-63,44,50.6454642360186,71.20476998683053,25929,-3365,-4618,0.0402676766503241,675,Service supervisors and specialized service occupations,Retail Trade,0.020134228187919462
-63,48,53.99936187885628,72.20012214294091,9308,-817,-709,0.0662917954318377,135,Service supervisors and specialized service occupations,Transportation and Warehousing,0.011548331907613344
-63,52,57.09497552414313,66.9589386069117,4451,-391,937,0.0292538978088621,30,Service supervisors and specialized service occupations,Finance and insurance,0.006153846153846154
-63,56,57.549937295210604,71.78052992647252,6232,-788,-2480,0.0144294444315357,165,Service supervisors and specialized service occupations,"Administrative and support, waste management and remediation services",0.021456436931079324
-63,61,53.99936187885628,72.20012214294091,16042,-708,-502,0.0664544461742222,30,Service supervisors and specialized service occupations,Educational services,0.0015760441292356187
-63,62,57.03557181145511,73.0726023626151,39596,-787,2224,0.0803262309175826,470,Service supervisors and specialized service occupations,Health care and social assistance,0.011934992381919756
-63,71,56.06766571848576,74.84615536104353,3100,-1150,-595,0.0023932894950856,105,Service supervisors and specialized service occupations,"Arts, entertainment and recreation",0.027061855670103094
-63,72,58.974359274329224,74.16087754203356,16461,-4461,-3027,0.0230034621372308,4560,Service supervisors and specialized service occupations,Accommodation and food services,0.22574257425742575
-63,81,80.85505073954035,74.23701652534079,10300,-2926,795,0.0136626623602946,1775,Service supervisors and specialized service occupations,Other services (except public administration),0.16329346826126956
-63,91,54.00983761345991,70.53905664789728,17520,-1534,-76,0.159118897692683,145,Service supervisors and specialized service occupations,Public administration,0.006922893291955121
-64,11,68.32787342325636,59.735904571598006,4658,-254,482,0.0049259939122151,20,Sales representatives and salespersons - wholesale and retail trade,"Agriculture, forestry, fishing and hunting",0.0020161290322580645
-64,23,65.97397766191818,57.8327840778853,19708,-3089,-29,0.1088133466552037,85,Sales representatives and salespersons - wholesale and retail trade,Construction,0.002936603903955778
-64,31,62.66901290609994,55.16072601095536,5481,415,-584,0.003903617817227,165,Sales representatives and salespersons - wholesale and retail trade,Manufacturing,0.01120162932790224
-64,41,60.20863876820582,53.171517941110714,2730,-635,-771,0.0291609545274996,805,Sales representatives and salespersons - wholesale and retail trade,Wholesale trade,0.1896348645465253
-64,44,68.27331823860366,59.69179680282757,25929,-3365,-4618,0.0402676766503241,9780,Sales representatives and salespersons - wholesale and retail trade,Retail Trade,0.2917225950782998
-64,51,61.052195615483804,53.853532136486024,1612,399,-120,0.0289518321444339,165,Sales representatives and salespersons - wholesale and retail trade,Information and cultural industries,0.05392156862745098
-64,53,68.32787342325636,59.735904571598006,2125,-36,0,0.0935938843320863,130,Sales representatives and salespersons - wholesale and retail trade,Real estate and rental and leasing,0.058426966292134834
-64,54,64.81767798968188,56.89791787044749,9835,-9,194,0.0240490740525594,95,Sales representatives and salespersons - wholesale and retail trade,"Professional, scientific and technical services",0.008493518104604381
-64,56,64.15951634588666,56.36579536398176,6232,-788,-2480,0.0144294444315357,80,Sales representatives and salespersons - wholesale and retail trade,"Administrative and support, waste management and remediation services",0.010403120936280884
-64,61,64.32625062898146,56.50059973228642,16042,-708,-502,0.0664544461742222,50,Sales representatives and salespersons - wholesale and retail trade,Educational services,0.002626740215392698
-64,62,68.32787342325636,59.735904571598006,39596,-787,2224,0.0803262309175826,40,Sales representatives and salespersons - wholesale and retail trade,Health care and social assistance,0.001015744032503809
-64,71,66.1047496486592,57.938512994202675,3100,-1150,-595,0.0023932894950856,120,Sales representatives and salespersons - wholesale and retail trade,"Arts, entertainment and recreation",0.030927835051546393
-64,72,68.32787342325638,59.735904571598006,16461,-4461,-3027,0.0230034621372308,65,Sales representatives and salespersons - wholesale and retail trade,Accommodation and food services,0.0032178217821782176
-64,81,68.32787342325636,59.735904571598006,10300,-2926,795,0.0136626623602946,80,Sales representatives and salespersons - wholesale and retail trade,Other services (except public administration),0.007359705611775529
-64,91,68.32787342325636,59.735904571598006,17520,-1534,-76,0.159118897692683,60,Sales representatives and salespersons - wholesale and retail trade,Public administration,0.0028646455001193603
-65,11,63.2636458047012,58.5963130038124,4658,-254,482,0.0049259939122151,20,Service representatives and other customer and personal services occupations,"Agriculture, forestry, fishing and hunting",0.0020161290322580645
-65,21,61.53831727998218,64.73040211345293,8484,-3196,-625,0.1900690103864117,25,Service representatives and other customer and personal services occupations,"Mining, quarrying, and oil and gas extraction",0.0027624309392265192
-65,22,61.98813418838807,65.08337698379988,2887,-129,0,0.0146850384552827,60,Service representatives and other customer and personal services occupations,Utilities,0.025806451612903226
-65,23,61.65077150708366,64.81864583103966,19708,-3089,-29,0.1088133466552037,60,Service representatives and other customer and personal services occupations,Construction,0.002072896873380549
-65,41,61.98813418838807,65.08337698379988,2730,-635,-771,0.0291609545274996,105,Service representatives and other customer and personal services occupations,Wholesale trade,0.024734982332155476
-65,44,63.1324485367874,64.53579885956967,25929,-3365,-4618,0.0402676766503241,490,Service representatives and other customer and personal services occupations,Retail Trade,0.014615958240119313
-65,48,71.83068960357251,76.7537212006265,9308,-817,-709,0.0662917954318377,585,Service representatives and other customer and personal services occupations,Transportation and Warehousing,0.05004277159965783
-65,51,61.988134188388074,65.08337698379988,1612,399,-120,0.0289518321444339,90,Service representatives and other customer and personal services occupations,Information and cultural industries,0.029411764705882353
-65,52,71.72624454755503,65.67936629902033,4451,-391,937,0.0292538978088621,865,Service representatives and other customer and personal services occupations,Finance and insurance,0.17743589743589744
-65,53,61.98813418838807,65.08337698379988,2125,-36,0,0.0935938843320863,25,Service representatives and other customer and personal services occupations,Real estate and rental and leasing,0.011235955056179775
-65,54,61.98813418838807,65.08337698379988,9835,-9,194,0.0240490740525594,60,Service representatives and other customer and personal services occupations,"Professional, scientific and technical services",0.005364327223960662
-65,56,62.17009702359183,64.81890510962032,6232,-788,-2480,0.0144294444315357,1945,Service representatives and other customer and personal services occupations,"Administrative and support, waste management and remediation services",0.252925877763329
-65,61,63.28648788297328,64.57070460977639,16042,-708,-502,0.0664544461742222,140,Service representatives and other customer and personal services occupations,Educational services,0.007354872603099553
-65,62,61.65826845555709,64.82452874554544,39596,-787,2224,0.0803262309175826,75,Service representatives and other customer and personal services occupations,Health care and social assistance,0.001904520060944642
-65,71,65.63814810786883,62.75780340959744,3100,-1150,-595,0.0023932894950856,220,Service representatives and other customer and personal services occupations,"Arts, entertainment and recreation",0.05670103092783505
-65,72,68.94913226377905,63.22367847459864,16461,-4461,-3027,0.0230034621372308,4865,Service representatives and other customer and personal services occupations,Accommodation and food services,0.24084158415841583
-65,81,66.84261647097061,61.553472196352196,10300,-2926,795,0.0136626623602946,865,Service representatives and other customer and personal services occupations,Other services (except public administration),0.07957681692732291
-65,91,62.745613959134154,65.01940173910833,17520,-1534,-76,0.159118897692683,460,Service representatives and other customer and personal services occupations,Public administration,0.02196228216758176
-66,11,74.28494233232972,65.63737039946146,4658,-254,482,0.0049259939122151,20,Sales support occupations,"Agriculture, forestry, fishing and hunting",0.0020161290322580645
-66,41,56.218832045624616,53.03793392455518,2730,-635,-771,0.0291609545274996,70,Sales support occupations,Wholesale trade,0.016489988221436984
-66,44,65.87170565943622,59.81296842139606,25929,-3365,-4618,0.0402676766503241,9355,Sales support occupations,Retail Trade,0.2790454884414616
-66,48,48.99238793094258,47.998159334592664,9308,-817,-709,0.0662917954318377,45,Sales support occupations,Transportation and Warehousing,0.003849443969204448
-66,51,74.28494233232972,65.63737039946146,1612,399,-120,0.0289518321444339,50,Sales support occupations,Information and cultural industries,0.016339869281045753
-66,54,58.27449497982967,46.11409025664854,9835,-9,194,0.0240490740525594,30,Sales support occupations,"Professional, scientific and technical services",0.002682163611980331
-66,56,58.27449497982967,46.11409025664854,6232,-788,-2480,0.0144294444315357,40,Sales support occupations,"Administrative and support, waste management and remediation services",0.005201560468140442
-66,61,74.28494233232972,65.63737039946146,16042,-708,-502,0.0664544461742222,25,Sales support occupations,Educational services,0.001313370107696349
-66,62,74.28494233232972,65.63737039946146,39596,-787,2224,0.0803262309175826,10,Sales support occupations,Health care and social assistance,2.5393600812595224e-4
-66,71,74.28494233232972,65.63737039946146,3100,-1150,-595,0.0023932894950856,55,Sales support occupations,"Arts, entertainment and recreation",0.014175257731958763
-66,72,74.28494233232972,65.63737039946146,16461,-4461,-3027,0.0230034621372308,1635,Sales support occupations,Accommodation and food services,0.08094059405940594
-66,81,74.28494233232972,65.63737039946146,10300,-2926,795,0.0136626623602946,50,Sales support occupations,Other services (except public administration),0.004599816007359705
-66,91,74.28494233232972,65.63737039946146,17520,-1534,-76,0.159118897692683,25,Sales support occupations,Public administration,0.0011936022917164002
-67,11,52.942876537692754,60.04321390362504,4658,-254,482,0.0049259939122151,105,"Service support and other service occupations, n.e.c.","Agriculture, forestry, fishing and hunting",0.010584677419354838
-67,21,44.63580581474449,55.53499519645013,8484,-3196,-625,0.1900690103864117,130,"Service support and other service occupations, n.e.c.","Mining, quarrying, and oil and gas extraction",0.014364640883977901
-67,22,48.59690682366797,58.186025777888105,2887,-129,0,0.0146850384552827,40,"Service support and other service occupations, n.e.c.",Utilities,0.017204301075268817
-67,23,53.61727779919654,60.46376907574061,19708,-3089,-29,0.1088133466552037,320,"Service support and other service occupations, n.e.c.",Construction,0.01105544999136293
-67,31,52.92100310930801,60.051913347291624,5481,415,-584,0.003903617817227,460,"Service support and other service occupations, n.e.c.",Manufacturing,0.031228784792939578
-67,41,48.59690682366797,58.186025777888105,2730,-635,-771,0.0291609545274996,25,"Service support and other service occupations, n.e.c.",Wholesale trade,0.005889281507656066
-67,44,51.452141985371014,59.704846696808666,25929,-3365,-4618,0.0402676766503241,830,"Service support and other service occupations, n.e.c.",Retail Trade,0.02475764354958986
-67,48,58.967970913954375,62.61795198703305,9308,-817,-709,0.0662917954318377,110,"Service support and other service occupations, n.e.c.",Transportation and Warehousing,0.009409751924721984
-67,51,62.57839528814234,67.73830071201381,1612,399,-120,0.0289518321444339,50,"Service support and other service occupations, n.e.c.",Information and cultural industries,0.016339869281045753
-67,53,50.04834418663877,58.84245523490767,2125,-36,0,0.0935938843320863,330,"Service support and other service occupations, n.e.c.",Real estate and rental and leasing,0.14831460674157304
-67,54,57.105250532978026,62.62870719230247,9835,-9,194,0.0240490740525594,70,"Service support and other service occupations, n.e.c.","Professional, scientific and technical services",0.006258381761287439
-67,56,56.72416808182215,61.494539023921554,6232,-788,-2480,0.0144294444315357,2140,"Service support and other service occupations, n.e.c.","Administrative and support, waste management and remediation services",0.27828348504551365
-67,61,50.150625871022854,59.10261850114302,16042,-708,-502,0.0664544461742222,950,"Service support and other service occupations, n.e.c.",Educational services,0.049908064092461256
-67,62,57.76349540087227,62.440931933291914,39596,-787,2224,0.0803262309175826,2105,"Service support and other service occupations, n.e.c.",Health care and social assistance,0.053453529710512954
-67,71,68.45690033570853,71.31019322272083,3100,-1150,-595,0.0023932894950856,615,"Service support and other service occupations, n.e.c.","Arts, entertainment and recreation",0.15850515463917525
-67,72,59.37524297310719,64.89825931582253,16461,-4461,-3027,0.0230034621372308,6135,"Service support and other service occupations, n.e.c.",Accommodation and food services,0.3037128712871287
-67,81,50.64274305283849,58.43722846630515,10300,-2926,795,0.0136626623602946,665,"Service support and other service occupations, n.e.c.",Other services (except public administration),0.06117755289788408
-67,91,54.20785202039135,61.44396619370185,17520,-1534,-76,0.159118897692683,465,"Service support and other service occupations, n.e.c.",Public administration,0.022201002625925042
-72,11,30.395066504793032,49.36560787629939,4658,-254,482,0.0049259939122151,25,"Industrial, electrical and construction trades","Agriculture, forestry, fishing and hunting",0.0025201612903225806
-72,21,42.64835002418325,52.67541734256412,8484,-3196,-625,0.1900690103864117,855,"Industrial, electrical and construction trades","Mining, quarrying, and oil and gas extraction",0.09447513812154697
-72,22,54.65830354425765,66.20138340827489,2887,-129,0,0.0146850384552827,450,"Industrial, electrical and construction trades",Utilities,0.1935483870967742
-72,23,51.77225437684695,59.386369486208025,19708,-3089,-29,0.1088133466552037,13075,"Industrial, electrical and construction trades",Construction,0.45171877699084473
-72,31,42.32526473642539,54.54641682534265,5481,415,-584,0.003903617817227,1550,"Industrial, electrical and construction trades",Manufacturing,0.10522742701968771
-72,41,42.41791046354,56.52440815754433,2730,-635,-771,0.0291609545274996,40,"Industrial, electrical and construction trades",Wholesale trade,0.009422850412249705
-72,44,52.588653184111514,59.82024340086388,25929,-3365,-4618,0.0402676766503241,65,"Industrial, electrical and construction trades",Retail Trade,0.0019388516032811335
-72,48,40.483060449937796,54.11771493291962,9308,-817,-709,0.0662917954318377,55,"Industrial, electrical and construction trades",Transportation and Warehousing,0.004704875962360992
-72,51,62.28553860201894,67.27214928252627,1612,399,-120,0.0289518321444339,415,"Industrial, electrical and construction trades",Information and cultural industries,0.13562091503267973
-72,53,52.588653184111514,59.82024340086388,2125,-36,0,0.0935938843320863,45,"Industrial, electrical and construction trades",Real estate and rental and leasing,0.020224719101123594
-72,54,48.59248765494275,56.47709657578707,9835,-9,194,0.0240490740525594,140,"Industrial, electrical and construction trades","Professional, scientific and technical services",0.012516763522574878
-72,56,53.297235182915394,61.984282584506786,6232,-788,-2480,0.0144294444315357,115,"Industrial, electrical and construction trades","Administrative and support, waste management and remediation services",0.01495448634590377
-72,61,49.65454167838597,59.20996847137345,16042,-708,-502,0.0664544461742222,160,"Industrial, electrical and construction trades",Educational services,0.008405568689256633
-72,62,56.79201041733159,63.26238499023465,39596,-787,2224,0.0803262309175826,155,"Industrial, electrical and construction trades",Health care and social assistance,0.00393600812595226
-72,72,52.588653184111514,59.82024340086388,16461,-4461,-3027,0.0230034621372308,45,"Industrial, electrical and construction trades",Accommodation and food services,0.0022277227722772275
-72,81,36.626468818806266,51.82208929406324,10300,-2926,795,0.0136626623602946,450,"Industrial, electrical and construction trades",Other services (except public administration),0.04139834406623735
-72,91,51.49380675598293,59.507726144838415,17520,-1534,-76,0.159118897692683,200,"Industrial, electrical and construction trades",Public administration,0.009548818333731201
-73,11,46.02649323549801,57.68594339641976,4658,-254,482,0.0049259939122151,45,Maintenance and equipment operation trades,"Agriculture, forestry, fishing and hunting",0.0045362903225806455
-73,21,48.36717364038977,58.18608452395539,8484,-3196,-625,0.1900690103864117,845,Maintenance and equipment operation trades,"Mining, quarrying, and oil and gas extraction",0.09337016574585635
-73,22,50.200438054723676,59.11819332834457,2887,-129,0,0.0146850384552827,130,Maintenance and equipment operation trades,Utilities,0.05591397849462366
-73,23,50.178786421324524,59.50690485941143,19708,-3089,-29,0.1088133466552037,1760,Maintenance and equipment operation trades,Construction,0.060804974952496114
-73,31,47.91231646274443,57.90159877119205,5481,415,-584,0.003903617817227,385,Maintenance and equipment operation trades,Manufacturing,0.02613713509843856
-73,41,49.0137377556402,58.997725944151384,2730,-635,-771,0.0291609545274996,145,Maintenance and equipment operation trades,Wholesale trade,0.03415783274440518
-73,44,46.5433999048732,61.75717650591039,25929,-3365,-4618,0.0402676766503241,780,Maintenance and equipment operation trades,Retail Trade,0.023266219239373602
-73,48,46.68711541360551,61.16881343019201,9308,-817,-709,0.0662917954318377,600,Maintenance and equipment operation trades,Transportation and Warehousing,0.05132591958939264
-73,51,38.33510016983958,51.4457111708065,1612,399,-120,0.0289518321444339,20,Maintenance and equipment operation trades,Information and cultural industries,0.006535947712418301
-73,53,46.117067778081115,59.386670182517854,2125,-36,0,0.0935938843320863,60,Maintenance and equipment operation trades,Real estate and rental and leasing,0.02696629213483146
-73,54,51.65596806339854,57.57799149625687,9835,-9,194,0.0240490740525594,20,Maintenance and equipment operation trades,"Professional, scientific and technical services",0.001788109074653554
-73,56,47.902903688350726,59.71139664910876,6232,-788,-2480,0.0144294444315357,85,Maintenance and equipment operation trades,"Administrative and support, waste management and remediation services",0.011053315994798439
-73,61,46.757865043198414,61.13596072657635,16042,-708,-502,0.0664544461742222,50,Maintenance and equipment operation trades,Educational services,0.002626740215392698
-73,81,47.15057757314881,61.71660598187792,10300,-2926,795,0.0136626623602946,1810,Maintenance and equipment operation trades,Other services (except public administration),0.16651333946642136
-73,91,47.59337870231232,58.78443548178358,17520,-1534,-76,0.159118897692683,380,Maintenance and equipment operation trades,Public administration,0.01814275483408928
-74,11,42.96822856555025,57.182528774392146,4658,-254,482,0.0049259939122151,70,"Other installers, repairers and servicers and material handlers","Agriculture, forestry, fishing and hunting",0.007056451612903226
-74,21,42.96822856555025,57.182528774392146,8484,-3196,-625,0.1900690103864117,75,"Other installers, repairers and servicers and material handlers","Mining, quarrying, and oil and gas extraction",0.008287292817679558
-74,22,51.737255508666145,47.589673461785985,2887,-129,0,0.0146850384552827,15,"Other installers, repairers and servicers and material handlers",Utilities,0.0064516129032258064
-74,23,47.15531104707614,57.99348193740496,19708,-3089,-29,0.1088133466552037,460,"Other installers, repairers and servicers and material handlers",Construction,0.01589220936258421
-74,31,43.149932144937225,57.21772108146629,5481,415,-584,0.003903617817227,530,"Other installers, repairers and servicers and material handlers",Manufacturing,0.03598099117447386
-74,41,43.18709878617547,57.22491950791327,2730,-635,-771,0.0291609545274996,440,"Other installers, repairers and servicers and material handlers",Wholesale trade,0.10365135453474676
-74,44,43.53050310570261,56.99704309896678,25929,-3365,-4618,0.0402676766503241,710,"Other installers, repairers and servicers and material handlers",Retail Trade,0.021178225205070844
-74,48,43.74402181027361,57.976370589285374,9308,-817,-709,0.0662917954318377,1035,"Other installers, repairers and servicers and material handlers",Transportation and Warehousing,0.0885372112917023
-74,54,42.968228565550255,57.182528774392146,9835,-9,194,0.0240490740525594,25,"Other installers, repairers and servicers and material handlers","Professional, scientific and technical services",0.002235136343316942
-74,56,49.24843588341372,62.48116298872473,6232,-788,-2480,0.0144294444315357,90,"Other installers, repairers and servicers and material handlers","Administrative and support, waste management and remediation services",0.011703511053315995
-74,62,49.23181923920446,50.33048926538774,39596,-787,2224,0.0803262309175826,35,"Other installers, repairers and servicers and material handlers",Health care and social assistance,8.887760284408329e-4
-74,72,42.96822856555025,57.182528774392146,16461,-4461,-3027,0.0230034621372308,70,"Other installers, repairers and servicers and material handlers",Accommodation and food services,0.0034653465346534654
-74,81,47.71513516470314,51.13475243383204,10300,-2926,795,0.0136626623602946,55,"Other installers, repairers and servicers and material handlers",Other services (except public administration),0.005059797608095676
-74,91,47.35274203710819,52.386101118089066,17520,-1534,-76,0.159118897692683,30,"Other installers, repairers and servicers and material handlers",Public administration,0.0014323227500596801
-75,11,40.82307069667815,54.48333127046214,4658,-254,482,0.0049259939122151,170,Transport and heavy equipment operation and related maintenance occupations,"Agriculture, forestry, fishing and hunting",0.017137096774193547
-75,21,41.27649544261683,55.035104277144065,8484,-3196,-625,0.1900690103864117,1105,Transport and heavy equipment operation and related maintenance occupations,"Mining, quarrying, and oil and gas extraction",0.12209944751381216
-75,22,41.070066035409546,54.86540368991894,2887,-129,0,0.0146850384552827,75,Transport and heavy equipment operation and related maintenance occupations,Utilities,0.03225806451612903
-75,23,41.456039026764515,55.162469036092894,19708,-3089,-29,0.1088133466552037,3300,Transport and heavy equipment operation and related maintenance occupations,Construction,0.11400932803593021
-75,31,42.696069659086504,55.691276349640546,5481,415,-584,0.003903617817227,305,Transport and heavy equipment operation and related maintenance occupations,Manufacturing,0.020706042090970808
-75,41,46.98915841062501,57.77567869889429,2730,-635,-771,0.0291609545274996,535,Transport and heavy equipment operation and related maintenance occupations,Wholesale trade,0.12603062426383982
-75,44,53.95698015963731,63.754942469624254,25929,-3365,-4618,0.0402676766503241,780,Transport and heavy equipment operation and related maintenance occupations,Retail Trade,0.023266219239373602
-75,48,50.51563301286333,59.15000193187969,9308,-817,-709,0.0662917954318377,4610,Transport and heavy equipment operation and related maintenance occupations,Transportation and Warehousing,0.3943541488451668
-75,53,51.65554892616884,60.63637451134109,2125,-36,0,0.0935938843320863,100,Transport and heavy equipment operation and related maintenance occupations,Real estate and rental and leasing,0.0449438202247191
-75,54,42.40460362642405,56.0112669817534,9835,-9,194,0.0240490740525594,60,Transport and heavy equipment operation and related maintenance occupations,"Professional, scientific and technical services",0.005364327223960662
-75,56,44.44213098252696,56.87803079479708,6232,-788,-2480,0.0144294444315357,480,Transport and heavy equipment operation and related maintenance occupations,"Administrative and support, waste management and remediation services",0.06241872561768531
-75,61,68.54417594280892,60.5501636140289,16042,-708,-502,0.0664544461742222,290,Transport and heavy equipment operation and related maintenance occupations,Educational services,0.015235093249277647
-75,72,61.25083174759254,65.8309302206696,16461,-4461,-3027,0.0230034621372308,70,Transport and heavy equipment operation and related maintenance occupations,Accommodation and food services,0.0034653465346534654
-75,81,50.19731113767605,65.65810034947958,10300,-2926,795,0.0136626623602946,150,Transport and heavy equipment operation and related maintenance occupations,Other services (except public administration),0.013799448022079117
-75,91,45.386801812560755,57.50220599147774,17520,-1534,-76,0.159118897692683,860,Transport and heavy equipment operation and related maintenance occupations,Public administration,0.04105991883504417
-76,21,44.571336159268505,55.58503078601527,8484,-3196,-625,0.1900690103864117,240,"Trades helpers, construction labourers and related occupations","Mining, quarrying, and oil and gas extraction",0.026519337016574586
-76,22,46.73014174029846,56.750610770360424,2887,-129,0,0.0146850384552827,65,"Trades helpers, construction labourers and related occupations",Utilities,0.02795698924731183
-76,23,44.769615612603744,55.674477452198765,19708,-3089,-29,0.1088133466552037,5340,"Trades helpers, construction labourers and related occupations",Construction,0.1844878217308689
-76,31,44.571336159268505,55.58503078601527,5481,415,-584,0.003903617817227,325,"Trades helpers, construction labourers and related occupations",Manufacturing,0.022063815342837745
-76,41,44.571336159268505,55.585030786015274,2730,-635,-771,0.0291609545274996,20,"Trades helpers, construction labourers and related occupations",Wholesale trade,0.004711425206124852
-76,44,44.571336159268505,55.585030786015274,25929,-3365,-4618,0.0402676766503241,20,"Trades helpers, construction labourers and related occupations",Retail Trade,5.965697240865026e-4
-76,48,45.64559337335418,56.055068795883656,9308,-817,-709,0.0662917954318377,95,"Trades helpers, construction labourers and related occupations",Transportation and Warehousing,0.008126603934987169
-76,53,44.571336159268505,55.585030786015274,2125,-36,0,0.0935938843320863,20,"Trades helpers, construction labourers and related occupations",Real estate and rental and leasing,0.008988764044943821
-76,54,44.43877210482423,55.67627528031334,9835,-9,194,0.0240490740525594,55,"Trades helpers, construction labourers and related occupations","Professional, scientific and technical services",0.0049172999552972736
-76,56,50.4269185147355,58.14712321685526,6232,-788,-2480,0.0144294444315357,305,"Trades helpers, construction labourers and related occupations","Administrative and support, waste management and remediation services",0.03966189856957087
-76,61,44.571336159268505,55.58503078601527,16042,-708,-502,0.0664544461742222,15,"Trades helpers, construction labourers and related occupations",Educational services,7.880220646178094e-4
-76,62,44.571336159268505,55.585030786015274,39596,-787,2224,0.0803262309175826,10,"Trades helpers, construction labourers and related occupations",Health care and social assistance,2.5393600812595224e-4
-76,81,44.442671047602005,55.67359161871634,10300,-2926,795,0.0136626623602946,85,"Trades helpers, construction labourers and related occupations",Other services (except public administration),0.0078196872125115
-76,91,53.1840226097704,59.353485813110396,17520,-1534,-76,0.159118897692683,865,"Trades helpers, construction labourers and related occupations",Public administration,0.041298639293387444
-82,11,40.05122455626277,52.409655057645125,4658,-254,482,0.0049259939122151,5645,"Supervisors and technical occupations in natural resources, agriculture and related production","Agriculture, forestry, fishing and hunting",0.5690524193548387
-82,21,49.075029995042456,58.27539873879318,8484,-3196,-625,0.1900690103864117,1390,"Supervisors and technical occupations in natural resources, agriculture and related production","Mining, quarrying, and oil and gas extraction",0.15359116022099448
-82,23,49.31540224116075,57.00735112113644,19708,-3089,-29,0.1088133466552037,25,"Supervisors and technical occupations in natural resources, agriculture and related production",Construction,8.637070305752289e-4
-82,31,40.20350925240774,52.23896829107973,5481,415,-584,0.003903617817227,1275,"Supervisors and technical occupations in natural resources, agriculture and related production",Manufacturing,0.08655804480651731
-82,54,51.605002524800085,61.04570146167357,9835,-9,194,0.0240490740525594,50,"Supervisors and technical occupations in natural resources, agriculture and related production","Professional, scientific and technical services",0.004470272686633884
-82,56,41.63710858615512,54.960455757771356,6232,-788,-2480,0.0144294444315357,60,"Supervisors and technical occupations in natural resources, agriculture and related production","Administrative and support, waste management and remediation services",0.007802340702210663
-84,11,33.433606977182954,37.33843760499426,4658,-254,482,0.0049259939122151,2330,"Workers in natural resources, agriculture and related production","Agriculture, forestry, fishing and hunting",0.23487903225806453
-84,21,39.48029396838417,53.782157590477716,8484,-3196,-625,0.1900690103864117,350,"Workers in natural resources, agriculture and related production","Mining, quarrying, and oil and gas extraction",0.03867403314917127
-84,23,28.208196809567095,39.462254299068285,19708,-3089,-29,0.1088133466552037,85,"Workers in natural resources, agriculture and related production",Construction,0.002936603903955778
-84,31,29.31880899373572,38.79734807714381,5481,415,-584,0.003903617817227,30,"Workers in natural resources, agriculture and related production",Manufacturing,0.002036659877800407
-84,91,63.95443514104111,62.33848770741983,17520,-1534,-76,0.159118897692683,25,"Workers in natural resources, agriculture and related production",Public administration,0.0011936022917164002
-86,11,37.8454965359626,48.04842895558713,4658,-254,482,0.0049259939122151,380,"Harvesting, landscaping and natural resources labourers","Agriculture, forestry, fishing and hunting",0.038306451612903226
-86,21,44.56935845804496,45.47347328696895,8484,-3196,-625,0.1900690103864117,580,"Harvesting, landscaping and natural resources labourers","Mining, quarrying, and oil and gas extraction",0.06408839779005525
-86,22,38.72581707443704,49.91207594259274,2887,-129,0,0.0146850384552827,15,"Harvesting, landscaping and natural resources labourers",Utilities,0.0064516129032258064
-86,23,40.24719390822725,48.855051408748466,19708,-3089,-29,0.1088133466552037,130,"Harvesting, landscaping and natural resources labourers",Construction,0.00449127655899119
-86,31,46.8647344103083,52.91155140623004,5481,415,-584,0.003903617817227,45,"Harvesting, landscaping and natural resources labourers",Manufacturing,0.003054989816700611
-86,48,38.72581707443704,49.91207594259274,9308,-817,-709,0.0662917954318377,60,"Harvesting, landscaping and natural resources labourers",Transportation and Warehousing,0.0051325919589392645
-86,54,43.670291784255255,46.47674620759883,9835,-9,194,0.0240490740525594,55,"Harvesting, landscaping and natural resources labourers","Professional, scientific and technical services",0.0049172999552972736
-86,56,38.8712428011964,49.81103683273998,6232,-788,-2480,0.0144294444315357,510,"Harvesting, landscaping and natural resources labourers","Administrative and support, waste management and remediation services",0.06631989596879063
-86,61,38.72581707443704,49.91207594259274,16042,-708,-502,0.0664544461742222,25,"Harvesting, landscaping and natural resources labourers",Educational services,0.001313370107696349
-86,62,38.72581707443704,49.91207594259274,39596,-787,2224,0.0803262309175826,10,"Harvesting, landscaping and natural resources labourers",Health care and social assistance,2.5393600812595224e-4
-86,71,38.72581707443704,49.91207594259274,3100,-1150,-595,0.0023932894950856,205,"Harvesting, landscaping and natural resources labourers","Arts, entertainment and recreation",0.05283505154639175
-86,72,38.72581707443704,49.91207594259274,16461,-4461,-3027,0.0230034621372308,35,"Harvesting, landscaping and natural resources labourers",Accommodation and food services,0.0017326732673267327
-86,81,38.72581707443704,49.91207594259275,10300,-2926,795,0.0136626623602946,135,"Harvesting, landscaping and natural resources labourers",Other services (except public administration),0.012419503219871205
-86,91,38.72581707443704,49.91207594259274,17520,-1534,-76,0.159118897692683,180,"Harvesting, landscaping and natural resources labourers",Public administration,0.008593936500358081
-92,21,38.935079052978594,42.7842086538249,8484,-3196,-625,0.1900690103864117,285,"Processing, manufacturing and utilities supervisors and central control operators","Mining, quarrying, and oil and gas extraction",0.03149171270718232
-92,22,45.14923994905958,43.70031042624555,2887,-129,0,0.0146850384552827,350,"Processing, manufacturing and utilities supervisors and central control operators",Utilities,0.15053763440860216
-92,31,43.93665579259527,44.742466524904735,5481,415,-584,0.003903617817227,755,"Processing, manufacturing and utilities supervisors and central control operators",Manufacturing,0.05125594025797692
-92,54,43.84235158384021,39.42303932588409,9835,-9,194,0.0240490740525594,30,"Processing, manufacturing and utilities supervisors and central control operators","Professional, scientific and technical services",0.002682163611980331
-92,56,48.42372790510624,55.47711234944407,6232,-788,-2480,0.0144294444315357,60,"Processing, manufacturing and utilities supervisors and central control operators","Administrative and support, waste management and remediation services",0.007802340702210663
-92,61,43.84235158384021,39.42303932588409,16042,-708,-502,0.0664544461742222,55,"Processing, manufacturing and utilities supervisors and central control operators",Educational services,0.0028894142369319674
-92,62,43.84235158384021,39.42303932588409,39596,-787,2224,0.0803262309175826,40,"Processing, manufacturing and utilities supervisors and central control operators",Health care and social assistance,0.001015744032503809
-92,91,47.6920339488528,53.43565577642574,17520,-1534,-76,0.159118897692683,135,"Processing, manufacturing and utilities supervisors and central control operators",Public administration,0.00644545237526856
-94,11,47.0645220165348,56.99674895252792,4658,-254,482,0.0049259939122151,40,Processing and manufacturing machine operators and related production workers,"Agriculture, forestry, fishing and hunting",0.004032258064516129
-94,21,35.80071565287471,44.45946445797327,8484,-3196,-625,0.1900690103864117,65,Processing and manufacturing machine operators and related production workers,"Mining, quarrying, and oil and gas extraction",0.0071823204419889505
-94,31,39.38714695417439,56.33201533791498,5481,415,-584,0.003903617817227,2715,Processing and manufacturing machine operators and related production workers,Manufacturing,0.18431771894093688
-94,41,38.054854281733455,55.54161623521785,2730,-635,-771,0.0291609545274996,20,Processing and manufacturing machine operators and related production workers,Wholesale trade,0.004711425206124852
-94,44,51.469542063925076,57.79668699577722,25929,-3365,-4618,0.0402676766503241,35,Processing and manufacturing machine operators and related production workers,Retail Trade,0.0010439970171513796
-94,61,38.054854281733455,55.54161623521785,16042,-708,-502,0.0664544461742222,15,Processing and manufacturing machine operators and related production workers,Educational services,7.880220646178094e-4
-94,81,61.530557900568795,59.48799006619676,10300,-2926,795,0.0136626623602946,20,Processing and manufacturing machine operators and related production workers,Other services (except public administration),0.0018399264029438822
-95,23,35.46584506320096,51.01319174821823,19708,-3089,-29,0.1088133466552037,35,Assemblers in manufacturing,Construction,0.0012091898428053204
-95,31,44.977940425320185,58.96040392213917,5481,415,-584,0.003903617817227,415,Assemblers in manufacturing,Manufacturing,0.028173794976238967
-95,44,49.84153726976181,61.47795200427949,25929,-3365,-4618,0.0402676766503241,20,Assemblers in manufacturing,Retail Trade,5.965697240865026e-4
-96,11,45.22852867540614,52.28065962256461,4658,-254,482,0.0049259939122151,60,"Labourers in processing, manufacturing and utilities","Agriculture, forestry, fishing and hunting",0.006048387096774193
-96,21,36.82215624183127,48.03083351344158,8484,-3196,-625,0.1900690103864117,35,"Labourers in processing, manufacturing and utilities","Mining, quarrying, and oil and gas extraction",0.0038674033149171273
-96,23,38.458019739605746,50.897791117945104,19708,-3089,-29,0.1088133466552037,95,"Labourers in processing, manufacturing and utilities",Construction,0.0032820867161858698
-96,31,46.97955201969518,53.58668546338399,5481,415,-584,0.003903617817227,3950,"Labourers in processing, manufacturing and utilities",Manufacturing,0.2681602172437203
-96,41,41.86676927662319,51.42854620040104,2730,-635,-771,0.0291609545274996,205,"Labourers in processing, manufacturing and utilities",Wholesale trade,0.048292108362779744
-96,44,41.016282893345554,49.46868090067298,25929,-3365,-4618,0.0402676766503241,50,"Labourers in processing, manufacturing and utilities",Retail Trade,0.0014914243102162564
-96,48,49.44077445746674,55.09263834445626,9308,-817,-709,0.0662917954318377,20,"Labourers in processing, manufacturing and utilities",Transportation and Warehousing,0.001710863986313088
-96,54,41.742620598086226,51.468831784103756,9835,-9,194,0.0240490740525594,20,"Labourers in processing, manufacturing and utilities","Professional, scientific and technical services",0.001788109074653554
-96,56,44.1920331897073,52.62186114421592,6232,-788,-2480,0.0144294444315357,110,"Labourers in processing, manufacturing and utilities","Administrative and support, waste management and remediation services",0.014304291287386216
+00,21,58.58397738264372,49.910854097097626,8484,-3196,-625,18.37222291175375,80,Senior management occupations,"Mining, quarrying, and oil and gas extraction",0.008839779005524863
+00,23,58.583977382643724,49.910854097097626,19708,-3089,-29,14.08747397018466,145,Senior management occupations,Construction,0.005009500777336327
+00,31,58.58397738264372,49.910854097097626,5481,415,-584,4.314743563223146,30,Senior management occupations,Manufacturing,0.002036659877800407
+00,41,56.383480772500675,42.91070097114502,2730,-635,-771,2.367851281839118,20,Senior management occupations,Wholesale trade,0.004711425206124852
+00,44,56.383480772500675,42.91070097114501,25929,-3365,-4618,5.550728834829616,40,Senior management occupations,Retail Trade,0.0011931394481730052
+00,48,58.58397738264372,49.910854097097626,9308,-817,-709,3.381462634286266,30,Senior management occupations,Transportation and Warehousing,0.0025662959794696323
+00,51,54.44015838615782,35.45731712743254,1612,399,-120,2.414394660267814,20,Senior management occupations,Information and cultural industries,0.006535947712418301
+00,52,54.44015838615781,35.45731712743253,4451,-391,937,3.361466219850234,55,Senior management occupations,Finance and insurance,0.011282051282051283
+00,53,54.44015838615781,35.45731712743254,2125,-36,0,10.10818749741426,30,Senior management occupations,Real estate and rental and leasing,0.01348314606741573
+00,54,54.440158386157805,35.45731712743254,9835,-9,194,3.35319184146291,210,Senior management occupations,"Professional, scientific and technical services",0.018775145283862316
+00,56,55.500152415072094,39.52279922400298,6232,-788,-2480,1.481458497097072,55,Senior management occupations,"Administrative and support, waste management and remediation services",0.007152145643693108
+00,61,54.179183979962644,45.26198258573739,16042,-708,-502,6.12821149311158,40,Senior management occupations,Educational services,0.0021013921723141583
+00,62,54.179183979962644,45.26198258573739,39596,-787,2224,8.892543406009958,125,Senior management occupations,Health care and social assistance,0.0031742001015744033
+00,71,56.38348077250067,42.91070097114502,3100,-1150,-595,0.3175292706135451,25,Senior management occupations,"Arts, entertainment and recreation",0.006443298969072165
+00,72,56.38348077250067,42.91070097114502,16461,-4461,-3027,1.977576434570353,60,Senior management occupations,Accommodation and food services,0.0029702970297029703
+00,81,54.17918397996265,45.26198258573739,10300,-2926,795,1.708314371216196,240,Senior management occupations,Other services (except public administration),0.02207911683532659
+00,91,55.77301172395791,50.275060036183994,17520,-1534,-76,7.710686359687228,670,Senior management occupations,Public administration,0.03198854141799952
+01,21,46.17332087284773,42.651660147827116,8484,-3196,-625,18.37222291175375,125,Specialized middle management occupations,"Mining, quarrying, and oil and gas extraction",0.013812154696132596
+01,22,43.689607254385905,37.670138576047684,2887,-129,0,2.016534966144002,85,Specialized middle management occupations,Utilities,0.03655913978494624
+01,23,47.92800846677676,45.16215213823986,19708,-3089,-29,14.08747397018466,60,Specialized middle management occupations,Construction,0.002072896873380549
+01,44,51.1770802040229,46.707224217516554,25929,-3365,-4618,5.550728834829616,95,Specialized middle management occupations,Retail Trade,0.0028337061894108872
+01,48,56.30815140571106,39.02341460361233,9308,-817,-709,3.381462634286266,80,Specialized middle management occupations,Transportation and Warehousing,0.006843455945252352
+01,51,57.69473262130107,48.34375039277748,1612,399,-120,2.414394660267814,225,Specialized middle management occupations,Information and cultural industries,0.07352941176470588
+01,52,55.358852598425464,49.98239911835157,4451,-391,937,3.361466219850234,625,Specialized middle management occupations,Finance and insurance,0.1282051282051282
+01,53,50.62391286558937,41.88155559568117,2125,-36,0,10.10818749741426,85,Specialized middle management occupations,Real estate and rental and leasing,0.038202247191011236
+01,54,46.66671903018225,39.78641889722948,9835,-9,194,3.35319184146291,585,Specialized middle management occupations,"Professional, scientific and technical services",0.052302190433616454
+01,56,50.45684767263787,41.43609987391614,6232,-788,-2480,1.481458497097072,115,Specialized middle management occupations,"Administrative and support, waste management and remediation services",0.01495448634590377
+01,61,59.338097981427495,49.775350899714944,16042,-708,-502,6.12821149311158,950,Specialized middle management occupations,Educational services,0.049908064092461256
+01,62,57.973961358107424,55.112695028435795,39596,-787,2224,8.892543406009958,875,Specialized middle management occupations,Health care and social assistance,0.022219400711020822
+01,71,69.04969680318854,61.09691854542599,3100,-1150,-595,0.3175292706135451,115,Specialized middle management occupations,"Arts, entertainment and recreation",0.029639175257731958
+01,72,53.79463792264148,47.862203067037804,16461,-4461,-3027,1.977576434570353,15,Specialized middle management occupations,Accommodation and food services,7.425742574257426e-4
+01,81,53.261798520588115,45.01356964631924,10300,-2926,795,1.708314371216196,130,Specialized middle management occupations,Other services (except public administration),0.011959521619135235
+01,91,51.55579084312263,48.24836305197706,17520,-1534,-76,7.710686359687228,1095,Specialized middle management occupations,Public administration,0.05227978037717832
+06,31,56.28244076860979,46.983260775748455,5481,415,-584,4.314743563223146,25,Middle management occupations in retail and wholesale trade and customer services,Manufacturing,0.0016972165648336728
+06,41,57.5045777800033,48.20863988356233,2730,-635,-771,2.367851281839118,555,Middle management occupations in retail and wholesale trade and customer services,Wholesale trade,0.13074204946996468
+06,44,57.54178066056136,48.245941456267616,25929,-3365,-4618,5.550728834829616,5230,Middle management occupations in retail and wholesale trade and customer services,Retail Trade,0.15600298284862044
+06,51,73.91540401700941,54.36262962521141,1612,399,-120,2.414394660267814,15,Middle management occupations in retail and wholesale trade and customer services,Information and cultural industries,0.004901960784313725
+06,52,56.28244076860979,46.98326077574846,4451,-391,937,3.361466219850234,20,Middle management occupations in retail and wholesale trade and customer services,Finance and insurance,0.0041025641025641026
+06,54,56.28244076860979,46.98326077574846,9835,-9,194,3.35319184146291,20,Middle management occupations in retail and wholesale trade and customer services,"Professional, scientific and technical services",0.001788109074653554
+06,56,73.91540401700941,54.36262962521141,6232,-788,-2480,1.481458497097072,45,Middle management occupations in retail and wholesale trade and customer services,"Administrative and support, waste management and remediation services",0.005851755526657998
+06,61,73.91540401700941,54.36262962521141,16042,-708,-502,6.12821149311158,20,Middle management occupations in retail and wholesale trade and customer services,Educational services,0.0010506960861570791
+06,71,70.26012592305956,56.38495639936222,3100,-1150,-595,0.3175292706135451,25,Middle management occupations in retail and wholesale trade and customer services,"Arts, entertainment and recreation",0.006443298969072165
+06,72,68.33037170273785,54.26703981056815,16461,-4461,-3027,1.977576434570353,2095,Middle management occupations in retail and wholesale trade and customer services,Accommodation and food services,0.10371287128712871
+06,81,70.19605427335163,52.974406630468,10300,-2926,795,1.708314371216196,110,Middle management occupations in retail and wholesale trade and customer services,Other services (except public administration),0.010119595216191352
+07,11,30.310150310909272,23.37223155486727,4658,-254,482,2.120654227517824,525,"Middle management occupations in trades, transportation, production and utilities","Agriculture, forestry, fishing and hunting",0.052923387096774195
+07,21,49.25288951778271,41.282442628868154,8484,-3196,-625,18.37222291175375,370,"Middle management occupations in trades, transportation, production and utilities","Mining, quarrying, and oil and gas extraction",0.04088397790055249
+07,22,40.349722914267126,38.12332454864492,2887,-129,0,2.016534966144002,90,"Middle management occupations in trades, transportation, production and utilities",Utilities,0.03870967741935484
+07,23,49.39995847307987,40.15511893811222,19708,-3089,-29,14.08747397018466,1140,"Middle management occupations in trades, transportation, production and utilities",Construction,0.03938504059423044
+07,31,46.62406908673678,36.75979517089334,5481,415,-584,4.314743563223146,470,"Middle management occupations in trades, transportation, production and utilities",Manufacturing,0.031907671418873046
+07,41,47.302572501042,42.80099621571961,2730,-635,-771,2.367851281839118,70,"Middle management occupations in trades, transportation, production and utilities",Wholesale trade,0.016489988221436984
+07,44,46.72377333378831,43.672841236963905,25929,-3365,-4618,5.550728834829616,45,"Middle management occupations in trades, transportation, production and utilities",Retail Trade,0.0013422818791946308
+07,48,50.61344689439404,44.40822317043365,9308,-817,-709,3.381462634286266,255,"Middle management occupations in trades, transportation, production and utilities",Transportation and Warehousing,0.021813515825491875
+07,53,46.7237733337883,43.672841236963905,2125,-36,0,10.10818749741426,110,"Middle management occupations in trades, transportation, production and utilities",Real estate and rental and leasing,0.04943820224719101
+07,54,48.910347965635594,40.379204490041005,9835,-9,194,3.35319184146291,105,"Middle management occupations in trades, transportation, production and utilities","Professional, scientific and technical services",0.009387572641931158
+07,56,43.19353002451504,40.59926276343339,6232,-788,-2480,1.481458497097072,50,"Middle management occupations in trades, transportation, production and utilities","Administrative and support, waste management and remediation services",0.006501950585175552
+07,61,46.7237733337883,43.672841236963905,16042,-708,-502,6.12821149311158,40,"Middle management occupations in trades, transportation, production and utilities",Educational services,0.0021013921723141583
+07,62,46.7237733337883,43.672841236963905,39596,-787,2224,8.892543406009958,20,"Middle management occupations in trades, transportation, production and utilities",Health care and social assistance,5.078720162519045e-4
+07,71,46.7237733337883,43.672841236963905,3100,-1150,-595,0.3175292706135451,35,"Middle management occupations in trades, transportation, production and utilities","Arts, entertainment and recreation",0.00902061855670103
+07,72,46.7237733337883,43.672841236963905,16461,-4461,-3027,1.977576434570353,20,"Middle management occupations in trades, transportation, production and utilities",Accommodation and food services,9.900990099009901e-4
+07,81,46.7237733337883,43.672841236963905,10300,-2926,795,1.708314371216196,20,"Middle management occupations in trades, transportation, production and utilities",Other services (except public administration),0.0018399264029438822
+07,91,47.96582473015346,43.907663553823205,17520,-1534,-76,7.710686359687228,130,"Middle management occupations in trades, transportation, production and utilities",Public administration,0.0062067319169252805
+11,21,46.715243059932895,39.32168530952326,8484,-3196,-625,18.37222291175375,155,Professional occupations in business and finance,"Mining, quarrying, and oil and gas extraction",0.01712707182320442
+11,22,47.48275244414324,39.044095818498775,2887,-129,0,2.016534966144002,100,Professional occupations in business and finance,Utilities,0.043010752688172046
+11,23,47.24875070290679,39.90225044560817,19708,-3089,-29,14.08747397018466,70,Professional occupations in business and finance,Construction,0.0024183796856106408
+11,31,47.24875070290679,39.90225044560817,5481,415,-584,4.314743563223146,25,Professional occupations in business and finance,Manufacturing,0.0016972165648336728
+11,44,47.24875070290679,39.90225044560817,25929,-3365,-4618,5.550728834829616,35,Professional occupations in business and finance,Retail Trade,0.0010439970171513796
+11,51,42.73081350882103,32.68569600158379,1612,399,-120,2.414394660267814,90,Professional occupations in business and finance,Information and cultural industries,0.029411764705882353
+11,52,46.69225682946381,39.26274595558633,4451,-391,937,3.361466219850234,875,Professional occupations in business and finance,Finance and insurance,0.1794871794871795
+11,53,47.24875070290679,39.90225044560817,2125,-36,0,10.10818749741426,25,Professional occupations in business and finance,Real estate and rental and leasing,0.011235955056179775
+11,54,45.846799660481445,37.56721536044818,9835,-9,194,3.35319184146291,1315,Professional occupations in business and finance,"Professional, scientific and technical services",0.11756817165847117
+11,56,46.02163262129636,38.39488347134452,6232,-788,-2480,1.481458497097072,110,Professional occupations in business and finance,"Administrative and support, waste management and remediation services",0.014304291287386216
+11,61,46.844945896592925,38.28507127231149,16042,-708,-502,6.12821149311158,175,Professional occupations in business and finance,Educational services,0.009193590753874442
+11,62,47.983613337604815,40.569750913856915,39596,-787,2224,8.892543406009958,155,Professional occupations in business and finance,Health care and social assistance,0.00393600812595226
+11,71,47.69446830526192,38.26767020349504,3100,-1150,-595,0.3175292706135451,35,Professional occupations in business and finance,"Arts, entertainment and recreation",0.00902061855670103
+11,72,47.24875070290679,39.90225044560817,16461,-4461,-3027,1.977576434570353,30,Professional occupations in business and finance,Accommodation and food services,0.0014851485148514852
+11,81,47.0411348569746,38.74723917946718,10300,-2926,795,1.708314371216196,170,Professional occupations in business and finance,Other services (except public administration),0.015639374425023
+11,91,47.037248547587204,39.10766025218209,17520,-1534,-76,7.710686359687228,900,Professional occupations in business and finance,Public administration,0.0429696825017904
+12,11,55.43838948364867,46.359649595853625,4658,-254,482,2.120654227517824,90,Administrative and financial supervisors and administrative occupations,"Agriculture, forestry, fishing and hunting",0.009072580645161291
+12,21,53.606151204104776,48.224100593105426,8484,-3196,-625,18.37222291175375,245,Administrative and financial supervisors and administrative occupations,"Mining, quarrying, and oil and gas extraction",0.02707182320441989
+12,22,54.43481373278113,48.436715849591174,2887,-129,0,2.016534966144002,80,Administrative and financial supervisors and administrative occupations,Utilities,0.034408602150537634
+12,23,54.59761539427282,46.71957334792768,19708,-3089,-29,14.08747397018466,625,Administrative and financial supervisors and administrative occupations,Construction,0.02159267576438072
+12,31,53.71481796188691,46.89375140650877,5481,415,-584,4.314743563223146,125,Administrative and financial supervisors and administrative occupations,Manufacturing,0.008486082824168364
+12,41,54.00185542188527,47.84750539257395,2730,-635,-771,2.367851281839118,275,Administrative and financial supervisors and administrative occupations,Wholesale trade,0.06478209658421673
+12,44,54.53721734174647,46.581215005085475,25929,-3365,-4618,5.550728834829616,315,Administrative and financial supervisors and administrative occupations,Retail Trade,0.009395973154362415
+12,48,55.53993772256116,44.45481462704702,9308,-817,-709,3.381462634286266,605,Administrative and financial supervisors and administrative occupations,Transportation and Warehousing,0.05175363558597092
+12,51,53.957937532385905,45.711836172984846,1612,399,-120,2.414394660267814,55,Administrative and financial supervisors and administrative occupations,Information and cultural industries,0.017973856209150325
+12,52,55.152071268157556,45.654461430440556,4451,-391,937,3.361466219850234,275,Administrative and financial supervisors and administrative occupations,Finance and insurance,0.05641025641025641
+12,53,54.734422601687186,38.21059785964708,2125,-36,0,10.10818749741426,425,Administrative and financial supervisors and administrative occupations,Real estate and rental and leasing,0.19101123595505617
+12,54,51.991456611707775,46.248090769787964,9835,-9,194,3.35319184146291,1090,Administrative and financial supervisors and administrative occupations,"Professional, scientific and technical services",0.09745194456861869
+12,56,51.63754744236406,44.33982141884733,6232,-788,-2480,1.481458497097072,310,Administrative and financial supervisors and administrative occupations,"Administrative and support, waste management and remediation services",0.04031209362808843
+12,61,56.17668845026125,47.039837821401385,16042,-708,-502,6.12821149311158,1170,Administrative and financial supervisors and administrative occupations,Educational services,0.061465721040189124
+12,62,67.26304598738794,60.19545722508495,39596,-787,2224,8.892543406009958,1510,Administrative and financial supervisors and administrative occupations,Health care and social assistance,0.03834433722701879
+12,71,60.6027239184002,51.360000905730466,3100,-1150,-595,0.3175292706135451,60,Administrative and financial supervisors and administrative occupations,"Arts, entertainment and recreation",0.015463917525773196
+12,72,52.530358865096815,45.08715894378996,16461,-4461,-3027,1.977576434570353,60,Administrative and financial supervisors and administrative occupations,Accommodation and food services,0.0029702970297029703
+12,81,56.95029662584647,48.28665820430876,10300,-2926,795,1.708314371216196,690,Administrative and financial supervisors and administrative occupations,Other services (except public administration),0.06347746090156393
+12,91,58.85639350557993,49.14616736131175,17520,-1534,-76,7.710686359687228,2450,Administrative and financial supervisors and administrative occupations,Public administration,0.11697302458820721
+13,11,47.202562164599016,36.511052210146985,4658,-254,482,2.120654227517824,50,"Finance, insurance and related business administrative occupations","Agriculture, forestry, fishing and hunting",0.005040322580645161
+13,23,47.202562164599016,36.511052210146985,19708,-3089,-29,14.08747397018466,110,"Finance, insurance and related business administrative occupations",Construction,0.003800310934531007
+13,41,47.202562164599016,36.511052210146985,2730,-635,-771,2.367851281839118,20,"Finance, insurance and related business administrative occupations",Wholesale trade,0.004711425206124852
+13,44,47.202562164599016,36.51105221014699,25929,-3365,-4618,5.550728834829616,130,"Finance, insurance and related business administrative occupations",Retail Trade,0.003877703206562267
+13,48,47.99050865169126,33.040620794748776,9308,-817,-709,3.381462634286266,60,"Finance, insurance and related business administrative occupations",Transportation and Warehousing,0.0051325919589392645
+13,52,52.49517329489719,39.72174970523604,4451,-391,937,3.361466219850234,390,"Finance, insurance and related business administrative occupations",Finance and insurance,0.08
+13,53,40.95287611461319,37.96292263400213,2125,-36,0,10.10818749741426,45,"Finance, insurance and related business administrative occupations",Real estate and rental and leasing,0.020224719101123594
+13,54,46.56483909827393,36.65920225339752,9835,-9,194,3.35319184146291,245,"Finance, insurance and related business administrative occupations","Professional, scientific and technical services",0.021904336164506034
+13,56,47.202562164599016,36.511052210146985,6232,-788,-2480,1.481458497097072,25,"Finance, insurance and related business administrative occupations","Administrative and support, waste management and remediation services",0.003250975292587776
+13,61,47.202562164599016,36.511052210146985,16042,-708,-502,6.12821149311158,30,"Finance, insurance and related business administrative occupations",Educational services,0.0015760441292356187
+13,62,47.202562164599016,36.51105221014699,39596,-787,2224,8.892543406009958,65,"Finance, insurance and related business administrative occupations",Health care and social assistance,0.0016505840528186896
+13,72,47.202562164599016,36.511052210146985,16461,-4461,-3027,1.977576434570353,60,"Finance, insurance and related business administrative occupations",Accommodation and food services,0.0029702970297029703
+13,81,47.202562164599016,36.511052210146985,10300,-2926,795,1.708314371216196,65,"Finance, insurance and related business administrative occupations",Other services (except public administration),0.005979760809567618
+13,91,46.42135140835079,36.69253601312888,17520,-1534,-76,7.710686359687228,120,"Finance, insurance and related business administrative occupations",Public administration,0.005729291000238721
+14,11,56.61734513208883,49.303980852491804,4658,-254,482,2.120654227517824,15,Office support occupations,"Agriculture, forestry, fishing and hunting",0.0015120967741935483
+14,21,57.33135204220587,48.76423208563029,8484,-3196,-625,18.37222291175375,115,Office support occupations,"Mining, quarrying, and oil and gas extraction",0.01270718232044199
+14,22,52.480930988323394,43.55143895921453,2887,-129,0,2.016534966144002,155,Office support occupations,Utilities,0.06666666666666667
+14,23,55.79180406230495,49.65339263738901,19708,-3089,-29,14.08747397018466,530,Office support occupations,Construction,0.018310589048194853
+14,31,52.10940910260702,47.239779594616365,5481,415,-584,4.314743563223146,185,Office support occupations,Manufacturing,0.012559402579769178
+14,41,57.639398345351886,50.68624619176134,2730,-635,-771,2.367851281839118,230,Office support occupations,Wholesale trade,0.05418138987043581
+14,44,59.94472537982773,52.723490536400035,25929,-3365,-4618,5.550728834829616,760,Office support occupations,Retail Trade,0.022669649515287098
+14,48,59.31520314771175,52.04191393769583,9308,-817,-709,3.381462634286266,205,Office support occupations,Transportation and Warehousing,0.017536355859709155
+14,51,65.74052592436881,53.5992165644531,1612,399,-120,2.414394660267814,325,Office support occupations,Information and cultural industries,0.10620915032679738
+14,52,55.17331911240691,48.74567884853705,4451,-391,937,3.361466219850234,330,Office support occupations,Finance and insurance,0.06769230769230769
+14,53,56.11204331518154,50.08178265985652,2125,-36,0,10.10818749741426,85,Office support occupations,Real estate and rental and leasing,0.038202247191011236
+14,54,57.561203333615055,50.857843411909656,9835,-9,194,3.35319184146291,1015,Office support occupations,"Professional, scientific and technical services",0.09074653553866786
+14,56,56.8762424522888,50.13891339342059,6232,-788,-2480,1.481458497097072,280,Office support occupations,"Administrative and support, waste management and remediation services",0.036410923276983094
+14,61,55.851464570436185,49.271289020006954,16042,-708,-502,6.12821149311158,490,Office support occupations,Educational services,0.02574205411084844
+14,62,61.18608166211742,53.66858473752896,39596,-787,2224,8.892543406009958,2155,Office support occupations,Health care and social assistance,0.05472320975114271
+14,71,63.530396890854384,55.54171273642916,3100,-1150,-595,0.3175292706135451,90,Office support occupations,"Arts, entertainment and recreation",0.023195876288659795
+14,72,61.110884616957954,53.56603234955721,16461,-4461,-3027,1.977576434570353,120,Office support occupations,Accommodation and food services,0.005940594059405941
+14,81,62.4804823827467,54.79502961220932,10300,-2926,795,1.708314371216196,485,Office support occupations,Other services (except public administration),0.04461821527138914
+14,91,52.99904532275866,44.9708082495905,17520,-1534,-76,7.710686359687228,3205,Office support occupations,Public administration,0.1530198137980425
+15,21,50.06192798845999,44.82872855906747,8484,-3196,-625,18.37222291175375,150,"Distribution, tracking and scheduling co-ordination occupations","Mining, quarrying, and oil and gas extraction",0.016574585635359115
+15,22,50.34169405306358,43.440222886246204,2887,-129,0,2.016534966144002,40,"Distribution, tracking and scheduling co-ordination occupations",Utilities,0.017204301075268817
+15,23,52.0118824892304,46.6749443821151,19708,-3089,-29,14.08747397018466,75,"Distribution, tracking and scheduling co-ordination occupations",Construction,0.0025911210917256866
+15,31,49.85060133717172,45.934709912993355,5481,415,-584,4.314743563223146,225,"Distribution, tracking and scheduling co-ordination occupations",Manufacturing,0.015274949083503055
+15,41,52.225837046251556,47.28304254885883,2730,-635,-771,2.367851281839118,210,"Distribution, tracking and scheduling co-ordination occupations",Wholesale trade,0.04946996466431095
+15,44,54.71777066864807,49.81862684068911,25929,-3365,-4618,5.550728834829616,790,"Distribution, tracking and scheduling co-ordination occupations",Retail Trade,0.023564504101416854
+15,48,52.02837955984622,46.918619106556676,9308,-817,-709,3.381462634286266,1355,"Distribution, tracking and scheduling co-ordination occupations",Transportation and Warehousing,0.11591103507271172
+15,51,62.80070939293198,52.30268112743028,1612,399,-120,2.414394660267814,70,"Distribution, tracking and scheduling co-ordination occupations",Information and cultural industries,0.02287581699346405
+15,54,48.62319922839218,43.093439686590706,9835,-9,194,3.35319184146291,15,"Distribution, tracking and scheduling co-ordination occupations","Professional, scientific and technical services",0.0013410818059901655
+15,56,54.850251504795295,46.702095308975984,6232,-788,-2480,1.481458497097072,75,"Distribution, tracking and scheduling co-ordination occupations","Administrative and support, waste management and remediation services",0.00975292587776333
+15,61,59.372349883980235,54.082821473061884,16042,-708,-502,6.12821149311158,20,"Distribution, tracking and scheduling co-ordination occupations",Educational services,0.0010506960861570791
+15,62,55.91558595768892,50.15061482128122,39596,-787,2224,8.892543406009958,120,"Distribution, tracking and scheduling co-ordination occupations",Health care and social assistance,0.0030472320975114273
+15,81,59.372349883980235,54.082821473061884,10300,-2926,795,1.708314371216196,25,"Distribution, tracking and scheduling co-ordination occupations",Other services (except public administration),0.0022999080036798527
+15,91,62.8844742111787,53.275507076710376,17520,-1534,-76,7.710686359687228,195,"Distribution, tracking and scheduling co-ordination occupations",Public administration,0.00931009787538792
+21,21,36.462469260799764,33.13153793872011,8484,-3196,-625,18.37222291175375,985,Professional occupations in natural and applied sciences,"Mining, quarrying, and oil and gas extraction",0.10883977900552486
+21,22,39.543570695012,37.416438784663946,2887,-129,0,2.016534966144002,245,Professional occupations in natural and applied sciences,Utilities,0.1053763440860215
+21,23,43.42606974081796,37.853760759123524,19708,-3089,-29,14.08747397018466,315,Professional occupations in natural and applied sciences,Construction,0.010882708585247884
+21,31,38.48319358257494,37.463266517453455,5481,415,-584,4.314743563223146,85,Professional occupations in natural and applied sciences,Manufacturing,0.005770536320434488
+21,48,39.15656207739452,41.27303287082133,9308,-817,-709,3.381462634286266,75,Professional occupations in natural and applied sciences,Transportation and Warehousing,0.00641573994867408
+21,51,36.53674036922861,34.5081223945738,1612,399,-120,2.414394660267814,240,Professional occupations in natural and applied sciences,Information and cultural industries,0.0784313725490196
+21,52,36.21088303041924,33.78005396810174,4451,-391,937,3.361466219850234,55,Professional occupations in natural and applied sciences,Finance and insurance,0.011282051282051283
+21,54,39.38770733437618,36.27408898242265,9835,-9,194,3.35319184146291,2330,Professional occupations in natural and applied sciences,"Professional, scientific and technical services",0.20831470719713902
+21,61,38.78109906568293,35.099965817127945,16042,-708,-502,6.12821149311158,240,Professional occupations in natural and applied sciences,Educational services,0.01260835303388495
+21,62,39.40358730552463,37.48597558909716,39596,-787,2224,8.892543406009958,60,Professional occupations in natural and applied sciences,Health care and social assistance,0.0015236160487557136
+21,81,41.533867761214154,35.55495475391195,10300,-2926,795,1.708314371216196,35,Professional occupations in natural and applied sciences,Other services (except public administration),0.003219871205151794
+21,91,40.47731284729771,36.24868118605015,17520,-1534,-76,7.710686359687228,875,Professional occupations in natural and applied sciences,Public administration,0.041776080210074
+22,11,57.50173560454509,50.83273134045389,4658,-254,482,2.120654227517824,265,Technical occupations related to natural and applied sciences,"Agriculture, forestry, fishing and hunting",0.026713709677419355
+22,21,38.54681375884789,38.14338645094812,8484,-3196,-625,18.37222291175375,760,Technical occupations related to natural and applied sciences,"Mining, quarrying, and oil and gas extraction",0.08397790055248619
+22,22,43.892164198419856,42.604300519471124,2887,-129,0,2.016534966144002,290,Technical occupations related to natural and applied sciences,Utilities,0.12473118279569892
+22,23,45.02072329449411,42.4319892848167,19708,-3089,-29,14.08747397018466,1010,Technical occupations related to natural and applied sciences,Construction,0.03489376403523925
+22,31,49.34095000786266,45.9520790607811,5481,415,-584,4.314743563223146,260,Technical occupations related to natural and applied sciences,Manufacturing,0.017651052274270197
+22,41,46.792541949862226,45.2344626196228,2730,-635,-771,2.367851281839118,55,Technical occupations related to natural and applied sciences,Wholesale trade,0.012956419316843345
+22,44,47.8518929025852,45.4780276951905,25929,-3365,-4618,5.550728834829616,80,Technical occupations related to natural and applied sciences,Retail Trade,0.0023862788963460104
+22,48,58.324650702551736,50.77961403811448,9308,-817,-709,3.381462634286266,1645,Technical occupations related to natural and applied sciences,Transportation and Warehousing,0.1407185628742515
+22,51,45.80783723024526,43.09131323206428,1612,399,-120,2.414394660267814,255,Technical occupations related to natural and applied sciences,Information and cultural industries,0.08333333333333333
+22,52,53.63193202632327,45.996245145230695,4451,-391,937,3.361466219850234,15,Technical occupations related to natural and applied sciences,Finance and insurance,0.003076923076923077
+22,54,43.62607038305084,41.25435267045531,9835,-9,194,3.35319184146291,1705,Technical occupations related to natural and applied sciences,"Professional, scientific and technical services",0.15243629861421545
+22,56,48.732258837944855,46.00725179644078,6232,-788,-2480,1.481458497097072,155,Technical occupations related to natural and applied sciences,"Administrative and support, waste management and remediation services",0.020156046814044214
+22,61,47.83407776850198,44.19970532207036,16042,-708,-502,6.12821149311158,315,Technical occupations related to natural and applied sciences,Educational services,0.016548463356973995
+22,62,43.576251047325385,42.289528663546065,39596,-787,2224,8.892543406009958,150,Technical occupations related to natural and applied sciences,Health care and social assistance,0.003809040121889284
+22,71,62.04142644552791,55.09637080843538,3100,-1150,-595,0.3175292706135451,130,Technical occupations related to natural and applied sciences,"Arts, entertainment and recreation",0.03350515463917526
+22,81,48.76353957907,45.63577798175838,10300,-2926,795,1.708314371216196,140,Technical occupations related to natural and applied sciences,Other services (except public administration),0.012879484820607176
+22,91,51.377477165425674,46.01717735203184,17520,-1534,-76,7.710686359687228,1770,Technical occupations related to natural and applied sciences,Public administration,0.08450704225352113
+30,54,88.61171319545824,72.66365627295214,9835,-9,194,3.35319184146291,15,Professional occupations in nursing,"Professional, scientific and technical services",0.0013410818059901655
+30,56,88.61171319545824,72.66365627295214,6232,-788,-2480,1.481458497097072,45,Professional occupations in nursing,"Administrative and support, waste management and remediation services",0.005851755526657998
+30,61,88.61171319545824,72.66365627295214,16042,-708,-502,6.12821149311158,20,Professional occupations in nursing,Educational services,0.0010506960861570791
+30,62,88.7104144649531,72.77060058426225,39596,-787,2224,8.892543406009958,5780,Professional occupations in nursing,Health care and social assistance,0.1467750126968004
+30,81,88.61171319545824,72.66365627295214,10300,-2926,795,1.708314371216196,20,Professional occupations in nursing,Other services (except public administration),0.0018399264029438822
+30,91,88.61171319545824,72.66365627295214,17520,-1534,-76,7.710686359687228,130,Professional occupations in nursing,Public administration,0.0062067319169252805
+31,44,86.3072500172048,72.30437926136885,25929,-3365,-4618,5.550728834829616,600,Professional occupations in health (except nursing),Retail Trade,0.017897091722595078
+31,54,89.53499759760942,71.05106089811365,9835,-9,194,3.35319184146291,60,Professional occupations in health (except nursing),"Professional, scientific and technical services",0.005364327223960662
+31,61,87.11734532244567,80.63050468281446,16042,-708,-502,6.12821149311158,95,Professional occupations in health (except nursing),Educational services,0.004990806409246125
+31,62,89.75186580190679,84.56348025219226,39596,-787,2224,8.892543406009958,2830,Professional occupations in health (except nursing),Health care and social assistance,0.07186389029964449
+32,23,84.87800146530165,76.96854893592341,19708,-3089,-29,14.08747397018466,20,Technical occupations in health,Construction,6.909656244601831e-4
+32,44,81.05953412001648,70.85272110441035,25929,-3365,-4618,5.550728834829616,635,Technical occupations in health,Retail Trade,0.018941088739746457
+32,54,88.60216636132694,73.57357318115359,9835,-9,194,3.35319184146291,165,Technical occupations in health,"Professional, scientific and technical services",0.014751899865891819
+32,61,65.11939451392236,60.42671653365396,16042,-708,-502,6.12821149311158,25,Technical occupations in health,Educational services,0.001313370107696349
+32,62,87.2750407269004,73.8561830080656,39596,-787,2224,8.892543406009958,5025,Technical occupations in health,Health care and social assistance,0.127602844083291
+32,91,87.74138908610344,77.1646310696708,17520,-1534,-76,7.710686359687228,70,Technical occupations in health,Public administration,0.0033420864168059203
+34,44,87.17350718513379,73.28644996748551,25929,-3365,-4618,5.550728834829616,115,Assisting occupations in support of health services,Retail Trade,0.00343027591349739
+34,56,79.40932090083248,67.84991083067246,6232,-788,-2480,1.481458497097072,25,Assisting occupations in support of health services,"Administrative and support, waste management and remediation services",0.003250975292587776
+34,61,79.40932090083248,67.84991083067246,16042,-708,-502,6.12821149311158,20,Assisting occupations in support of health services,Educational services,0.0010506960861570791
+34,62,81.57338299501998,69.07112396277928,39596,-787,2224,8.892543406009958,4065,Assisting occupations in support of health services,Health care and social assistance,0.1032249873031996
+34,81,79.40932090083248,67.84991083067246,10300,-2926,795,1.708314371216196,60,Assisting occupations in support of health services,Other services (except public administration),0.005519779208831647
+34,91,79.40932090083248,67.84991083067246,17520,-1534,-76,7.710686359687228,10,Assisting occupations in support of health services,Public administration,4.7744091668656003e-4
+40,54,61.343624801953,52.0584312969174,9835,-9,194,3.35319184146291,30,Professional occupations in education services,"Professional, scientific and technical services",0.002682163611980331
+40,61,65.5230451006657,52.87258753748715,16042,-708,-502,6.12821149311158,10620,Professional occupations in education services,Educational services,0.557919621749409
+40,62,62.82769606761917,53.39777129506951,39596,-787,2224,8.892543406009958,95,Professional occupations in education services,Health care and social assistance,0.0024123920771965466
+40,81,61.343624801953,52.0584312969174,10300,-2926,795,1.708314371216196,15,Professional occupations in education services,Other services (except public administration),0.0013799448022079118
+40,91,61.343624801953,52.0584312969174,17520,-1534,-76,7.710686359687228,125,Professional occupations in education services,Public administration,0.005968011458582
+41,21,50.90793270235891,42.791801187003244,8484,-3196,-625,18.37222291175375,30,"Professional occupations in law and social, community and government services","Mining, quarrying, and oil and gas extraction",0.0033149171270718232
+41,22,47.64356601926181,42.634857755412355,2887,-129,0,2.016534966144002,40,"Professional occupations in law and social, community and government services",Utilities,0.017204301075268817
+41,52,38.15235629535546,29.47664538849207,4451,-391,937,3.361466219850234,65,"Professional occupations in law and social, community and government services",Finance and insurance,0.013333333333333334
+41,53,36.86046396170314,30.993021721707787,2125,-36,0,10.10818749741426,20,"Professional occupations in law and social, community and government services",Real estate and rental and leasing,0.008988764044943821
+41,54,42.927084791938334,39.77940595483308,9835,-9,194,3.35319184146291,805,"Professional occupations in law and social, community and government services","Professional, scientific and technical services",0.07197139025480555
+41,56,61.98663022463688,47.83782314574407,6232,-788,-2480,1.481458497097072,40,"Professional occupations in law and social, community and government services","Administrative and support, waste management and remediation services",0.005201560468140442
+41,61,68.29374373725615,53.471555933487544,16042,-708,-502,6.12821149311158,350,"Professional occupations in law and social, community and government services",Educational services,0.018387181507748884
+41,62,71.47660057979841,59.315722769969874,39596,-787,2224,8.892543406009958,1485,"Professional occupations in law and social, community and government services",Health care and social assistance,0.03770949720670391
+41,71,66.6490793885644,57.22153265131353,3100,-1150,-595,0.3175292706135451,15,"Professional occupations in law and social, community and government services","Arts, entertainment and recreation",0.003865979381443299
+41,81,61.162863022085816,47.071180660422804,10300,-2926,795,1.708314371216196,835,"Professional occupations in law and social, community and government services",Other services (except public administration),0.07681692732290708
+41,91,54.28538095192191,45.43536445026892,17520,-1534,-76,7.710686359687228,1915,"Professional occupations in law and social, community and government services",Public administration,0.09142993554547625
+42,54,42.09628734519823,32.29042607704847,9835,-9,194,3.35319184146291,140,"Paraprofessional occupations in legal, social, community and education services","Professional, scientific and technical services",0.012516763522574878
+42,61,63.1771185697737,49.631485869867795,16042,-708,-502,6.12821149311158,440,"Paraprofessional occupations in legal, social, community and education services",Educational services,0.02311531389545574
+42,62,69.58716324187341,58.52689298451416,39596,-787,2224,8.892543406009958,2910,"Paraprofessional occupations in legal, social, community and education services",Health care and social assistance,0.07389537836465211
+42,71,63.48675233618843,51.24072020240105,3100,-1150,-595,0.3175292706135451,25,"Paraprofessional occupations in legal, social, community and education services","Arts, entertainment and recreation",0.006443298969072165
+42,81,70.82716674024016,59.001486069224754,10300,-2926,795,1.708314371216196,260,"Paraprofessional occupations in legal, social, community and education services",Other services (except public administration),0.02391904323827047
+42,91,73.25222986613846,63.60802711286741,17520,-1534,-76,7.710686359687228,390,"Paraprofessional occupations in legal, social, community and education services",Public administration,0.01862019575077584
+43,48,75.51966340369573,65.7657307478836,9308,-817,-709,3.381462634286266,30,Occupations in front-line public protection services,Transportation and Warehousing,0.0025662959794696323
+43,56,75.51966340369573,65.7657307478836,6232,-788,-2480,1.481458497097072,15,Occupations in front-line public protection services,"Administrative and support, waste management and remediation services",0.0019505851755526658
+43,91,72.56708089071108,60.316727798966205,17520,-1534,-76,7.710686359687228,2050,Occupations in front-line public protection services,Public administration,0.09787538792074481
+44,21,71.98277564700592,58.85079232615193,8484,-3196,-625,18.37222291175375,10,"Care providers and educational, legal and public protection support occupations","Mining, quarrying, and oil and gas extraction",0.0011049723756906078
+44,53,71.98277564700592,58.85079232615193,2125,-36,0,10.10818749741426,35,"Care providers and educational, legal and public protection support occupations",Real estate and rental and leasing,0.015730337078651686
+44,54,71.98277564700592,58.850792326151925,9835,-9,194,3.35319184146291,55,"Care providers and educational, legal and public protection support occupations","Professional, scientific and technical services",0.0049172999552972736
+44,56,72.66776580065638,59.22571021282463,6232,-788,-2480,1.481458497097072,100,"Care providers and educational, legal and public protection support occupations","Administrative and support, waste management and remediation services",0.013003901170351105
+44,61,64.9227069873595,54.317215228710275,16042,-708,-502,6.12821149311158,1175,"Care providers and educational, legal and public protection support occupations",Educational services,0.06172839506172839
+44,62,68.62413300952122,54.45703064584004,39596,-787,2224,8.892543406009958,8870,"Care providers and educational, legal and public protection support occupations",Health care and social assistance,0.22524123920771966
+44,72,71.98277564700592,58.850792326151925,16461,-4461,-3027,1.977576434570353,145,"Care providers and educational, legal and public protection support occupations",Accommodation and food services,0.0071782178217821785
+44,81,62.895801292491605,46.9632520254242,10300,-2926,795,1.708314371216196,1260,"Care providers and educational, legal and public protection support occupations",Other services (except public administration),0.11591536338546458
+44,91,72.72447702593306,59.465735842455786,17520,-1534,-76,7.710686359687228,575,"Care providers and educational, legal and public protection support occupations",Public administration,0.027452852709477202
+51,44,67.80137448484663,48.85847330824628,25929,-3365,-4618,5.550728834829616,15,Professional occupations in art and culture,Retail Trade,4.4742729306487697e-4
+51,51,53.0013329746348,37.450772012391916,1612,399,-120,2.414394660267814,495,Professional occupations in art and culture,Information and cultural industries,0.16176470588235295
+51,54,44.48521989959137,23.170271792597234,9835,-9,194,3.35319184146291,75,Professional occupations in art and culture,"Professional, scientific and technical services",0.006705409029950827
+51,56,44.88762388206498,29.622990273872222,6232,-788,-2480,1.481458497097072,25,Professional occupations in art and culture,"Administrative and support, waste management and remediation services",0.003250975292587776
+51,61,68.38958211867235,52.34300990687746,16042,-708,-502,6.12821149311158,495,Professional occupations in art and culture,Educational services,0.026004728132387706
+51,71,44.64860500483306,27.900508861661738,3100,-1150,-595,0.3175292706135451,445,Professional occupations in art and culture,"Arts, entertainment and recreation",0.11469072164948453
+51,81,22.229124648736033,22.966962140610125,10300,-2926,795,1.708314371216196,15,Professional occupations in art and culture,Other services (except public administration),0.0013799448022079118
+52,23,57.13739088037457,45.89172792320564,19708,-3089,-29,14.08747397018466,30,"Technical occupations in art, culture, recreation and sport",Construction,0.0010364484366902746
+52,31,35.50818670457697,25.976438323026013,5481,415,-584,4.314743563223146,70,"Technical occupations in art, culture, recreation and sport",Manufacturing,0.0047522063815342835
+52,44,26.99536038473563,14.579329344175262,25929,-3365,-4618,5.550728834829616,85,"Technical occupations in art, culture, recreation and sport",Retail Trade,0.002535421327367636
+52,51,49.952370613908364,42.4804452591408,1612,399,-120,2.414394660267814,370,"Technical occupations in art, culture, recreation and sport",Information and cultural industries,0.12091503267973856
+52,54,38.86984110198359,24.317239984408527,9835,-9,194,3.35319184146291,380,"Technical occupations in art, culture, recreation and sport","Professional, scientific and technical services",0.033974072418417524
+52,61,64.23787781606478,57.552295173128655,16042,-708,-502,6.12821149311158,500,"Technical occupations in art, culture, recreation and sport",Educational services,0.026267402153926978
+52,62,67.8905472544245,63.07270160496206,39596,-787,2224,8.892543406009958,135,"Technical occupations in art, culture, recreation and sport",Health care and social assistance,0.0034281361097003556
+52,71,59.69461547543529,55.77476806925602,3100,-1150,-595,0.3175292706135451,1560,"Technical occupations in art, culture, recreation and sport","Arts, entertainment and recreation",0.4020618556701031
+52,72,67.8905472544245,63.072701604962056,16461,-4461,-3027,1.977576434570353,115,"Technical occupations in art, culture, recreation and sport",Accommodation and food services,0.005693069306930693
+52,81,63.020204138900965,58.80133291669238,10300,-2926,795,1.708314371216196,155,"Technical occupations in art, culture, recreation and sport",Other services (except public administration),0.014259429622815088
+52,91,62.7946142693675,59.072697225762546,17520,-1534,-76,7.710686359687228,385,"Technical occupations in art, culture, recreation and sport",Public administration,0.018381475292432562
+62,21,50.14164010885942,43.66438347125887,8484,-3196,-625,18.37222291175375,45,Retail sales supervisors and specialized sales occupations,"Mining, quarrying, and oil and gas extraction",0.004972375690607734
+62,23,50.64280782405288,44.17752781384,19708,-3089,-29,14.08747397018466,30,Retail sales supervisors and specialized sales occupations,Construction,0.0010364484366902746
+62,31,55.1533172607941,48.795826897070135,5481,415,-584,4.314743563223146,90,Retail sales supervisors and specialized sales occupations,Manufacturing,0.006109979633401222
+62,41,50.99246529366864,44.362921837477124,2730,-635,-771,2.367851281839118,340,Retail sales supervisors and specialized sales occupations,Wholesale trade,0.0800942285041225
+62,44,65.2864144680374,56.79912814920556,25929,-3365,-4618,5.550728834829616,965,Retail sales supervisors and specialized sales occupations,Retail Trade,0.028784489187173752
+62,51,46.132298387311664,39.55922873060986,1612,399,-120,2.414394660267814,110,Retail sales supervisors and specialized sales occupations,Information and cultural industries,0.03594771241830065
+62,52,54.91158285136699,44.245556467801585,4451,-391,937,3.361466219850234,1275,Retail sales supervisors and specialized sales occupations,Finance and insurance,0.26153846153846155
+62,53,54.44774813404877,34.59906416706917,2125,-36,0,10.10818749741426,655,Retail sales supervisors and specialized sales occupations,Real estate and rental and leasing,0.2943820224719101
+62,54,48.87782587054545,42.370367303010816,9835,-9,194,3.35319184146291,115,Retail sales supervisors and specialized sales occupations,"Professional, scientific and technical services",0.010281627179257935
+62,56,55.44556696390965,47.837405241954144,6232,-788,-2480,1.481458497097072,35,Retail sales supervisors and specialized sales occupations,"Administrative and support, waste management and remediation services",0.004551365409622887
+62,91,55.303478133754766,47.87944993435029,17520,-1534,-76,7.710686359687228,55,Retail sales supervisors and specialized sales occupations,Public administration,0.0026259250417760803
+63,11,50.78381087311743,49.122828303343226,4658,-254,482,2.120654227517824,45,Service supervisors and specialized service occupations,"Agriculture, forestry, fishing and hunting",0.0045362903225806455
+63,23,50.78381087311743,49.12282830334323,19708,-3089,-29,14.08747397018466,15,Service supervisors and specialized service occupations,Construction,5.182242183451373e-4
+63,31,45.236099873063345,44.46015953864039,5481,415,-584,4.314743563223146,235,Service supervisors and specialized service occupations,Manufacturing,0.015953835709436523
+63,41,48.885128548965554,52.82922340994534,2730,-635,-771,2.367851281839118,60,Service supervisors and specialized service occupations,Wholesale trade,0.014134275618374558
+63,44,47.577616784122874,49.49519459377136,25929,-3365,-4618,5.550728834829616,675,Service supervisors and specialized service occupations,Retail Trade,0.020134228187919462
+63,48,50.78381087311743,49.12282830334323,9308,-817,-709,3.381462634286266,135,Service supervisors and specialized service occupations,Transportation and Warehousing,0.011548331907613344
+63,52,54.314432263712455,45.9732846009416,4451,-391,937,3.361466219850234,30,Service supervisors and specialized service occupations,Finance and insurance,0.006153846153846154
+63,56,53.6323152639167,47.33471153999183,6232,-788,-2480,1.481458497097072,165,Service supervisors and specialized service occupations,"Administrative and support, waste management and remediation services",0.021456436931079324
+63,61,50.78381087311743,49.12282830334323,16042,-708,-502,6.12821149311158,30,Service supervisors and specialized service occupations,Educational services,0.0015760441292356187
+63,62,54.03129855758873,50.553503585918214,39596,-787,2224,8.892543406009958,470,Service supervisors and specialized service occupations,Health care and social assistance,0.011934992381919756
+63,71,52.428059126962346,51.54127958672783,3100,-1150,-595,0.3175292706135451,105,Service supervisors and specialized service occupations,"Arts, entertainment and recreation",0.027061855670103094
+63,72,55.97964182215339,51.637716245000746,16461,-4461,-3027,1.977576434570353,4560,Service supervisors and specialized service occupations,Accommodation and food services,0.22574257425742575
+63,81,81.01870119420715,60.45060346968103,10300,-2926,795,1.708314371216196,1775,Service supervisors and specialized service occupations,Other services (except public administration),0.16329346826126956
+63,91,50.85013897738426,47.82712388421943,17520,-1534,-76,7.710686359687228,145,Service supervisors and specialized service occupations,Public administration,0.006922893291955121
+64,11,70.96779948035764,59.88360493743032,4658,-254,482,2.120654227517824,20,Sales representatives and salespersons - wholesale and retail trade,"Agriculture, forestry, fishing and hunting",0.0020161290322580645
+64,23,68.40238520291912,57.173730540941776,19708,-3089,-29,14.08747397018466,85,Sales representatives and salespersons - wholesale and retail trade,Construction,0.002936603903955778
+64,31,64.80043990429331,53.368957398397264,5481,415,-584,4.314743563223146,165,Sales representatives and salespersons - wholesale and retail trade,Manufacturing,0.01120162932790224
+64,41,62.11897921904795,50.53650194664376,2730,-635,-771,2.367851281839118,805,Sales representatives and salespersons - wholesale and retail trade,Wholesale trade,0.1896348645465253
+64,44,70.90834202607482,59.82079939586208,25929,-3365,-4618,5.550728834829616,9780,Sales representatives and salespersons - wholesale and retail trade,Retail Trade,0.2917225950782998
+64,51,63.03833716827493,51.50762953010209,1612,399,-120,2.414394660267814,165,Sales representatives and salespersons - wholesale and retail trade,Information and cultural industries,0.05392156862745098
+64,53,70.96779948035764,59.88360493743032,2125,-36,0,10.10818749741426,130,Sales representatives and salespersons - wholesale and retail trade,Real estate and rental and leasing,0.058426966292134834
+64,54,67.14218169821248,55.84256417073689,9835,-9,194,3.35319184146291,95,Sales representatives and salespersons - wholesale and retail trade,"Professional, scientific and technical services",0.008493518104604381
+64,56,66.42487836406026,55.084869026981856,6232,-788,-2480,1.481458497097072,80,Sales representatives and salespersons - wholesale and retail trade,"Administrative and support, waste management and remediation services",0.010403120936280884
+64,61,66.60659520871215,55.276818463399806,16042,-708,-502,6.12821149311158,50,Sales representatives and salespersons - wholesale and retail trade,Educational services,0.002626740215392698
+64,62,70.96779948035764,59.88360493743032,39596,-787,2224,8.892543406009958,40,Sales representatives and salespersons - wholesale and retail trade,Health care and social assistance,0.001015744032503809
+64,71,68.54490821833238,57.32427911852447,3100,-1150,-595,0.3175292706135451,120,Sales representatives and salespersons - wholesale and retail trade,"Arts, entertainment and recreation",0.030927835051546393
+64,72,70.96779948035764,59.88360493743032,16461,-4461,-3027,1.977576434570353,65,Sales representatives and salespersons - wholesale and retail trade,Accommodation and food services,0.0032178217821782176
+64,81,70.96779948035764,59.88360493743032,10300,-2926,795,1.708314371216196,80,Sales representatives and salespersons - wholesale and retail trade,Other services (except public administration),0.007359705611775529
+64,91,70.96779948035764,59.88360493743032,17520,-1534,-76,7.710686359687228,60,Sales representatives and salespersons - wholesale and retail trade,Public administration,0.0028646455001193603
+65,11,64.63444606617917,53.81157963630368,4658,-254,482,2.120654227517824,20,Service representatives and other customer and personal services occupations,"Agriculture, forestry, fishing and hunting",0.0020161290322580645
+65,21,60.63737094668896,51.597384665843784,8484,-3196,-625,18.37222291175375,25,Service representatives and other customer and personal services occupations,"Mining, quarrying, and oil and gas extraction",0.0027624309392265192
+65,22,61.70269298463017,54.14093281002342,2887,-129,0,2.016534966144002,60,Service representatives and other customer and personal services occupations,Utilities,0.025806451612903226
+65,23,60.90370145617426,52.2332717018887,19708,-3089,-29,14.08747397018466,60,Service representatives and other customer and personal services occupations,Construction,0.002072896873380549
+65,41,61.70269298463016,54.14093281002343,2730,-635,-771,2.367851281839118,105,Service representatives and other customer and personal services occupations,Wholesale trade,0.024734982332155476
+65,44,62.653315159110754,53.08815756261186,25929,-3365,-4618,5.550728834829616,490,Service representatives and other customer and personal services occupations,Retail Trade,0.014615958240119313
+65,48,69.70072295910406,58.639086824807706,9308,-817,-709,3.381462634286266,585,Service representatives and other customer and personal services occupations,Transportation and Warehousing,0.05004277159965783
+65,51,61.70269298463017,54.14093281002342,1612,399,-120,2.414394660267814,90,Service representatives and other customer and personal services occupations,Information and cultural industries,0.029411764705882353
+65,52,72.40897985967949,57.772798352256864,4451,-391,937,3.361466219850234,865,Service representatives and other customer and personal services occupations,Finance and insurance,0.17743589743589744
+65,53,61.70269298463017,54.14093281002342,2125,-36,0,10.10818749741426,25,Service representatives and other customer and personal services occupations,Real estate and rental and leasing,0.011235955056179775
+65,54,61.70269298463017,54.14093281002342,9835,-9,194,3.35319184146291,60,Service representatives and other customer and personal services occupations,"Professional, scientific and technical services",0.005364327223960662
+65,56,61.368577359775124,51.97196330501438,6232,-788,-2480,1.481458497097072,1945,Service representatives and other customer and personal services occupations,"Administrative and support, waste management and remediation services",0.252925877763329
+65,61,63.36211798985536,55.29097559932324,16042,-708,-502,6.12821149311158,140,Service representatives and other customer and personal services occupations,Educational services,0.007354872603099553
+65,62,60.921456823473285,52.27566417095835,39596,-787,2224,8.892543406009958,75,Service representatives and other customer and personal services occupations,Health care and social assistance,0.001904520060944642
+65,71,67.21849089336864,59.548843185879775,3100,-1150,-595,0.3175292706135451,220,Service representatives and other customer and personal services occupations,"Arts, entertainment and recreation",0.05670103092783505
+65,72,71.82412577516858,65.09050192114832,16461,-4461,-3027,1.977576434570353,4865,Service representatives and other customer and personal services occupations,Accommodation and food services,0.24084158415841583
+65,81,65.89540672037907,49.27614478560543,10300,-2926,795,1.708314371216196,865,Service representatives and other customer and personal services occupations,Other services (except public administration),0.07957681692732291
+65,91,62.34683869168,53.603943103640745,17520,-1534,-76,7.710686359687228,460,Service representatives and other customer and personal services occupations,Public administration,0.02196228216758176
+66,11,77.3590286367138,68.12330407992168,4658,-254,482,2.120654227517824,20,Sales support occupations,"Agriculture, forestry, fishing and hunting",0.0020161290322580645
+66,41,58.55193738714636,52.06802756329058,2730,-635,-771,2.367851281839118,70,Sales support occupations,Wholesale trade,0.016489988221436984
+66,44,68.55307456189394,60.557122015893455,25929,-3365,-4618,5.550728834829616,9355,Sales support occupations,Retail Trade,0.2790454884414616
+66,48,51.02910088731939,45.64591695663814,9308,-817,-709,3.381462634286266,45,Sales support occupations,Transportation and Warehousing,0.003849443969204448
+66,51,77.3590286367138,68.12330407992168,1612,399,-120,2.414394660267814,50,Sales support occupations,Information and cultural industries,0.016339869281045753
+66,54,56.612239900008156,27.314144306430787,9835,-9,194,3.35319184146291,30,Sales support occupations,"Professional, scientific and technical services",0.002682163611980331
+66,56,56.61223990000816,27.314144306430784,6232,-788,-2480,1.481458497097072,40,Sales support occupations,"Administrative and support, waste management and remediation services",0.005201560468140442
+66,61,77.3590286367138,68.12330407992168,16042,-708,-502,6.12821149311158,25,Sales support occupations,Educational services,0.001313370107696349
+66,62,77.3590286367138,68.12330407992168,39596,-787,2224,8.892543406009958,10,Sales support occupations,Health care and social assistance,2.5393600812595224e-4
+66,71,77.35902863671379,68.12330407992168,3100,-1150,-595,0.3175292706135451,55,Sales support occupations,"Arts, entertainment and recreation",0.014175257731958763
+66,72,77.3590286367138,68.12330407992168,16461,-4461,-3027,1.977576434570353,1635,Sales support occupations,Accommodation and food services,0.08094059405940594
+66,81,77.35902863671379,68.12330407992168,10300,-2926,795,1.708314371216196,50,Sales support occupations,Other services (except public administration),0.004599816007359705
+66,91,77.3590286367138,68.12330407992168,17520,-1534,-76,7.710686359687228,25,Sales support occupations,Public administration,0.0011936022917164002
+67,11,52.035601605462126,46.51963612410897,4658,-254,482,2.120654227517824,105,"Service support and other service occupations, n.e.c.","Agriculture, forestry, fishing and hunting",0.010584677419354838
+67,21,43.469131661282745,41.11642275632007,8484,-3196,-625,18.37222291175375,130,"Service support and other service occupations, n.e.c.","Mining, quarrying, and oil and gas extraction",0.014364640883977901
+67,22,47.56827646511497,44.49407829357332,2887,-129,0,2.016534966144002,40,"Service support and other service occupations, n.e.c.",Utilities,0.017204301075268817
+67,23,52.777776831447774,47.20664472149774,19708,-3089,-29,14.08747397018466,320,"Service support and other service occupations, n.e.c.",Construction,0.01105544999136293
+67,31,52.06598524781927,46.72513626482717,5481,415,-584,4.314743563223146,460,"Service support and other service occupations, n.e.c.",Manufacturing,0.031228784792939578
+67,41,47.56827646511497,44.494078293573324,2730,-635,-771,2.367851281839118,25,"Service support and other service occupations, n.e.c.",Wholesale trade,0.005889281507656066
+67,44,50.8132286617175,47.50148826606322,25929,-3365,-4618,5.550728834829616,830,"Service support and other service occupations, n.e.c.",Retail Trade,0.02475764354958986
+67,48,58.22893873185253,49.327795843715236,9308,-817,-709,3.381462634286266,110,"Service support and other service occupations, n.e.c.",Transportation and Warehousing,0.009409751924721984
+67,51,62.84615772369085,59.90315086390038,1612,399,-120,2.414394660267814,50,"Service support and other service occupations, n.e.c.",Information and cultural industries,0.016339869281045753
+67,53,49.13924576846646,45.55322587720049,2125,-36,0,10.10818749741426,330,"Service support and other service occupations, n.e.c.",Real estate and rental and leasing,0.14831460674157304
+67,54,56.612518758378755,50.73123088236588,9835,-9,194,3.35319184146291,70,"Service support and other service occupations, n.e.c.","Professional, scientific and technical services",0.006258381761287439
+67,56,55.92452148361504,48.04313253032014,6232,-788,-2480,1.481458497097072,2140,"Service support and other service occupations, n.e.c.","Administrative and support, waste management and remediation services",0.27828348504551365
+67,61,49.228732582982865,45.813529445771735,16042,-708,-502,6.12821149311158,950,"Service support and other service occupations, n.e.c.",Educational services,0.049908064092461256
+67,62,57.296278638895274,50.50834521882934,39596,-787,2224,8.892543406009958,2105,"Service support and other service occupations, n.e.c.",Health care and social assistance,0.053453529710512954
+67,71,68.47251848307161,62.288158928244314,3100,-1150,-595,0.3175292706135451,615,"Service support and other service occupations, n.e.c.","Arts, entertainment and recreation",0.15850515463917525
+67,72,59.43813347684657,55.51414405634295,16461,-4461,-3027,1.977576434570353,6135,"Service support and other service occupations, n.e.c.",Accommodation and food services,0.3037128712871287
+67,81,49.910702998028434,46.0142096348879,10300,-2926,795,1.708314371216196,665,"Service support and other service occupations, n.e.c.",Other services (except public administration),0.06117755289788408
+67,91,53.44923094734422,48.74098004134584,17520,-1534,-76,7.710686359687228,465,"Service support and other service occupations, n.e.c.",Public administration,0.022201002625925042
+72,11,28.183322600304862,31.296140978774453,4658,-254,482,2.120654227517824,25,"Industrial, electrical and construction trades","Agriculture, forestry, fishing and hunting",0.0025201612903225806
+72,21,40.61630822527105,33.50059608515866,8484,-3196,-625,18.37222291175375,855,"Industrial, electrical and construction trades","Mining, quarrying, and oil and gas extraction",0.09447513812154697
+72,22,52.541853260392294,47.75091536495955,2887,-129,0,2.016534966144002,450,"Industrial, electrical and construction trades",Utilities,0.1935483870967742
+72,23,50.19503977936289,42.5634084087912,19708,-3089,-29,14.08747397018466,13075,"Industrial, electrical and construction trades",Construction,0.45171877699084473
+72,31,40.29961288688419,36.36914949872946,5481,415,-584,4.314743563223146,1550,"Industrial, electrical and construction trades",Manufacturing,0.10522742701968771
+72,41,40.930908874449095,41.2594260543051,2730,-635,-771,2.367851281839118,40,"Industrial, electrical and construction trades",Wholesale trade,0.009422850412249705
+72,44,51.22362559526078,43.98221434040967,25929,-3365,-4618,5.550728834829616,65,"Industrial, electrical and construction trades",Retail Trade,0.0019388516032811335
+72,48,38.656187598012096,37.06253796133591,9308,-817,-709,3.381462634286266,55,"Industrial, electrical and construction trades",Transportation and Warehousing,0.004704875962360992
+72,51,61.85121610401948,55.65792238619415,1612,399,-120,2.414394660267814,415,"Industrial, electrical and construction trades",Information and cultural industries,0.13562091503267973
+72,53,51.22362559526077,43.982214340409676,2125,-36,0,10.10818749741426,45,"Industrial, electrical and construction trades",Real estate and rental and leasing,0.020224719101123594
+72,54,46.84722553498835,38.59583525573105,9835,-9,194,3.35319184146291,140,"Industrial, electrical and construction trades","Professional, scientific and technical services",0.012516763522574878
+72,56,51.74582994857238,45.75699585918347,6232,-788,-2480,1.481458497097072,115,"Industrial, electrical and construction trades","Administrative and support, waste management and remediation services",0.01495448634590377
+72,61,48.17122425922749,43.408818239719636,16042,-708,-502,6.12821149311158,160,"Industrial, electrical and construction trades",Educational services,0.008405568689256633
+72,62,55.55353757570475,48.28431836967246,39596,-787,2224,8.892543406009958,155,"Industrial, electrical and construction trades",Health care and social assistance,0.00393600812595226
+72,72,51.22362559526078,43.982214340409676,16461,-4461,-3027,1.977576434570353,45,"Industrial, electrical and construction trades",Accommodation and food services,0.0022277227722772275
+72,81,34.62865653300016,34.140518626593895,10300,-2926,795,1.708314371216196,450,"Industrial, electrical and construction trades",Other services (except public administration),0.04139834406623735
+72,91,50.06504601810977,43.55259929485187,17520,-1534,-76,7.710686359687228,200,"Industrial, electrical and construction trades",Public administration,0.009548818333731201
+73,11,44.415069708806215,39.74908750768839,4658,-254,482,2.120654227517824,45,Maintenance and equipment operation trades,"Agriculture, forestry, fishing and hunting",0.0045362903225806455
+73,21,46.692558760905925,39.52924721303415,8484,-3196,-625,18.37222291175375,845,Maintenance and equipment operation trades,"Mining, quarrying, and oil and gas extraction",0.09337016574585635
+73,22,48.57256535107646,40.61064562546975,2887,-129,0,2.016534966144002,130,Maintenance and equipment operation trades,Utilities,0.05591397849462366
+73,23,48.25487785695663,39.56691185944009,19708,-3089,-29,14.08747397018466,1760,Maintenance and equipment operation trades,Construction,0.060804974952496114
+73,31,46.2554027545727,39.42620400470853,5481,415,-584,4.314743563223146,385,Maintenance and equipment operation trades,Manufacturing,0.02613713509843856
+73,41,47.389177935909956,40.74532082212887,2730,-635,-771,2.367851281839118,145,Maintenance and equipment operation trades,Wholesale trade,0.03415783274440518
+73,44,44.950516125719886,45.17536824719752,25929,-3365,-4618,5.550728834829616,780,Maintenance and equipment operation trades,Retail Trade,0.023266219239373602
+73,48,45.40765423031708,45.89281166079124,9308,-817,-709,3.381462634286266,600,Maintenance and equipment operation trades,Transportation and Warehousing,0.05132591958939264
+73,51,34.80013201068349,24.431288734347316,1612,399,-120,2.414394660267814,20,Maintenance and equipment operation trades,Information and cultural industries,0.006535947712418301
+73,53,44.452546963983565,41.719358902882135,2125,-36,0,10.10818749741426,60,Maintenance and equipment operation trades,Real estate and rental and leasing,0.02696629213483146
+73,54,49.604314534367035,35.8227763851367,9835,-9,194,3.35319184146291,20,Maintenance and equipment operation trades,"Professional, scientific and technical services",0.001788109074653554
+73,56,46.56563854917456,43.47750475365762,6232,-788,-2480,1.481458497097072,85,Maintenance and equipment operation trades,"Administrative and support, waste management and remediation services",0.011053315994798439
+73,61,45.287904639381125,44.93967085037824,16042,-708,-502,6.12821149311158,50,Maintenance and equipment operation trades,Educational services,0.002626740215392698
+73,81,45.410976072102336,44.3212285187219,10300,-2926,795,1.708314371216196,1810,Maintenance and equipment operation trades,Other services (except public administration),0.16651333946642136
+73,91,45.884261455917255,40.342201547612255,17520,-1534,-76,7.710686359687228,380,Maintenance and equipment operation trades,Public administration,0.01814275483408928
+74,11,42.10142198349514,45.29292145894485,4658,-254,482,2.120654227517824,70,"Other installers, repairers and servicers and material handlers","Agriculture, forestry, fishing and hunting",0.007056451612903226
+74,21,42.10142198349514,45.29292145894485,8484,-3196,-625,18.37222291175375,75,"Other installers, repairers and servicers and material handlers","Mining, quarrying, and oil and gas extraction",0.008287292817679558
+74,22,52.90742457451047,40.85291113216287,2887,-129,0,2.016534966144002,15,"Other installers, repairers and servicers and material handlers",Utilities,0.0064516129032258064
+74,23,46.7743340909107,47.49308405466373,19708,-3089,-29,14.08747397018466,460,"Other installers, repairers and servicers and material handlers",Construction,0.01589220936258421
+74,31,42.30420873532638,45.38840021309869,5481,415,-584,4.314743563223146,530,"Other installers, repairers and servicers and material handlers",Manufacturing,0.03598099117447386
+74,41,42.345687843655504,45.40792995826652,2730,-635,-771,2.367851281839118,440,"Other installers, repairers and servicers and material handlers",Wholesale trade,0.10365135453474676
+74,44,42.79901286875395,45.67266849403239,25929,-3365,-4618,5.550728834829616,710,"Other installers, repairers and servicers and material handlers",Retail Trade,0.021178225205070844
+74,48,42.28109458923798,42.75099738317687,9308,-817,-709,3.381462634286266,1035,"Other installers, repairers and servicers and material handlers",Transportation and Warehousing,0.0885372112917023
+74,54,42.10142198349515,45.29292145894485,9835,-9,194,3.35319184146291,25,"Other installers, repairers and servicers and material handlers","Professional, scientific and technical services",0.002235136343316942
+74,56,48.44328709237557,49.80193130731451,6232,-788,-2480,1.481458497097072,90,"Other installers, repairers and servicers and material handlers","Administrative and support, waste management and remediation services",0.011703511053315995
+74,62,49.81999526279181,42.121485511243435,39596,-787,2224,8.892543406009958,35,"Other installers, repairers and servicers and material handlers",Health care and social assistance,8.887760284408329e-4
+74,72,42.10142198349514,45.29292145894485,16461,-4461,-3027,1.977576434570353,70,"Other installers, repairers and servicers and material handlers",Accommodation and food services,0.0034653465346534654
+74,81,49.0575637372373,49.78215776032479,10300,-2926,795,1.708314371216196,55,"Other installers, repairers and servicers and material handlers",Other services (except public administration),0.005059797608095676
+74,91,47.50442327900281,43.07291629555387,17520,-1534,-76,7.710686359687228,30,"Other installers, repairers and servicers and material handlers",Public administration,0.0014323227500596801
+75,11,38.12175199556364,32.51558549238297,4658,-254,482,2.120654227517824,170,Transport and heavy equipment operation and related maintenance occupations,"Agriculture, forestry, fishing and hunting",0.017137096774193547
+75,21,38.47107606591113,32.2963629684606,8484,-3196,-625,18.37222291175375,1105,Transport and heavy equipment operation and related maintenance occupations,"Mining, quarrying, and oil and gas extraction",0.12209944751381216
+75,22,38.22167420972373,31.88653159343734,2887,-129,0,2.016534966144002,75,Transport and heavy equipment operation and related maintenance occupations,Utilities,0.03225806451612903
+75,23,38.59810186979295,32.03632281224556,19708,-3089,-29,14.08747397018466,3300,Transport and heavy equipment operation and related maintenance occupations,Construction,0.11400932803593021
+75,31,40.216456443952474,34.779486842133984,5481,415,-584,4.314743563223146,305,Transport and heavy equipment operation and related maintenance occupations,Manufacturing,0.020706042090970808
+75,41,45.01994563276845,39.26701585133929,2730,-635,-771,2.367851281839118,535,Transport and heavy equipment operation and related maintenance occupations,Wholesale trade,0.12603062426383982
+75,44,52.66600078762534,48.46041941352671,25929,-3365,-4618,5.550728834829616,780,Transport and heavy equipment operation and related maintenance occupations,Retail Trade,0.023266219239373602
+75,48,48.794744673135355,41.1678545431763,9308,-817,-709,3.381462634286266,4610,Transport and heavy equipment operation and related maintenance occupations,Transportation and Warehousing,0.3943541488451668
+75,53,49.869461589574776,42.33420285658301,2125,-36,0,10.10818749741426,100,Transport and heavy equipment operation and related maintenance occupations,Real estate and rental and leasing,0.0449438202247191
+75,54,39.77994689162929,34.23106400439088,9835,-9,194,3.35319184146291,60,Transport and heavy equipment operation and related maintenance occupations,"Professional, scientific and technical services",0.005364327223960662
+75,56,42.104200829482615,36.47757557684444,6232,-788,-2480,1.481458497097072,480,Transport and heavy equipment operation and related maintenance occupations,"Administrative and support, waste management and remediation services",0.06241872561768531
+75,61,68.1299843413799,45.238534316081456,16042,-708,-502,6.12821149311158,290,Transport and heavy equipment operation and related maintenance occupations,Educational services,0.015235093249277647
+75,72,60.66447605393832,53.29951075020182,16461,-4461,-3027,1.977576434570353,70,Transport and heavy equipment operation and related maintenance occupations,Accommodation and food services,0.0034653465346534654
+75,81,48.59777611059489,49.67916593765021,10300,-2926,795,1.708314371216196,150,Transport and heavy equipment operation and related maintenance occupations,Other services (except public administration),0.013799448022079117
+75,91,43.03516502713936,36.6947265365128,17520,-1534,-76,7.710686359687228,860,Transport and heavy equipment operation and related maintenance occupations,Public administration,0.04105991883504417
+76,21,42.80762008587637,35.65989775373325,8484,-3196,-625,18.37222291175375,240,"Trades helpers, construction labourers and related occupations","Mining, quarrying, and oil and gas extraction",0.026519337016574586
+76,22,45.9069262604454,42.78775801520257,2887,-129,0,2.016534966144002,65,"Trades helpers, construction labourers and related occupations",Utilities,0.02795698924731183
+76,23,43.042763502840984,35.96386140663092,19708,-3089,-29,14.08747397018466,5340,"Trades helpers, construction labourers and related occupations",Construction,0.1844878217308689
+76,31,42.80762008587637,35.65989775373325,5481,415,-584,4.314743563223146,325,"Trades helpers, construction labourers and related occupations",Manufacturing,0.022063815342837745
+76,41,42.80762008587637,35.65989775373325,2730,-635,-771,2.367851281839118,20,"Trades helpers, construction labourers and related occupations",Wholesale trade,0.004711425206124852
+76,44,42.80762008587637,35.65989775373325,25929,-3365,-4618,5.550728834829616,20,"Trades helpers, construction labourers and related occupations",Retail Trade,5.965697240865026e-4
+76,48,44.04061534347177,37.01645329698245,9308,-817,-709,3.381462634286266,95,"Trades helpers, construction labourers and related occupations",Transportation and Warehousing,0.008126603934987169
+76,53,42.80762008587637,35.65989775373325,2125,-36,0,10.10818749741426,20,"Trades helpers, construction labourers and related occupations",Real estate and rental and leasing,0.008988764044943821
+76,54,43.075184523690844,38.46511076238255,9835,-9,194,3.35319184146291,55,"Trades helpers, construction labourers and related occupations","Professional, scientific and technical services",0.0049172999552972736
+76,56,49.52845489162176,43.054237395214535,6232,-788,-2480,1.481458497097072,305,"Trades helpers, construction labourers and related occupations","Administrative and support, waste management and remediation services",0.03966189856957087
+76,61,42.80762008587637,35.65989775373325,16042,-708,-502,6.12821149311158,15,"Trades helpers, construction labourers and related occupations",Educational services,7.880220646178094e-4
+76,62,42.80762008587637,35.65989775373325,39596,-787,2224,8.892543406009958,10,"Trades helpers, construction labourers and related occupations",Health care and social assistance,2.5393600812595224e-4
+76,81,43.067314981402184,38.38260449742227,10300,-2926,795,1.708314371216196,85,"Trades helpers, construction labourers and related occupations",Other services (except public administration),0.0078196872125115
+76,91,52.69296356729148,46.535866184291855,17520,-1534,-76,7.710686359687228,865,"Trades helpers, construction labourers and related occupations",Public administration,0.041298639293387444
+82,11,36.404269231527664,28.56316448066671,4658,-254,482,2.120654227517824,5645,"Supervisors and technical occupations in natural resources, agriculture and related production","Agriculture, forestry, fishing and hunting",0.5690524193548387
+82,21,47.45225094985351,40.341265646134964,8484,-3196,-625,18.37222291175375,1390,"Supervisors and technical occupations in natural resources, agriculture and related production","Mining, quarrying, and oil and gas extraction",0.15359116022099448
+82,23,47.445455679243516,37.034810322977606,19708,-3089,-29,14.08747397018466,25,"Supervisors and technical occupations in natural resources, agriculture and related production",Construction,8.637070305752289e-4
+82,31,36.55870493528851,28.340117189752814,5481,415,-584,4.314743563223146,1275,"Supervisors and technical occupations in natural resources, agriculture and related production",Manufacturing,0.08655804480651731
+82,54,49.65863120494341,41.20795241244983,9835,-9,194,3.35319184146291,50,"Supervisors and technical occupations in natural resources, agriculture and related production","Professional, scientific and technical services",0.004470272686633884
+82,56,40.31341660246831,41.08482481121847,6232,-788,-2480,1.481458497097072,60,"Supervisors and technical occupations in natural resources, agriculture and related production","Administrative and support, waste management and remediation services",0.007802340702210663
+84,11,35.16904836330872,35.75373115953256,4658,-254,482,2.120654227517824,2330,"Workers in natural resources, agriculture and related production","Agriculture, forestry, fishing and hunting",0.23487903225806453
+84,21,37.57602121998717,33.49654715168988,8484,-3196,-625,18.37222291175375,350,"Workers in natural resources, agriculture and related production","Mining, quarrying, and oil and gas extraction",0.03867403314917127
+84,23,26.65006973835091,19.060102880065607,19708,-3089,-29,14.08747397018466,85,"Workers in natural resources, agriculture and related production",Construction,0.002936603903955778
+84,31,30.79547558707721,37.877420976899984,5481,415,-584,4.314743563223146,30,"Workers in natural resources, agriculture and related production",Manufacturing,0.002036659877800407
+84,91,66.27331752318216,62.5356249791467,17520,-1534,-76,7.710686359687228,25,"Workers in natural resources, agriculture and related production",Public administration,0.0011936022917164002
+86,11,35.055637890545995,29.063384739393246,4658,-254,482,2.120654227517824,380,"Harvesting, landscaping and natural resources labourers","Agriculture, forestry, fishing and hunting",0.038306451612903226
+86,21,44.52445140173364,37.14317901464378,8484,-3196,-625,18.37222291175375,580,"Harvesting, landscaping and natural resources labourers","Mining, quarrying, and oil and gas extraction",0.06408839779005525
+86,22,37.442527976781534,35.09834092546784,2887,-129,0,2.016534966144002,15,"Harvesting, landscaping and natural resources labourers",Utilities,0.0064516129032258064
+86,23,39.218552209584736,35.398682921514364,19708,-3089,-29,14.08747397018466,130,"Harvesting, landscaping and natural resources labourers",Construction,0.00449127655899119
+86,31,44.460560375915165,35.92930108024615,5481,415,-584,4.314743563223146,45,"Harvesting, landscaping and natural resources labourers",Manufacturing,0.003054989816700611
+86,48,37.442527976781534,35.09834092546784,9308,-817,-709,3.381462634286266,60,"Harvesting, landscaping and natural resources labourers",Transportation and Warehousing,0.0051325919589392645
+86,54,43.21460673339193,36.07445241261903,9835,-9,194,3.35319184146291,55,"Harvesting, landscaping and natural resources labourers","Professional, scientific and technical services",0.0049172999552972736
+86,56,37.61229499903478,35.12705008685464,6232,-788,-2480,1.481458497097072,510,"Harvesting, landscaping and natural resources labourers","Administrative and support, waste management and remediation services",0.06631989596879063
+86,61,37.442527976781534,35.09834092546784,16042,-708,-502,6.12821149311158,25,"Harvesting, landscaping and natural resources labourers",Educational services,0.001313370107696349
+86,62,37.442527976781534,35.09834092546784,39596,-787,2224,8.892543406009958,10,"Harvesting, landscaping and natural resources labourers",Health care and social assistance,2.5393600812595224e-4
+86,71,37.442527976781534,35.09834092546783,3100,-1150,-595,0.3175292706135451,205,"Harvesting, landscaping and natural resources labourers","Arts, entertainment and recreation",0.05283505154639175
+86,72,37.442527976781534,35.09834092546784,16461,-4461,-3027,1.977576434570353,35,"Harvesting, landscaping and natural resources labourers",Accommodation and food services,0.0017326732673267327
+86,81,37.442527976781534,35.09834092546784,10300,-2926,795,1.708314371216196,135,"Harvesting, landscaping and natural resources labourers",Other services (except public administration),0.012419503219871205
+86,91,37.442527976781534,35.09834092546784,17520,-1534,-76,7.710686359687228,180,"Harvesting, landscaping and natural resources labourers",Public administration,0.008593936500358081
+92,21,40.6072391236862,38.34839828360259,8484,-3196,-625,18.37222291175375,285,"Processing, manufacturing and utilities supervisors and central control operators","Mining, quarrying, and oil and gas extraction",0.03149171270718232
+92,22,47.4997230394761,42.60246422637396,2887,-129,0,2.016534966144002,350,"Processing, manufacturing and utilities supervisors and central control operators",Utilities,0.15053763440860216
+92,31,46.77607590950159,45.94458226354091,5481,415,-584,4.314743563223146,755,"Processing, manufacturing and utilities supervisors and central control operators",Manufacturing,0.05125594025797692
+92,54,46.64571855225784,39.78941409365223,9835,-9,194,3.35319184146291,30,"Processing, manufacturing and utilities supervisors and central control operators","Professional, scientific and technical services",0.002682163611980331
+92,56,49.35357199224439,49.81400687091884,6232,-788,-2480,1.481458497097072,60,"Processing, manufacturing and utilities supervisors and central control operators","Administrative and support, waste management and remediation services",0.007802340702210663
+92,61,46.64571855225785,39.78941409365223,16042,-708,-502,6.12821149311158,55,"Processing, manufacturing and utilities supervisors and central control operators",Educational services,0.0028894142369319674
+92,62,46.64571855225785,39.78941409365223,39596,-787,2224,8.892543406009958,40,"Processing, manufacturing and utilities supervisors and central control operators",Health care and social assistance,0.001015744032503809
+92,91,48.78013266717131,48.293475838883744,17520,-1534,-76,7.710686359687228,135,"Processing, manufacturing and utilities supervisors and central control operators",Public administration,0.00644545237526856
+94,11,44.88276276805167,38.13851394708851,4658,-254,482,2.120654227517824,40,Processing and manufacturing machine operators and related production workers,"Agriculture, forestry, fishing and hunting",0.004032258064516129
+94,21,35.66817363744812,33.521886451970076,8484,-3196,-625,18.37222291175375,65,Processing and manufacturing machine operators and related production workers,"Mining, quarrying, and oil and gas extraction",0.0071823204419889505
+94,31,37.084804125745926,38.06464682528214,5481,415,-584,4.314743563223146,2715,Processing and manufacturing machine operators and related production workers,Manufacturing,0.18431771894093688
+94,41,35.74209981426384,37.19128124323452,2730,-635,-771,2.367851281839118,20,Processing and manufacturing machine operators and related production workers,Wholesale trade,0.004711425206124852
+94,44,50.996507940513794,46.77969628520163,25929,-3365,-4618,5.550728834829616,35,Processing and manufacturing machine operators and related production workers,Retail Trade,0.0010439970171513796
+94,61,35.74209981426384,37.19128124323452,16042,-708,-502,6.12821149311158,15,Processing and manufacturing machine operators and related production workers,Educational services,7.880220646178094e-4
+94,81,62.437314035201254,53.97100756667696,10300,-2926,795,1.708314371216196,20,Processing and manufacturing machine operators and related production workers,Other services (except public administration),0.0018399264029438822
+95,23,33.36508420984172,32.75815689208152,19708,-3089,-29,14.08747397018466,35,Assemblers in manufacturing,Construction,0.0012091898428053204
+95,31,43.47717817574471,44.6408167697314,5481,415,-584,4.314743563223146,415,Assemblers in manufacturing,Manufacturing,0.028173794976238967
+95,44,47.79810030805747,42.28929472835304,25929,-3365,-4618,5.550728834829616,20,Assemblers in manufacturing,Retail Trade,5.965697240865026e-4
+96,11,46.198512613868225,43.988760842823545,4658,-254,482,2.120654227517824,60,"Labourers in processing, manufacturing and utilities","Agriculture, forestry, fishing and hunting",0.006048387096774193
+96,21,36.206878045319954,32.701661248160796,8484,-3196,-625,18.37222291175375,35,"Labourers in processing, manufacturing and utilities","Mining, quarrying, and oil and gas extraction",0.0038674033149171273
+96,23,38.16256855901606,37.871553119849686,19708,-3089,-29,14.08747397018466,95,"Labourers in processing, manufacturing and utilities",Construction,0.0032820867161858698
+96,31,48.024043810498185,45.694133030431196,5481,415,-584,4.314743563223146,3950,"Labourers in processing, manufacturing and utilities",Manufacturing,0.2681602172437203
+96,41,42.37555364686142,41.175140485743526,2730,-635,-771,2.367851281839118,205,"Labourers in processing, manufacturing and utilities",Wholesale trade,0.048292108362779744
+96,44,41.72407911613592,40.003303409852634,25929,-3365,-4618,5.550728834829616,50,"Labourers in processing, manufacturing and utilities",Retail Trade,0.0014914243102162564
+96,48,50.67294611160054,47.97421827579445,9308,-817,-709,3.381462634286266,20,"Labourers in processing, manufacturing and utilities",Transportation and Warehousing,0.001710863986313088
+96,54,42.10587049520683,40.53733060397685,9835,-9,194,3.35319184146291,20,"Labourers in processing, manufacturing and utilities","Professional, scientific and technical services",0.001788109074653554
+96,56,44.8317581913321,42.90361304500972,6232,-788,-2480,1.481458497097072,110,"Labourers in processing, manufacturing and utilities","Administrative and support, waste management and remediation services",0.014304291287386216
