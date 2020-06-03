@@ -1,4 +1,5 @@
 library(shiny)
+library(shinyjs)
 library(tidyverse)
 library(DT)
 library(haven)

@@ -15,7 +15,8 @@ collect_province_data <- function(this_prov) {
         filter(province == this_prov) %>% select(-province)
     
     ind3 <- read_csv(file.path(IN, "ind_3_digit.csv")) %>%
-        filter(province == this_prov) %>% select(-province)
+        filter(province == this_prov) %>% select(-province) %>%
+        mutate(subsector_gdp_share = subsector_gdp_share / 100) # Technically this is a "proportion", and so are the rest of the "share" variables 
     
     ind_crosswalk <- read_csv(file.path(IN, "ind_xwalk_description.csv")) 
     
@@ -138,3 +139,13 @@ province_names <- read_csv(file.path(IN, "ind_2_digit.csv")) %>%
     pull(province)
     
 lapply(province_names, collect_province_data)
+
+# Load manually created Quebec data and resave as output ---
+QC_disagg <- read_csv(file.path(IN, "QC", "quebec_risk_occ_4_ind_3.csv")) %>%
+    rename(risk_index_factor = index_factor,
+           risk_index_mean = index_mean)
+QC_agg <- read_csv(file.path(IN, "QC", "quebec_risk_occ_2_ind_2.csv"))
+
+dir.create(file.path(OUT, "QC"))
+write_csv(QC_agg, file.path(OUT, "QC", "risk_occ2ind2.csv"))
+write_csv(QC_disagg, file.path(OUT, "QC", "risk_occ4ind3.csv"))

@@ -11,7 +11,6 @@ source("occupation-industry-plots.R")
 load_province_data <- function(prov) {
     # prov <- "BC" # DEBUG
     
-    
     this_prov <- list() # Container, to be returned
     
     # Ensure that identifiers have type character
@@ -20,8 +19,6 @@ load_province_data <- function(prov) {
                                       occ_2_digit_40 = "c", 
                                       ind_3_digit = "c", 
                                       occ_4_digit = "c"))
-    
-    print(names(data))
     
     this_prov$plot_data <- read_csv(file.path(OUT, prov, "risk_occ2ind2.csv"),
                          col_types = cols(ind_2_digit = "c",
@@ -57,7 +54,7 @@ ui <- fluidPage(
     helpText("This tool also includes a table that provides more detailed information on the risk presented in the figure. First, it shows a finer breakdown of sectors and occupations. Second, in addition to the value of the risk index, it shows the value of the factors that contribute to the index, as well as other factors which may be relevant but do not enter the risk index directly. Users can navigate through the different tabs of the table to view these factors, which are broken down in three categories: risks associated with work in a particular occupation (\"Job description detail\"), importance of the sector in the BC economy (\"Economic factors detail\"), and risks associated with factors outside of the work place (\"Household detail\")."),
     helpText("Please refer to the ", tags$a(href="https://www.dropbox.com/s/5lvfyki4lfxw0ob/VSE%20Risk%20Tool%20Users%20Guide.pdf?dl=0", "User's Guide", target = "_blank"), " for a complete description of the construction of this tool and its use. The code repository for the tool is ", tags$a(href="https://github.com/pbaylis/vse-risk-tool", "here.", target = "_blank")),
     h2("Instructions"),
-    helpText("1. Choose province(s) using the dropdown below. Due to data privacy requirements, only provincial data is available and data for some provinces are combined. A version of the tool for Quebec is available ", tags$a(href="https://cirano.qc.ca/fr/shiny/connollm/tool", "here.", target = "_blank")),
+    helpText("1. Choose province(s) using the dropdown below. Due to data privacy requirements, only provincial data is available and data for some provinces are combined. Selecting Quebec will load a Quebec-specific site built by collaborators at CIRANO, also available ", tags$a(href="https://cirano.qc.ca/fr/shiny/connollm/tool", "here.", target = "_blank")),
     helpText("2. Refer to the figure for a broad view of all sectors and occupations. You can change the variable used on the horizontal axis with the dropdown below the figure."),
     helpText("3. Click on occupations (bubbles) of interest in the figure to examine those occupations in the table below in more detail. Note that the table presents more disaggregated occupations and sectors than the figure."),
     fluidRow(
@@ -70,7 +67,7 @@ ui <- fluidPage(
                 "Newfoundland and Labrador" = "NL",
                 "Nova Scotia" = "NS",
                 "Ontario" = "ON",
-                # "Quebec" = "QC", # TODO: prepare data not ready
+                "Quebec (opens new window)" = "QC", 
                 "Saskatchewan" = "SK"),
                 selected = "BC"))),
     hr(),
@@ -153,7 +150,13 @@ server <- function(input, output, session) {
     
     # Load provincal data based on given input
     this_prov <- reactive({
-        load_province_data(input$select_prov)
+        if (input$select_prov == "QC") { 
+            browseURL("https://cirano.qc.ca/fr/shiny/connollm/tool") 
+            # Reset inputs if QC is selected, since the user will see the new window pop up
+            updateSelectInput(session, "select_prov", selected = "BC") 
+        } else {
+            load_province_data(input$select_prov)
+        }
     })
     
     output$scatterplot <- renderPlotly({
@@ -184,10 +187,16 @@ server <- function(input, output, session) {
     observe({
         myClicks <- event_data("plotly_click", source = "myClickSource")
         req(myClicks)
+
+        ind_click <- as.character(this_prov()$plot_data[myClicks$customdata, "ind_2_digit"])
+        occ_click <- as.character(this_prov()$plot_data[myClicks$customdata, "occ_2_digit_40"])
         
-        click_ind_2_digit(as.character(this_prov()$plot_data[myClicks$customdata, "ind_2_digit"]))
-        click_occ_2_digit(as.character(this_prov()$plot_data[myClicks$customdata, "occ_2_digit_40"]))
-        
+        if (length(ind_click) > 0 & length(occ_click) > 0) {
+            # Only change these if they are valid --- sometimes they might not be
+            click_ind_2_digit(ind_click)
+            click_occ_2_digit(occ_click)
+        }
+
         # Update search values for tables that have been iniatialized by user (by opening the tab)
         updateSearch(proxy_main, keywords = list(global = NULL, columns = c(click_ind_2_digit(), click_occ_2_digit())))
         updateSearch(proxy_econ, keywords = list(global = NULL, columns = c(click_ind_2_digit(), click_occ_2_digit())))
@@ -212,8 +221,7 @@ server <- function(input, output, session) {
                   rownames = F,
                   options = options_list) %>% 
         formatRound(round_cols_main, 0) %>%
-        formatRound("Occupation (unit group) share of sector workers", 4) %>%
-        formatPercentage(grep("%", names(this_prov()$tables$main), value = T), 2) %>%
+        formatPercentage(grep("%|share", names(this_prov()$tables$main), value = T), 1) %>%
         formatStyle(
             "VSE Risk Index (Factor model)",
             backgroundColor  = styleInterval(cuts = brks, 
@@ -233,9 +241,8 @@ server <- function(input, output, session) {
                   filter = list(position = "top", clear = F, plain = TRUE),
                   rownames = F,
                   options = options_list2) %>%
-            formatRound(round_cols_risk, 0) %>%
-            formatRound("Occupation (unit group) share of sector workers", 4) %>%
-            formatPercentage(grep("%", names(this_prov()$tables$risk), value = T), 2) %>%
+            formatRound(round_cols_risk, 1) %>%
+            formatPercentage(grep("%|share", names(this_prov()$tables$risk), value = T), 1) %>%
             formatStyle(
                 "VSE Risk Index (Factor model)",
                 backgroundColor = styleInterval(cuts = brks, 
@@ -243,24 +250,21 @@ server <- function(input, output, session) {
         
     })
 
-    
 
-    
     output$table_econ <- DT::renderDataTable({
         # Create an options list for the rest of the tables
         options_list2 <- options_list
         options_list2$searchCols[[1]] <- list(search = new_ind_2_digit)
         options_list2$searchCols[[2]] <- list(search = new_occ_2_digit)
         
-        round_cols_econ <- this_prov()$tables$econ %>% select(contains("risk index"), "Sector employment (average 2019)", "Sector employment change", "Sector employment change (bottom quartile)") %>% colnames()
+        round_cols_econ <- this_prov()$tables$econ %>% select(contains("risk index"), "Sector employment (average 2019)", "Sector employment change", "Sector employment change (bottom quartile)", "Subsector centrality") %>% colnames()
         
         datatable(this_prov()$tables$econ, 
                   filter = list(position = "top", clear = F, plain = TRUE),
                   rownames = F,
                   options = options_list2) %>%
             formatRound(round_cols_econ, 0) %>%
-            formatRound("Occupation (unit group) share of sector workers", 4) %>%
-            formatPercentage(grep("%", names(this_prov()$tables$econ), value = T), 2) %>%
+            formatPercentage(grep("%|share", names(this_prov()$tables$econ), value = T), 1) %>%
             formatStyle(
                 "VSE Risk Index (Factor model)",
                 backgroundColor  = styleInterval(cuts = brks, 
@@ -279,9 +283,8 @@ server <- function(input, output, session) {
             datatable(filter = list(position = "top", clear = F, plain = TRUE),
                       rownames = F,
                       options = options_list2) %>%
-            formatPercentage(grep("%", names(this_prov()$tables$household), value = T), 2) %>%
+            formatPercentage(grep("%|share", names(this_prov()$tables$household), value = T), 1) %>%
             formatRound(round_cols_household, 0) %>%
-            formatRound("Occupation (unit group) share of sector workers", 4) %>%
             formatStyle(
                 "VSE Risk Index (Factor model)",
                 backgroundColor  = styleInterval(cuts = brks, 
