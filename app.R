@@ -7,11 +7,10 @@ source("setup.R")
 source("dynamic-table.R")
 source("occupation-industry-plots.R")
 
-
 # Function to load data for each province ----
-
 load_province_data <- function(prov) {
     # prov <- "BC" # DEBUG
+    
     
     this_prov <- list() # Container, to be returned
     
@@ -21,6 +20,8 @@ load_province_data <- function(prov) {
                                       occ_2_digit_40 = "c", 
                                       ind_3_digit = "c", 
                                       occ_4_digit = "c"))
+    
+    print(names(data))
     
     this_prov$plot_data <- read_csv(file.path(OUT, prov, "risk_occ2ind2.csv"),
                          col_types = cols(ind_2_digit = "c",
@@ -56,11 +57,23 @@ ui <- fluidPage(
     helpText("This tool also includes a table that provides more detailed information on the risk presented in the figure. First, it shows a finer breakdown of sectors and occupations. Second, in addition to the value of the risk index, it shows the value of the factors that contribute to the index, as well as other factors which may be relevant but do not enter the risk index directly. Users can navigate through the different tabs of the table to view these factors, which are broken down in three categories: risks associated with work in a particular occupation (\"Job description detail\"), importance of the sector in the BC economy (\"Economic factors detail\"), and risks associated with factors outside of the work place (\"Household detail\")."),
     helpText("Please refer to the ", tags$a(href="https://www.dropbox.com/s/5lvfyki4lfxw0ob/VSE%20Risk%20Tool%20Users%20Guide.pdf?dl=0", "User's Guide", target = "_blank"), " for a complete description of the construction of this tool and its use. The code repository for the tool is ", tags$a(href="https://github.com/pbaylis/vse-risk-tool", "here.", target = "_blank")),
     h2("Instructions"),
-    helpText("1. Choose a province using the dropdown below. (Note: currently, only BC data available.)"),
+    helpText("1. Choose province(s) using the dropdown below. Due to data privacy requirements, only provincial data is available and data for some provinces are combined. A separate tool for Quebec is available ", tags$a(href="https://cirano.qc.ca/fr/shiny/connollm/tool", "here.", target = "_blank")),
     helpText("2. Refer to the figure for a broad view of all sectors and occupations. You can change the variable used on the horizontal axis with the dropdown below the figure."),
     helpText("3. Click on occupations (bubbles) of interest in the figure to examine those occupations in the table below in more detail. Note that the table presents more disaggregated occupations and sectors than the figure."),
-    selectInput("select_prov", "Province:",
-                c("British Columbia" = "BC")),
+    fluidRow(
+        column(12, 
+               selectInput("select_prov", "Province(s):",
+                c("Alberta" = "AB",
+                "British Columbia" = "BC",
+                "Manitoba" = "MB",
+                "New Brunswick and Prince Edward Island" = "NBPE",
+                "Newfoundland and Labrador" = "NL",
+                "Nova Scotia" = "NS",
+                "Ontario" = "ON",
+                # "Quebec" = "QC", # TODO: prepare data not ready
+                "Saskatchewan" = "SK"),
+                selected = "BC"))),
+    hr(),
     h2("Figure: Sectors and major occupation groups"),
     plotlyOutput('scatterplot'),
     fluidRow(
@@ -68,7 +81,7 @@ ui <- fluidPage(
                selectInput('xaxis', 'X axis', c("Sector employment (2019 average)", 
                                                 "Sector employment loss: Feb-Apr",
                                                 "Sector employment loss: Feb-Apr (bottom quartile income)",
-                                                "Sector GDP share")
+                                                "Sector GDP share"), width = "500px"
                )
         )
     ),
