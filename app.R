@@ -7,6 +7,13 @@ source("setup.R")
 source("dynamic-table.R")
 source("occupation-industry-plots.R")
 
+# define js function for opening urls in new tab/window
+js_code <- "
+shinyjs.browseURL = function(url) {
+  window.open(url,'_blank');
+}
+"
+
 # Function to load data for each province ----
 load_province_data <- function(prov) {
     # prov <- "BC" # DEBUG
@@ -47,6 +54,10 @@ clrs <- colorRampPalette(brewer.pal(9, "Reds"))(length(brks) + 1)
 ui <- fluidPage(
     title = "VSE COVID Risk/Reward Assessment Tool",
     tags$head(includeHTML(("google-analytics.html"))),
+    
+    # set up shiny js to be able to call our browseURL function
+    useShinyjs(),
+    extendShinyjs(text = js_code, functions = 'browseURL'),
     
     h1("VSE COVID Risk/Reward Assessment Tool"),
     h2("Purpose"),
@@ -151,7 +162,7 @@ server <- function(input, output, session) {
     # Load provincal data based on given input
     this_prov <- reactive({
         if (input$select_prov == "QC") { 
-            browseURL("https://cirano.qc.ca/fr/shiny/connollm/tool") 
+            js$browseURL("https://cirano.qc.ca/fr/shiny/connollm/tool") 
             # Reset inputs if QC is selected, since the user will see the new window pop up
             updateSelectInput(session, "select_prov", selected = "BC") 
         } else {
