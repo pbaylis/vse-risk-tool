@@ -7,7 +7,8 @@ source("setup.R")
 source("dynamic-table.R")
 source("occupation-industry-plots.R")
 
-# define js function for opening urls in new tab/window
+# Define js function for opening urls in new tab/window
+# Source: https://stackoverflow.com/questions/41426016/shiny-open-multiple-browser-tabs
 js_code <- "
 shinyjs.browseURL = function(url) {
   window.open(url,'_blank');
@@ -52,6 +53,7 @@ clrs <- colorRampPalette(brewer.pal(9, "Reds"))(length(brks) + 1)
 # Create occupation-industry scatterplots ----
 
 ui <- fluidPage(
+  titlePanel(title = div(img(src="9_2016_1UnitStandard_VSE_Blue282RGB300.png", width="60%"), img(src="EN-Two-Col-1000px.png", width="39%"))),
     title = "VSE COVID Risk/Reward Assessment Tool",
     tags$head(includeHTML(("google-analytics.html"))),
     
@@ -65,7 +67,7 @@ ui <- fluidPage(
     helpText("This tool also includes a table that provides more detailed information on the risk presented in the figure. First, it shows a finer breakdown of sectors and occupations. Second, in addition to the value of the risk index, it shows the value of the factors that contribute to the index, as well as other factors which may be relevant but do not enter the risk index directly. Users can navigate through the different tabs of the table to view these factors, which are broken down in three categories: risks associated with work in a particular occupation (\"Job description detail\"), importance of the sector in the BC economy (\"Economic factors detail\"), and risks associated with factors outside of the work place (\"Household detail\")."),
     helpText("Please refer to the ", tags$a(href="https://www.dropbox.com/s/5lvfyki4lfxw0ob/VSE%20Risk%20Tool%20Users%20Guide.pdf?dl=0", "User's Guide", target = "_blank"), " for a complete description of the construction of this tool and its use. The code repository for the tool is ", tags$a(href="https://github.com/pbaylis/vse-risk-tool", "here.", target = "_blank")),
     h2("Instructions"),
-    helpText("1. Choose province(s) using the dropdown below. Due to data privacy requirements, only provincial data is available and data for some provinces are combined. Selecting Quebec will load a Quebec-specific site built by collaborators at CIRANO, also available ", tags$a(href="https://cirano.qc.ca/fr/shiny/connollm/tool", "here.", target = "_blank")),
+    helpText("1. Choose province(s) using the dropdown below. Due to data privacy requirements, only provincial data is available and data for some provinces are combined. Selecting Quebec will load a Quebec-specific site built by collaborators at UQAM, also available ", tags$a(href="https://cirano.qc.ca/fr/shiny/connollm/tool", "here.", target = "_blank")),
     helpText("2. Refer to the figure for a broad view of all sectors and occupations. You can change the variable used on the horizontal axis with the dropdown below the figure."),
     helpText("3. Click on occupations (bubbles) of interest in the figure to examine those occupations in the table below in more detail. Note that the table presents more disaggregated occupations and sectors than the figure."),
     fluidRow(

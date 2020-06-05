@@ -12,7 +12,8 @@ collect_province_data <- function(this_prov) {
     
     # Load sector (2 digit industry) and subsector (3 digit industry) data
     ind2 <- read_csv(file.path(IN, "ind_2_digit.csv")) %>%
-        filter(province == this_prov) %>% select(-province)
+        filter(province == this_prov) %>% select(-province) %>%
+        mutate(sector_gdp_share = sector_gdp_share / 100)
     
     ind3 <- read_csv(file.path(IN, "ind_3_digit.csv")) %>%
         filter(province == this_prov) %>% select(-province) %>%
