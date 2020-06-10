@@ -1,13 +1,13 @@
-﻿Variable name,Labels,Description
-occ_2_digit_40,Occupation code,Major Level of National Occupational Classification code
-ind_2_digit,Sector,"Industry code (NAICS), 2 digit"
-risk_index_factor,"Risk rating, factor model","Risk index constructed using a factor model approach, includes both occupational and demographic factors."
-risk_index_mean,"Risk rating, simple means","Risk index constructed using signed simple means, includes both occupational and demographic factors."
-employment_avg_2019,"Average employment by subsector, 2019","Average employment by subsector, 2019"
-chg_employment,Change in employment,"Change in employment numbers, Feb to Mar 2020"
-chg_employment_bottom,Change in employment bottom quartile,"Change in employment numbers, bottom quartile, Feb to March 2020"
-sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit)
-n_workers,Number of workers,Number of workers
-occ_2_digit_40_description,Occupation code,Major Level of National Occupational Classification code
-ind_2_digit_description,Occupation code description,Major Level of National Occupational Classification description
-share_workers_major,Occupation share of sector,Occupation (Major group) share of sector workers
+﻿Variable name,Labels,Description,Source
+occ_2_digit_40,Occupation code,Major Level of National Occupational Classification code,
+ind_2_digit,Sector,"Industry code (NAICS), 2 digit",
+risk_index_factor,"Risk rating, factor model","Risk index constructed using a factor model approach, includes both occupational and demographic factors.",VSE
+risk_index_mean,"Risk rating, simple means","Risk index constructed using signed simple means, includes both occupational and demographic factors.",VSE
+employment_avg_2019,"Average employment by subsector, 2019","Average employment by subsector, 2019",LFS
+chg_employment,Change in employment,"Change in employment numbers, Feb to Apr 2020",LFS
+chg_employment_bottom,Change in employment bottom quartile,"Change in employment numbers, bottom quartile, Feb to Apr 2020",LFS
+sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit),GDP by industry
+n_workers,Number of workers,Number of workers,Census
+occ_2_digit_40_description,Occupation code,Major Level of National Occupational Classification code,
+ind_2_digit_description,Occupation code description,Major Level of National Occupational Classification description,
+share_workers_major,Occupation share of sector,Occupation (Major group) share of sector workers,Census

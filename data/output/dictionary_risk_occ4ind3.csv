@@ -1,92 +1,91 @@
-﻿Variable name,Labels,Description
-ind_3_digit,Subsector,"Industry code (NAICS), 3 digit"
-occ_4_digit,Occupation,"Occupation code (NOC), 4 digit"
-n_workers,Number of workers,Number of workers
-ind_2_digit,Sector,"Industry code (NAICS), 2 digit"
-ind_3_digit_description,Subsector description,"Description for industry code (NAICS), 3 digit"
-employment_avg_2019_ind3,"Average employment by subsector, 2019","Average employment by subsector, 2019"
-avg_workers_2019_bottom,"Average number of workers, bottom quartile","Average number of workers, bottom quartile, 2019"
-employment_jan_ind3,"Average employment by subsector, January","Average employment by subsector, January"
-employment_feb_ind3,"Average employment by subsector, February","Average employment by subsector, February"
-employment_mar_ind3,"Average employment by subsector, March","Average employment by subsector, March"
-employment_apr_ind3,"Average employment by subsector, April","Average employment by subsector, April"
-chg_employment_ind3,Change in employment by subsector,"Change in employment numbers, Feb to Mar 2020 by subsector"
-norm_influence,Industry centrality index,"Industry centrality measure, normalized to 1-100"
-subsector_gdp_share,Subsector share of GDP,Share of GDP in industry subsector (NAICS 3 digit)
-ind_2_digit_description,Sector description,"Description for industry code (NAICS), 2 digit"
-employment_avg_2019,Average employment 2019,"Average employment in industry class, 2019"
-employment_avg_2019_bottom,Average employment 2019 Bottom Quartile,"Average employment of bottom quartile in industry class, 2019"
-employment_bottom_feb,"Bottom quartile of employment, February",Bottom quartile of employment by sector in February
-employment_bottom_mar,"Bottom quartile of employment, March",Bottom quartile of employment by sector in March
-employment_bottom_apr,"Bottom quartile of employment, April",Bottom quartile of employment by sector in April
-employment_jan,"Number of employed by subsector, January","Number of employed by subsector, January"
-employment_feb,"Number of employed by subsector, February","Number of employed by subsector, February"
-employment_mar,"Number of employed by subsector, March","Number of employed by subsector, March"
-employment_apr,"Number of employed by subsector, April","Number of employed by subsector, April"
-chg_employment_bottom,Change in employment bottom quartile,"Change in employment numbers, bottom quartile, Feb to March 2020"
-chg_employment,Change in employment,"Change in employment numbers, Feb to Mar 2020"
-sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit)
-occ_2_digit_40,Occupation code,Major Level of National Occupational Classification code
-occ_2_digit_40_description,Occupation code description,Major Level of National Occupational Classification description
-occ_4_digit_description,Occupation description,"Description for occupation code (NOC), 4 digit"
-occ_2_digit_47,Parent occupation group,"Occupation code (NOC), 2 digit"
-assist,Assisting and Caring for Others,Providing assistance or personal care to others.
-contact,Job required social interaction,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?"
-customer,Provide a service to others,"Knowledge of principles and processes for providing customer and personal services including needs assessment techniques, quality service standards, alternative delivery systems, and customer satisfaction evaluation techniques"
-disease,Works with disease/infections,"Diseases/Infections (e.g., patient care, some laboratory work, sanitation control, etc.)"
-face2face,Amount of face-to-face contact,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?"
-outcover,Outdoors and undercover,"Outdoors, under cover (e.g., open shed)"
-outexposed,Outdoors and exposed,"Outdoors, exposed to all weather conditions"
-proximity,Physical Proximity,To what extent does this job require the worker to perform job tasks in close physical proximity to other people?
-public,Performing for/Working With Public,"Performing for people or dealing directly with the public, including serving persons in restaurants and stores, and receiving clients or guests."
-vehicleclosed,In an Enclosed Vehicle or Equipment,"In an enclosed vehicle or operating enclosed equipment (e.g., automobile)"
-vehicleopen,In an Open Vehicle or Equipment,"In an open vehicle or operating open equipment (e.g., tractor)"
-wearcommon,Common Protective or Safety Attire,"Common protective or safety attire, such as safety shoes, glasses, gloves, hearing protection, hard-hat, or personal flotation device?"
-wearspecial,Specialized Protective or Safety Attire,"Specialized protective or safety attire, such as breathing apparatus, safety harness, full protection suit, or radiation protection?"
-n_workers_weighted_round,Weighted number of workers,Number of workers in occupation class
-female,Female,Proportion of females
-lives_with_health_worker,Lives with health worker,"Proportion of individuals who share their household with someone in any (3-digit) health sector (ambulatory health care services, hospitals, nursing and residential care facilities)"
-lives_with_health_worker_1,Lives with ambulatory worker,Proportion of individuals who share their household with someone working in ambulatory health care services
-lives_with_health_worker_2,Lives with hospital worker,Proportion of individuals who share their household with someone working in hospitals
-lives_with_health_worker_3,Lives with nursing worker,Proportion of individuals who share their household with someone working in nursing and residential care facilities
-age_60_plus,Age 60+,Proportion of individuals who are 60 years old or over
-lives_with_age_60_plus,Living with 60+,Proportion of individuals who are 60 years old or over or who share their household with someone 60 years old or over
-age_15_24,Age 15-24,Proportion of individuals who are 15 to 24 years old
-age_25_34,Age 25-34,Proportion of individuals who are 25 to 34 years old
-age_35_44,Age 35-44,Proportion of individuals who are 35 to 44 years old
-age_45_54,Age 45-54,Proportion of individuals who are 45 to 54 years old
-age_55_64,Age 55-64,Proportion of individuals who are 55 to 64 years old
-age_65_74,Age 65-74,Proportion of individuals who are 65 to 74 years old
-age_75_plus,Age 75+,Proportion of individuals who are 75 years old or over
-lives_with_kids_17_under,Lives with 0-17 year old,Proportion of individuals who share their household with someone 0 to 17 years old
-lives_with_kids_5_under,Lives with 0-5 year old,Proportion of individuals who share their household with someone 0 to 5 years old
-lives_with_kids_6_12,Lives with 6-12 year old,Proportion of individuals who share their household with someone 6 to 12 years old
-lives_with_kids_13_17,Lives with 13-17 year old,Proportion of individuals who share their household with someone 13 to 17 years old
-lives_with_kids_6_17,Lives with 6-17 year old,Proportion of individuals who share their household with someone 6 to 17 years old
-lone_parent,Lone parent,Proportion of individuals who are lone parents
-multi_gen_hh,Multi-generational household,"Proportion of individuals who live in a multi-generational household (including a skip-generation household, where the middle generation is absent)"
-low_income_family,Low income family,"Proportion of individuals who live in a low-income economic family or are low-income persons not in an economic family, according to the Market Basket Measure"
-educ_lesshighschool,Less than high school education,Proportion of individuals with less than high school education
-educ_highschool,Highschool education,Proportion of individuals with high school education
-educ_somecollege,Some college education,Proportion of individuals who did not finish a college education
-educ_bachelor,College education,Proportion of individuals with a bachelor's education
-main_earner_cf,Main earner in census family,Proportion of individuals who are the main earner in their census family
-main_earner_ef,Main earner in economic family,Proportion of individuals who are the main earner in their economic family
-main_earner_hh,Main earner in household,Proportion of individuals who are the main earner in their household
-language_spoken_not_english,Foreign language,Proportion of individuals whose language most often spoken at home in not an official language (including aboriginal and non-aboriginal languages)
-immigrant,Immigrants,Proportion of individuals who are immigrants arrived between 2006 and 2016
-nonperm_res,Not permanent resident,Proportion of individuals who are not permanent residents
-visible_minority_1,Visible minority,Proportion of individuals who belong to a visible minority group as defined by the Employment Equity Act.
-visible_minority_2,Visible minority / Indigenous,Proportion of individuals who belong to a visible minority group as defined by the Employment Equity Act or identifies with the Aboriginal peoples.
-unsuitable_dwelling,Not enough bedrooms,"Proportion of individuals who live in an unsuitable dwelling (that is, a dwelling where there is a one, two or three or more bedroom shortfall)"
-shelter_cost_income_ratio,Shelter-cost-to-income,Average shelter-cost-to-income ratio (proportion of average monthly total household income which is spent on shelter costs)
-low_income_nbhd,Low income neighbourhood,Proportion of individuals who live in a census subdivision where the proportion of economic families who are low-income is above the 75th percentile of such CSD-level proportions
-number_of_families,Not in economic family,Number of economic families or persons not in economic families that live in the census subdivision where the individual lives.
-takes_public_transit,Take public transit,"Proportion of individuals who take public transportation to work (where public transportation includes bus, subway/elevated rail, light rail/streetcar/commuter train and passenger ferry, and excludes carpooling)"
-duration_of_commute,Average commute duration,Average duration of commute to work in minutes (where people who work from home are considered to commute zero minute)
-work_from_home,Work from home,Proportion of individuals who work from home
-mental_health_sometimes,Mental health condition sometimes,"Proportion of individuals who report having an emotional, psychological or mental health condition (sometimes, often, always)"
-mental_health_always,Mental health condition always,"Proportion of individuals who report having an emotional, psychological or mental health condition (often, always)"
-risk_index_factor,"Risk rating, factor model","Risk index constructed using a factor model approach, includes both occupational and demographic factors."
-risk_index_mean,"Risk rating, simple means","Risk index constructed using signed simple means, includes both occupational and demographic factors."
-share_workers_unit,Occupation unit share of sector,Occupation (unit group) share of sector workers
+﻿Variable name,Labels,Description,Source
+ind_3_digit,Subsector,"Industry code (NAICS), 3 digit",
+occ_4_digit,Occupation,"Occupation code (NOC), 4 digit",
+n_workers,Number of workers,Number of workers,Census
+ind_2_digit,Sector,"Industry code (NAICS), 2 digit",
+ind_3_digit_description,Subsector description,"Description for industry code (NAICS), 3 digit",
+employment_avg_2019_ind3,"Average employment by subsector, 2019","Average employment by subsector, 2019",LFS
+avg_workers_2019_bottom,"Average number of workers, bottom quartile","Average number of workers, bottom quartile, 2019",LFS
+employment_jan_ind3,"Average employment by subsector, January","Average employment by subsector, January",LFS
+employment_feb_ind3,"Average employment by subsector, February","Average employment by subsector, February",LFS
+employment_mar_ind3,"Average employment by subsector, March","Average employment by subsector, March",LFS
+employment_apr_ind3,"Average employment by subsector, April","Average employment by subsector, April",LFS
+chg_employment_ind3,Change in employment by subsector,"Change in employment numbers, Feb to Apr 2020 by subsector",LFS
+norm_influence,Industry centrality index,"Industry centrality measure, normalized to 1-100","VSE, SIOT"
+subsector_gdp_share,Subsector share of GDP,Share of GDP in industry subsector (NAICS 3 digit),GDP by industry
+ind_2_digit_description,Sector description,"Description for industry code (NAICS), 2 digit",
+employment_avg_2019,Average employment 2019,"Average employment in industry class, 2019",LFS
+employment_avg_2019_bottom,Average employment 2019 Bottom Quartile,"Average employment of bottom quartile in industry class, 2019",LFS
+employment_bottom_feb,"Bottom quartile of employment, February",Bottom quartile of employment by sector in February,LFS
+employment_bottom_mar,"Bottom quartile of employment, March",Bottom quartile of employment by sector in March,LFS
+employment_bottom_apr,"Bottom quartile of employment, April",Bottom quartile of employment by sector in April,LFS
+employment_jan,"Number of employed by subsector, January","Number of employed by subsector, January",LFS
+employment_feb,"Number of employed by subsector, February","Number of employed by subsector, February",LFS
+employment_mar,"Number of employed by subsector, March","Number of employed by subsector, March",LFS
+employment_apr,"Number of employed by subsector, April","Number of employed by subsector, April",LFS
+chg_employment_bottom,Change in employment bottom quartile,"Change in employment numbers, bottom quartile, Feb to March 2020",LFS
+chg_employment,Change in employment,"Change in employment numbers, Feb to Mar 2020",LFS
+sector_gdp_share,Sector GDP share,Share of GDP in industry sector (NAICS 2 digit),GDP by industry
+occ_2_digit_40,Occupation code,Major Level of National Occupational Classification code,
+occ_2_digit_40_description,Occupation code description,Major Level of National Occupational Classification description,
+occ_4_digit_description,Occupation description,"Description for occupation code (NOC), 4 digit",
+occ_2_digit_47,Parent occupation group,"Occupation code (NOC), 2 digit",StatsCan code (not used)
+assist,Assisting and Caring for Others,Providing assistance or personal care to others.,ONET
+contact,Job required social interaction,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?",ONET
+customer,Provide a service to others,"Knowledge of principles and processes for providing customer and personal services including needs assessment techniques, quality service standards, alternative delivery systems, and customer satisfaction evaluation techniques",ONET
+disease,Works with disease/infections,"Diseases/Infections (e.g., patient care, some laboratory work, sanitation control, etc.)",ONET
+face2face,Amount of face-to-face contact,"How much does this job require the worker to be in contact (face-to-face, by telephone, or otherwise) with others in order to perform it?",ONET
+outcover,Outdoors and undercover,"Outdoors, under cover (e.g., open shed)",ONET
+outexposed,Outdoors and exposed,"Outdoors, exposed to all weather conditions",ONET
+proximity,Physical Proximity,To what extent does this job require the worker to perform job tasks in close physical proximity to other people?,ONET
+public,Performing for/Working With Public,"Performing for people or dealing directly with the public, including serving persons in restaurants and stores, and receiving clients or guests.",ONET
+vehicleclosed,In an Enclosed Vehicle or Equipment,"In an enclosed vehicle or operating enclosed equipment (e.g., automobile)",ONET
+vehicleopen,In an Open Vehicle or Equipment,"In an open vehicle or operating open equipment (e.g., tractor)",ONET
+wearcommon,Common Protective or Safety Attire,"Common protective or safety attire, such as safety shoes, glasses, gloves, hearing protection, hard-hat, or personal flotation device?",ONET
+wearspecial,Specialized Protective or Safety Attire,"Specialized protective or safety attire, such as breathing apparatus, safety harness, full protection suit, or radiation protection?",ONET
+female,Female,Proportion of females,Census
+lives_with_health_worker,Lives with health worker,"Proportion of individuals who share their household with someone in any (3-digit) health sector (ambulatory health care services, hospitals, nursing and residential care facilities)",Census
+lives_with_health_worker_1,Lives with ambulatory worker,Proportion of individuals who share their household with someone working in ambulatory health care services,Census
+lives_with_health_worker_2,Lives with hospital worker,Proportion of individuals who share their household with someone working in hospitals,Census
+lives_with_health_worker_3,Lives with nursing worker,Proportion of individuals who share their household with someone working in nursing and residential care facilities,Census
+age_60_plus,Age 60+,Proportion of individuals who are 60 years old or over,Census
+lives_with_age_60_plus,Living with 60+,Proportion of individuals who are 60 years old or over or who share their household with someone 60 years old or over,Census
+age_15_24,Age 15-24,Proportion of individuals who are 15 to 24 years old,Census
+age_25_34,Age 25-34,Proportion of individuals who are 25 to 34 years old,Census
+age_35_44,Age 35-44,Proportion of individuals who are 35 to 44 years old,Census
+age_45_54,Age 45-54,Proportion of individuals who are 45 to 54 years old,Census
+age_55_64,Age 55-64,Proportion of individuals who are 55 to 64 years old,Census
+age_65_74,Age 65-74,Proportion of individuals who are 65 to 74 years old,Census
+age_75_plus,Age 75+,Proportion of individuals who are 75 years old or over,Census
+lives_with_kids_17_under,Lives with 0-17 year old,Proportion of individuals who share their household with someone 0 to 17 years old,Census
+lives_with_kids_5_under,Lives with 0-5 year old,Proportion of individuals who share their household with someone 0 to 5 years old,Census
+lives_with_kids_6_12,Lives with 6-12 year old,Proportion of individuals who share their household with someone 6 to 12 years old,Census
+lives_with_kids_13_17,Lives with 13-17 year old,Proportion of individuals who share their household with someone 13 to 17 years old,Census
+lives_with_kids_6_17,Lives with 6-17 year old,Proportion of individuals who share their household with someone 6 to 17 years old,Census
+lone_parent,Lone parent,Proportion of individuals who are lone parents,Census
+multi_gen_hh,Multi-generational household,"Proportion of individuals who live in a multi-generational household (including a skip-generation household, where the middle generation is absent)",Census
+low_income_family,Low income family,"Proportion of individuals who live in a low-income economic family or are low-income persons not in an economic family, according to the Market Basket Measure",Census
+educ_lesshighschool,Less than high school education,Proportion of individuals with less than high school education,Census
+educ_highschool,Highschool education,Proportion of individuals with high school education,Census
+educ_somecollege,Some college education,Proportion of individuals who did not finish a college education,Census
+educ_bachelor,College education,Proportion of individuals with a bachelor's education,Census
+main_earner_cf,Main earner in census family,Proportion of individuals who are the main earner in their census family,Census
+main_earner_ef,Main earner in economic family,Proportion of individuals who are the main earner in their economic family,Census
+main_earner_hh,Main earner in household,Proportion of individuals who are the main earner in their household,Census
+language_spoken_not_english,Foreign language,Proportion of individuals whose language most often spoken at home in not an official language (including aboriginal and non-aboriginal languages),Census
+immigrant,Immigrants,Proportion of individuals who are immigrants arrived between 2006 and 2016,Census
+nonperm_res,Not permanent resident,Proportion of individuals who are not permanent residents,Census
+visible_minority_1,Visible minority,Proportion of individuals who belong to a visible minority group as defined by the Employment Equity Act.,Census
+visible_minority_2,Visible minority / Indigenous,Proportion of individuals who belong to a visible minority group as defined by the Employment Equity Act or identifies with the Aboriginal peoples.,Census
+unsuitable_dwelling,Not enough bedrooms,"Proportion of individuals who live in an unsuitable dwelling (that is, a dwelling where there is a one, two or three or more bedroom shortfall)",Census
+shelter_cost_income_ratio,Shelter-cost-to-income,Average shelter-cost-to-income ratio (proportion of average monthly total household income which is spent on shelter costs),Census
+low_income_nbhd,Low income neighbourhood,Proportion of individuals who live in a census subdivision where the proportion of economic families who are low-income is above the 75th percentile of such CSD-level proportions,Census
+number_of_families,Not in economic family,Number of economic families or persons not in economic families that live in the census subdivision where the individual lives.,Census
+takes_public_transit,Take public transit,"Proportion of individuals who take public transportation to work (where public transportation includes bus, subway/elevated rail, light rail/streetcar/commuter train and passenger ferry, and excludes carpooling)",Census
+duration_of_commute,Average commute duration,Average duration of commute to work in minutes (where people who work from home are considered to commute zero minute),Census
+work_from_home,Work from home,Proportion of individuals who work from home,Census
+mental_health_sometimes,Mental health condition sometimes,"Proportion of individuals who report having an emotional, psychological or mental health condition (sometimes, often, always)",Census
+mental_health_always,Mental health condition always,"Proportion of individuals who report having an emotional, psychological or mental health condition (often, always)",Census
+risk_index_factor,"Risk rating, factor model","Risk index constructed using a factor model approach, includes both occupational and demographic factors.",VSE
+risk_index_mean,"Risk rating, simple means","Risk index constructed using signed simple means, includes both occupational and demographic factors.",VSE
+share_workers_unit,Occupation unit share of sector,"Occupation (unit group, NOC 4-digit) share of sector workers",Census
