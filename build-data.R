@@ -7,7 +7,7 @@ source("setup.R")
 # Load BC data ----
 
 collect_province_data <- function(this_prov) {
-    # this_prov <- "BC" # DEBUG
+    # this_prov <- "CA" # DEBUG
     # print(this_prov)
     
     # Load sector (2 digit industry) and subsector (3 digit industry) data
@@ -26,8 +26,7 @@ collect_province_data <- function(this_prov) {
         left_join(ind2)
     
     # Load occupation data at 2 and 4 digit aggregation levels
-    occ4_job <- read_csv(file.path(IN, "occ_4_digit_job.csv")) %>% # Does not vary by province
-        select(-n_workers_weighted_round) # TODO: Have these removed earlier in the process
+    occ4_job <- read_csv(file.path(IN, "occ_4_digit_job.csv")) # Does not vary by province
     
     occ4_hh <- read_csv(file.path(IN, "occ_4_digit_hh.csv")) %>%
         filter(province == this_prov) %>% select(-province)
