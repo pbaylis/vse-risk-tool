@@ -144,7 +144,7 @@ lapply(province_names, collect_province_data)
 QC_disagg <- read_csv(file.path(IN, "QC", "quebec_risk_occ_4_ind_3.csv")) %>%
     rename(risk_index_factor = index_factor,
            risk_index_mean = index_mean)
-QC_agg <- read_csv(file.path(IN, "QC", "quebec_risk_occ_2_ind_2.csv"))
+QC_agg <- read_csv(file.path(IN, "QC", "quebec_risk_ind_2_occ_2.csv"))
 
 dir.create(file.path(OUT, "QC"))
 write_csv(QC_agg, file.path(OUT, "QC", "risk_occ2ind2.csv"))
