@@ -1,0 +1,12 @@
+name: vse-risk-tool
+title: vse-risk-tool
+username:
+account: baylislab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3252369
+bundleId: 3872819
+url: https://baylislab.shinyapps.io/vse-risk-tool/
+when: 1605640649.53258
+asMultiple: FALSE
+asStatic: FALSE

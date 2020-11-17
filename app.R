@@ -54,7 +54,7 @@ clrs <- colorRampPalette(brewer.pal(9, "Reds"))(length(brks) + 1)
 
 ui <- fluidPage(
   titlePanel(title = div(
-    tags$a(href="https://economics.ubc.ca/", tags$img(src="9_2016_1UnitStandard_VSE_Blue282RGB300.png", width="60%")), 
+    tags$a(href="https://economics.ubc.ca/", tags$img(src="ubc-logo-2020-centre-innovative-data-economics-research-standard-blue282rgb300.jpg", width="60%")), 
     tags$a(href="https://lmic-cimt.ca/", tags$img(src="EN-Two-Col-1000px.png", width="39%")))),
     title = "VSE COVID Risk/Reward Assessment Tool",
     tags$head(includeHTML(("google-analytics.html"))),
